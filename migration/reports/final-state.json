@@ -1,0 +1,122 @@
+{
+  "at": "2026-10-05T01:47:54.424Z",
+  "projectId": "m2i4dwyo",
+  "dataset": "production",
+  "publishedProjects": 10,
+  "publishedGlobals": 2,
+  "migratedDraftsRemaining": 0,
+  "exactMappedFields": true,
+  "unmappedFieldsPreserved": true,
+  "originalPublishedIdsPreserved": true,
+  "assets": {
+    "used": 65,
+    "uploaded": 56,
+    "reused": 9,
+    "unusedSkipped": "aster-2.jpg",
+    "unusedAlreadyExisted": true,
+    "unusedOriginalRetained": true,
+    "latestRunReused": 65
+  },
+  "documents": [
+    {
+      "id": "a9258218-9e8f-4667-9dde-e6c5ec921be9",
+      "type": "project",
+      "title": "Aster House",
+      "rank": 1,
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "1277004a-38e9-4ca8-b72c-825dbc9e7d2d",
+      "type": "project",
+      "title": "Nocturne",
+      "rank": 2,
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "195742fd-c77c-4c28-aeb7-2a6dad955937",
+      "type": "project",
+      "title": "Forma",
+      "rank": 3,
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "d139d57c-3107-4c46-8b6a-a91884e95bec",
+      "type": "project",
+      "title": "Arc Athletics",
+      "rank": 4,
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "morrow-project-halden",
+      "type": "project",
+      "title": "Halden",
+      "rank": 5,
+      "status": "published",
+      "action": "created"
+    },
+    {
+      "id": "0f1947db-d8aa-4258-9fa3-b64170844674",
+      "type": "project",
+      "title": "Field Notes",
+      "rank": 6,
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "morrow-project-sola-ceramics",
+      "type": "project",
+      "title": "Sola Ceramics",
+      "rank": 7,
+      "status": "published",
+      "action": "created"
+    },
+    {
+      "id": "morrow-project-kiln",
+      "type": "project",
+      "title": "Kiln",
+      "rank": 8,
+      "status": "published",
+      "action": "created"
+    },
+    {
+      "id": "morrow-project-meridian",
+      "type": "project",
+      "title": "Meridian",
+      "rank": 9,
+      "status": "published",
+      "action": "created"
+    },
+    {
+      "id": "morrow-project-open-room",
+      "type": "project",
+      "title": "Open Room",
+      "rank": 10,
+      "status": "published",
+      "action": "created"
+    },
+    {
+      "id": "homepage",
+      "type": "homepage",
+      "title": "homepage",
+      "status": "published",
+      "action": "patched"
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "title": "about",
+      "status": "published",
+      "action": "patched"
+    }
+  ],
+  "counts": {
+    "project": 10,
+    "homepage": 2,
+    "about": 1,
+    "sanity.imageAsset": 66
+  }
+}

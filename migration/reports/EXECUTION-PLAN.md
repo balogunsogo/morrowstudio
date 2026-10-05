@@ -1,0 +1,7 @@
+# Completion migration plan
+
+Use the already audited local HTML source and PNG references. Preserve IDs for five existing projects and both global singletons, use deterministic source IDs for the five missing projects, and patch only mapped fields. Convert semantic copy to Portable Text; merge matching mobile sections through Phase 2 overrides and create visibility-specific sections when compositions differ. Presentation remains in code.
+
+Before any writes, snapshot all raw project/home/about documents (including drafts) and asset metadata to timestamped backups. Verify source hashes and deduplicate by Sanity SHA-1 identity plus the audited SHA-256 manifest. Skip unused aster-2.jpg. Dry-run and validate before uploading or creating drafts. Query drafts back and verify exact mapped values, stable keys, rank/count/reference completeness, and duplicate slug absence. Publish only verified source mappings with revision guards; preserve unrelated live fields. No published document deletion.
+
+Preserve the existing routes and shared components. Complete shell, next-project sequence, source presentation, gallery controls and reduced-motion behavior. Add source-backed metadata without inventing a production domain. Verify all required routes at six widths and compare representative desktop/mobile screenshots. Preserve exports/backups and document unavailable films, source factual placeholders and external Studio registration separately.

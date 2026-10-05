@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Morrow Studio — Mobile menu</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&amp;family=Geist+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#151513}
+.mn *{box-sizing:border-box}
+.mn a{color:inherit;text-decoration:none}
+.mn img{display:block;width:100%;height:100%;object-fit:cover}
+.mn p,.mn ul,.mn ol,.mn figure{margin:0;padding:0}
+.mn ul,.mn ol{list-style:none}
+.mn :focus-visible{outline:1px solid currentColor;outline-offset:3px}
+.mono{font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;line-height:1.45;letter-spacing:.02em;text-transform:uppercase}
+.tap{min-height:44px;display:inline-flex;align-items:center}
+.lk{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding-block:6px;border-top:1px solid #34332F}
+.lk .t{font-size:60px;line-height:1;letter-spacing:-.05em;padding-block:4px}
+.in{display:block;animation:in .9s cubic-bezier(.2,.7,.1,1) both}
+@keyframes in{from{transform:translateY(60%);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.mn *{animation:none!important}}
+</style>
+</helmet>
+<div class="mn" style="width: 390px; height: 844px; background: #151513; color: #F1EFEA; font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; display: flex; flex-direction: column; padding: 0 16px 20px">
+<header style="height: 56px; display: flex; align-items: center; justify-content: space-between">
+<a class="tap" href="MobileHome.dc.html" style="font-size: 15px; font-weight: 500">Morrow Studio</a>
+<a class="tap mono" href="MobileHome.dc.html" aria-label="Close menu" style="gap: 8px">Close <span aria-hidden="true" style="font-size: 16px; line-height: 1">×</span></a>
+</header>
+<nav aria-label="Primary" style="margin-top: 48px">
+<ol>
+<li><a class="lk" href="MobileHome.dc.html" aria-current="page"><span class="t in"><span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #D4512A; margin-right: 14px; vertical-align: .35em"></span>Index</span><span class="mono" style="color: #9A968E">01</span></a></li>
+<li><a class="lk" href="MobileWork.dc.html"><span class="t in" style="animation-delay: .06s">Work<sup class="mono" style="font-size: 11px; vertical-align: top; margin-left: 6px; position: relative; top: .5em">10</sup></span><span class="mono" style="color: #9A968E">02</span></a></li>
+<li><a class="lk" href="MobileAbout.dc.html"><span class="t in" style="animation-delay: .12s">About</span><span class="mono" style="color: #9A968E">03</span></a></li>
+<li><a class="lk" href="MobileHome.dc.html#contact" style="border-bottom: 1px solid #34332F"><span class="t in" style="animation-delay: .18s">Contact</span><span class="mono" style="color: #9A968E">04</span></a></li>
+</ol>
+</nav>
+<a href="MobileProject.dc.html" style="display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: center; margin-top: 32px">
+<span style="display: block; height: 90px; overflow: hidden"><img src="/_blob/42b22810c00e2f735db015ffafe54d8e" alt=""></span>
+<span><span class="mono" style="display: block; color: #9A968E">Latest project</span><span style="display: block; font-size: 19px; letter-spacing: -0.02em; margin-top: 4px">Aster House</span></span>
+</a>
+<div style="margin-top: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 14px">
+<div><p class="mono" style="color: #9A968E">New business</p><a class="tap" href="mailto:hello@morrow.studio" style="min-height: 36px">hello@morrow.studio</a></div>
+<div style="text-align: right"><p class="mono" style="color: #9A968E">London</p><p style="margin-top: 9px">14:32 BST</p></div>
+<ul class="mono" style="grid-column: 1 / -1; display: flex; gap: 20px; border-top: 1px solid #34332F; padding-top: 4px">
+<li><a class="tap" href="https://www.instagram.com/">Instagram</a></li><li><a class="tap" href="https://www.are.na/">Are.na</a></li><li><a class="tap" href="https://www.linkedin.com/">LinkedIn</a></li>
+</ul>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

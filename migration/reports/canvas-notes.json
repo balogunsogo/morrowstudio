@@ -1,0 +1,73 @@
+{
+  "notes": {
+    "m1": {
+      "fill": "gray",
+      "text": "Motion — one curve everywhere: cubic-bezier(.2,.7,.1,1). Load: wordmark lines rise from a mask (1.2s, 80ms stagger), hero image unmasks top to bottom. Project hover: 1.035 scale inside a fixed crop + title underline draws in. Index to project: the clicked image FLIP-expands into the project hero, title cross-fades. Next project: the preview image scales to full-bleed and becomes the next hero. Statement: words shift from grey to ink as they cross 60% of the viewport. Reduced motion: no transforms, 150ms opacity only.",
+      "w": 380,
+      "x": 6080,
+      "y": 4520
+    },
+    "m2": {
+      "fill": "gray",
+      "text": "Mobile nav — the bar stays 56px. 'Menu' opens a full-screen ink sheet (clip-path from top, 600ms), links rise in sequence. The current page carries the accent dot. Close is the same button, relabelled.",
+      "w": 380,
+      "x": 6550,
+      "y": 960
+    },
+    "m3": {
+      "fill": "gray",
+      "text": "Touch replacement for the desktop hover-preview: every row carries its own thumbnail; filters become a horizontally scrolling text row. Rows are 72px+ tall.",
+      "w": 380,
+      "x": 7020,
+      "y": 2120
+    },
+    "t1": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "Morrow Studio — responsive visual direction",
+      "w": 240,
+      "x": -1600,
+      "y": -300
+    },
+    "t2": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "Case studies 02–10 — same template, different module mixes",
+      "w": 240,
+      "x": 0,
+      "y": 8500
+    }
+  },
+  "order": [
+    "System.dc.html",
+    "Main.dc.html",
+    "Work.dc.html",
+    "Project.dc.html",
+    "About.dc.html",
+    "MobileHome.dc.html",
+    "MobileMenu.dc.html",
+    "MobileWork.dc.html",
+    "MobileProject.dc.html",
+    "ProjectNocturne.dc.html",
+    "ProjectForma.dc.html",
+    "ProjectArc.dc.html",
+    "ProjectHalden.dc.html",
+    "ProjectFieldNotes.dc.html",
+    "ProjectSola.dc.html",
+    "ProjectKiln.dc.html",
+    "ProjectMeridian.dc.html",
+    "ProjectOpenRoom.dc.html",
+    "MobileProjectNocturne.dc.html",
+    "MobileProjectForma.dc.html",
+    "MobileProjectArc.dc.html",
+    "MobileProjectHalden.dc.html",
+    "MobileProjectFieldNotes.dc.html",
+    "MobileProjectSola.dc.html",
+    "MobileProjectKiln.dc.html",
+    "MobileProjectMeridian.dc.html",
+    "MobileProjectOpenRoom.dc.html",
+    "MobileAbout.dc.html"
+  ],
+  "designSystems": [],
+  "attachments": {}
+}

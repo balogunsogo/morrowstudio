@@ -1,0 +1,9 @@
+@use 'base';
+@use 'project';
+@use './source-compositions';
+
+// Each page opts into the shared system without affecting Studio or other routes.
+.morrow-project {
+  @include base.system;
+  @include project.styles;
+}

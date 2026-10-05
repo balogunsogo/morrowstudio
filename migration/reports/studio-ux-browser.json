@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-05T09:14:05.540Z",
+  "results": [
+    {
+      "project": "Aster House",
+      "result": "pass",
+      "checks": [
+        "friendly labels",
+        "exact key reorder",
+        "remove/add",
+        "keyboard focus",
+        "stale retention",
+        "read-only",
+        "inherited order",
+        "gallery when present",
+        "credit target",
+        "canonical keys unchanged"
+      ]
+    },
+    {
+      "project": "Forma",
+      "result": "pass",
+      "checks": [
+        "friendly labels",
+        "exact key reorder",
+        "remove/add",
+        "keyboard focus",
+        "stale retention",
+        "read-only",
+        "inherited order",
+        "gallery when present",
+        "credit target",
+        "canonical keys unchanged"
+      ]
+    },
+    {
+      "project": "Meridian",
+      "result": "pass",
+      "checks": [
+        "friendly labels",
+        "exact key reorder",
+        "remove/add",
+        "keyboard focus",
+        "stale retention",
+        "read-only",
+        "inherited order",
+        "gallery when present",
+        "credit target",
+        "canonical keys unchanged"
+      ]
+    },
+    {
+      "document": "Home",
+      "result": "pass",
+      "checks": [
+        "schema field groups and guidance",
+        "draft/Presentation guidance",
+        "placeholder guidance when present"
+      ],
+      "boundary": "Read-only schema inspection adapter; not the authenticated native document form."
+    },
+    {
+      "document": "About",
+      "result": "pass",
+      "checks": [
+        "schema field groups and guidance",
+        "draft/Presentation guidance",
+        "placeholder guidance when present"
+      ],
+      "boundary": "Read-only schema inspection adapter; not the authenticated native document form."
+    }
+  ],
+  "errors": [],
+  "sourceUnchanged": true,
+  "remoteWrites": 0,
+  "studioBoundary": {
+    "status": 200,
+    "result": "normal Sanity login",
+    "liveDocumentControlsVerified": false,
+    "visibleText": "This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. To learn more, view the following link:\nPrivacy Policy\nPREFERENCES\nLog in to your account\nContinue with Google\nContinue with GitHub\nContinue with email\nContinue with SSO\nDon't have an account? Sign up\nTrusted by leaders and innovators\nThis site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.\nBuild content-powered applications in minutes"
+  },
+  "boundary": "Production selectors/guidance and actual Sanity FormValueProvider; array editing adapter is memory-only and document groups use a read-only schema inspection adapter. Native forms and drag/drop still require signed-in live Studio access."
+}

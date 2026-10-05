@@ -1,0 +1,51 @@
+[
+  {
+    "fixture": "contract",
+    "width": 1440,
+    "viewport": "desktop",
+    "result": "pass"
+  },
+  {
+    "fixture": "contract",
+    "width": 760,
+    "viewport": "mobile",
+    "result": "pass"
+  },
+  {
+    "fixture": "contract",
+    "width": 761,
+    "viewport": "desktop",
+    "result": "pass"
+  },
+  {
+    "fixture": "contract",
+    "width": 390,
+    "viewport": "mobile",
+    "result": "pass"
+  },
+  {
+    "route": "/",
+    "status": 200,
+    "result": "pass"
+  },
+  {
+    "route": "/work",
+    "status": 200,
+    "result": "pass"
+  },
+  {
+    "route": "/work/aster-house",
+    "status": 200,
+    "result": "pass"
+  },
+  {
+    "route": "/about",
+    "status": 200,
+    "result": "pass"
+  },
+  {
+    "route": "/studio",
+    "status": 200,
+    "result": "Studio connection gate mounted (no registration, login or edit)"
+  }
+]

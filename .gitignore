@@ -19,6 +19,8 @@
 
 # production
 /build
+/dist
+/.sanity
 
 # misc
 .DS_Store
@@ -39,3 +41,40 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# secrets and local credentials
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+secrets*.json
+.npmrc
+
+# local caches, temporary files and editor files
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# generated QA output; keep drivers, baselines, summaries and master references
+/playwright-report/
+/test-results/
+/blob-report/
+/migration/**/*.png
+/migration/reports/visual-refinement-candidate*.json
+/migration/backups/
+
+# superseded reference export; the authoritative master export is versioned
+/morrow-studio-export/

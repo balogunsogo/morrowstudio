@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Morrow Studio — Mobile · Meridian</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&amp;family=Geist+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F1EFEA}
+.mb{--bg:#F1EFEA;--ink:#151513;--grey:#6B6862;--rule:#D6D3CC;--m:16px;--sec:88px;background:var(--bg);color:var(--ink);font-family:'Geist',ui-sans-serif,system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.mb *{box-sizing:border-box}
+.mb a{color:inherit;text-decoration:none}
+.mb img{display:block;width:100%;height:100%;object-fit:cover}
+.mb h1,.mb h2,.mb p,.mb figure,.mb ul,.mb dl,.mb dd,.mb blockquote{margin:0;padding:0}
+.mb button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.mb :focus-visible{outline:1px solid currentColor;outline-offset:3px}
+.mono{font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;line-height:1.45;letter-spacing:.02em;text-transform:uppercase}
+.grey{color:var(--grey)}
+.media{overflow:hidden;background:#E4E1DA}
+.bar{position:sticky;top:0;z-index:5;height:56px;display:flex;align-items:center;justify-content:space-between;padding-inline:var(--m);color:#fff;mix-blend-mode:difference}
+.tap{min-height:44px;display:inline-flex;align-items:center}
+.mod{margin-top:var(--sec)}
+.px{padding-inline:var(--m)}
+.cap{padding:8px var(--m) 0}
+.cr dt{font-family:'Geist Mono',monospace;font-size:10.5px;text-transform:uppercase;color:var(--grey)}
+.cr dd{margin-top:4px;font-size:15px}
+.swipe{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-inline:var(--m);scrollbar-width:none}
+.swipe>figure{flex:none;height:300px;scroll-snap-align:start}
+</style>
+</helmet>
+<div class="mb" style="width: 390px; min-height: 4480px">
+<header class="bar">
+<a class="tap" href="MobileHome.dc.html" style="font-size: 15px; font-weight: 500">Morrow Studio</a>
+<a class="tap mono" href="MobileMenu.dc.html" aria-label="Open menu" style="gap: 8px">Menu <span aria-hidden="true" style="font-size: 16px; line-height: 1">+</span></a>
+</header>
+<main>
+<article>
+<header class="px" style="padding-top: 32px">
+<div class="mono grey" style="display: flex; justify-content: space-between"><a class="tap" href="MobileWork.dc.html" style="min-height: 32px">All work</a><span style="padding-top: 8px">09 / 10</span></div>
+<h1 style="margin-top: 32px; font-size: 76px; line-height: .84; letter-spacing: -0.06em; font-weight: 400">Meridian</h1>
+<p style="margin-top: 28px; font-size: 30px; line-height: 1.05; letter-spacing: -0.035em">Renting a home, <span class="grey">without the sales pitch.</span></p>
+<dl class="cr" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 36px; border-top: 1px solid var(--rule); padding-top: 14px">
+<div><dt>Year</dt><dd>2023</dd></div>
+<div><dt>Services</dt><dd>Website<br>Digital design<br>Development</dd></div>
+<div><dt>Client</dt><dd>Meridian Estates</dd></div>
+</dl>
+</header>
+
+<figure class="media" style="margin-top: 40px; aspect-ratio: 4 / 5"><img src="/_blob/7c6861e21b5a8e7415ed2f9c58e83666" alt="A tall white residential block against the sky"></figure>
+
+<section class="px mod" style="margin-top: 56px">
+<p class="mono grey">(Overview)</p>
+<p style="margin-top: 16px; font-size: 22px; line-height: 1.25; letter-spacing: -0.02em">A long-term landlord of rental apartments in Manchester. The old site read like a sales brochure; renters wanted the price, the floor plan and the move-in date.</p>
+<p class="grey" style="margin-top: 20px; font-size: 15px">Every listing shows all three on the first screen, with no form to fill in first. Photography is of real apartments, never renders.</p>
+</section>
+
+<figure class="mod"><div class="media" style="aspect-ratio: 4 / 3"><img src="/_blob/4c7787cf0edf972853b5dcb273ff798a" alt="Website listing available homes"></div><figcaption class="cap mono grey">Fig. 01 — Availability, sorted by move-in date</figcaption></figure>
+
+<section class="px mod">
+<p class="mono grey">(Availability)</p>
+<p style="margin-top: 12px; font-size: 15px">Listings sync from the property-management system every hour, so a home disappears as soon as it’s let. Viewings book straight into the lettings team’s calendar.</p>
+</section>
+
+<section class="mod">
+<figure class="media" style="aspect-ratio: 4 / 3"><img src="/_blob/15a05976af6b4606dbc5e7526e7397b5" alt="Two-bedroom floor plan"></figure>
+<div class="px" style="margin-top: 24px">
+<p class="mono grey">(Floor plans)</p>
+<h2 style="margin-top: 12px; font-size: 24px; line-height: 1.15; letter-spacing: -0.025em; font-weight: 400">Plans first, photographs second.</h2>
+<p class="grey" style="margin-top: 14px; font-size: 15px">Renters compare plans between listings, so every apartment type has a clean, consistent plan above the gallery.</p>
+</div>
+</section>
+
+<div class="mod px" style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px">
+<figure><div class="media" style="aspect-ratio: 4 / 5"><img src="/_blob/c62eb2b2816cab217e259e0863085797" alt="Balconies on a white facade"></div></figure>
+<figure><div class="media" style="aspect-ratio: 4 / 5"><img src="/_blob/a3437c78eb58d2c8153dd1accd4695da" alt="White building corner against blue sky"></div></figure>
+<p class="mono grey" style="grid-column: 1 / -1">Fig. 02–03 — Ancoats; Salford Quays</p>
+</div>
+
+<p class="px mod" style="font-size: 40px; line-height: 1; letter-spacing: -0.045em">Show the price. <span class="grey">Show the plan.</span></p>
+
+<figure class="mod"><div class="media" style="aspect-ratio: 1 / 1"><img src="/_blob/bac552d76162dafe832c2088737c108c" alt="Living room with afternoon light" style="object-position: 70% 50%"></div><figcaption class="cap mono grey">Fig. 04 — Type B living room, unfurnished, 3pm</figcaption></figure>
+
+<section class="px mod">
+<p class="grey" style="font-size: 15px">Outcome: [X]% of viewings now booked online.</p>
+</section>
+
+<blockquote class="px mod" style="margin-top: 48px">
+<p style="font-size: 28px; line-height: 1.1; letter-spacing: -0.03em">“People arrive already knowing the rent, and the conversation is about the home.”</p>
+<footer class="mono grey" style="margin-top: 20px">— Head of lettings, Meridian Estates</footer>
+</blockquote>
+
+<section class="px mod" aria-label="Credits">
+<p class="mono" style="border-top: 1px solid var(--rule); padding-top: 12px">(Credits)</p>
+<dl class="cr" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px 16px; margin-top: 24px">
+<div><dt>Client</dt><dd>Meridian Estates</dd></div>
+<div><dt>Design &amp; build</dt><dd>Morrow Studio</dd></div>
+<div><dt>Stack</dt><dd>Next.js, Sanity</dd></div>
+<div><dt>Photography</dt><dd>[Photographer]</dd></div>
+</dl>
+</section>
+</article>
+
+<a href="MobileProjectOpenRoom.dc.html" style="display: block; margin-top: var(--sec); border-top: 1px solid var(--rule); padding-top: 14px">
+<div class="px mono grey" style="display: flex; justify-content: space-between"><span>Next project</span><span>10 / 10</span></div>
+<p class="px" style="margin-top: 24px; font-size: 76px; line-height: .84; letter-spacing: -0.06em">Open<br>Room</p>
+<p class="px grey" style="margin-top: 12px; font-size: 14px">Exhibition — Art Direction, 2023</p>
+<figure class="media" style="margin-top: 24px; aspect-ratio: 4 / 3"><img src="/_blob/0bfaf3583d7a4a235185b8898150d162" alt="Open Room"></figure>
+</a>
+</main>
+<footer style="background: #151513; color: #F1EFEA; padding: 40px var(--m) 32px" class="mono">
+<a href="mailto:hello@morrow.studio" style="font-family: 'Geist', sans-serif; text-transform: none; font-size: 24px; letter-spacing: -0.03em">hello@morrow.studio</a>
+<p style="margin-top: 24px; display: flex; justify-content: space-between; color: #9A968E"><span>© 2026 Morrow</span><span>London / Worldwide</span></p>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":4480}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

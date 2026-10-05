@@ -1,0 +1,1791 @@
+{
+  "frames": 28,
+  "caseVariants": 20,
+  "sections": 222,
+  "assets": 66,
+  "uniqueByteHashes": 66,
+  "referencedAssets": 65,
+  "projectUniqueAssets": 63,
+  "copyMismatches": [],
+  "staticImageCountMismatches": [],
+  "missingAssets": [],
+  "blobMappingConflicts": [],
+  "checks": [
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 11,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": false,
+      "dynamicGallery": true,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 12,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-01-aster-house",
+      "section": 13,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-02-nocturne",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": false,
+      "dynamicGallery": true,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-03-forma",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-04-arc-athletics",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-05-halden",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-06-field-notes",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": false,
+      "dynamicGallery": true,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-07-sola-ceramics",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-08-kiln",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-09-meridian",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "desktop/case-10-open-room",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 11,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-01-aster-house",
+      "section": 12,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-02-nocturne",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-03-forma",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-04-arc-athletics",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-05-halden",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-06-field-notes",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-07-sola-ceramics",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-08-kiln",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 10,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-09-meridian",
+      "section": 11,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 0,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 1,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 2,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 3,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 4,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 5,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 6,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 7,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 8,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    },
+    {
+      "frame": "mobile/case-10-open-room",
+      "section": 9,
+      "sourceCopyMatched": true,
+      "staticImageCountMatched": true,
+      "dynamicGallery": false,
+      "localAssetsExist": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+$ease: cubic-bezier(.2, .7, .1, 1);
+$reveal-ease: cubic-bezier(.7, 0, .2, 1);
+
+// Paint-only affordance: the settled text geometry does not change.
+@mixin underline($duration: .5s, $position: 100%, $thickness: 1px) {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 $position;
+  background-size: 0 $thickness;
+  background-repeat: no-repeat;
+  transition: background-size $duration $ease;
+  text-decoration: none;
+  &:hover, &:focus-visible { background-size: 100% $thickness; text-decoration: none; }
+}

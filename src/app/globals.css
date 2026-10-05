@@ -24,3 +24,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.project-muted {color:var(--grey,#6b6862);}

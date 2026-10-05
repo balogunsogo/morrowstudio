@@ -1,0 +1,13 @@
+.control {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+  padding: 10px 14px;
+  background: #f1efea;
+  color: #151513;
+  border: 1px solid #d6d3cc;
+  font: 12px/1.4 var(--font-geist-mono), monospace;
+  text-decoration: none;
+  &:focus-visible { outline: 2px solid #151513; outline-offset: 4px; }
+}

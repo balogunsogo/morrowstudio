@@ -1,0 +1,5583 @@
+{
+  "at": "2026-10-05T09:38:28.824Z",
+  "stage": "before",
+  "base": "http://localhost:3100",
+  "widths": [
+    1440,
+    390
+  ],
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/home-1440.png",
+      "metrics": {
+        "height": 7184,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "MorrowStudio",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Identity / Digital / Visual systemsLondon / WorldwideBookin",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 570.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Selected work (06)Full archive ↗01Aster House2026Hospitality — Identit",
+            "x": 0,
+            "y": 794.09375,
+            "width": 1440,
+            "height": 3929.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 4723.625,
+            "width": 1440,
+            "height": 741.5625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "220px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) IndexHover or focus to explore10 projects01Aster House202602Noctu",
+            "x": 0,
+            "y": 5465.1875,
+            "width": 1440,
+            "height": 1039.390625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New businesshello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Londo",
+            "x": 0,
+            "y": 6504.578125,
+            "width": 1440,
+            "height": 679,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "120px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-1440.png",
+      "metrics": {
+        "height": 1743,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "Work(10)An archive of identities, digital platforms and art direction,",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 394.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 32,
+            "y": 160,
+            "width": 794.328125,
+            "height": 218.875,
+            "fontSize": "273.6px",
+            "lineHeight": "218.88px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "No.ProjectSectorDisciplineYear01Aster HouseHospitalityHospitality — Id",
+            "x": 0,
+            "y": 511.875,
+            "width": 1440,
+            "height": 748.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New business© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are",
+            "x": 0,
+            "y": 1436.78125,
+            "width": 1440,
+            "height": 306.453125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/about-1440.png",
+      "metrics": {
+        "height": 4719,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioAbout MorrowLondon / WorldwideMenu +Work 10AboutContact ↗",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is an independentpractice working betweenidentity, image and th",
+            "x": 264.65625,
+            "y": 168,
+            "width": 1143.34375,
+            "height": 524.90625,
+            "fontSize": "89.28px",
+            "lineHeight": "87.4944px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "About MorrowMorrow is an independentpractice working betweenidentity, ",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 628.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "104px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 852.90625,
+            "width": 1440,
+            "height": 746.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "StudioFounded in London in 2019, Morrow is a deliberately small studio",
+            "x": 0,
+            "y": 1775.5,
+            "width": 1440,
+            "height": 324.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Capabilities0501StrategyPositioning, naming and the questions worth as",
+            "x": 0,
+            "y": 2275.59375,
+            "width": 1440,
+            "height": 740.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "RecognitionYearAwardProject2026[Award body] — Shortlist, IdentityAster",
+            "x": 0,
+            "y": 3514.96875,
+            "width": 1440,
+            "height": 280.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "ContactStart a project, or just say hello.hello@morrow.studioSocialIns",
+            "x": 0,
+            "y": 3971.09375,
+            "width": 1440,
+            "height": 747.46875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "120px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-aster-house-1440.png",
+      "metrics": {
+        "height": 11347,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 01 / 10)Hospitality — Identity, DigitalMargate, UK — 2026All ",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 542.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 06",
+            "x": 0,
+            "y": 8827.09375,
+            "width": 1440,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 04",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Aster House",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 694.5,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1504.5,
+            "width": 1440,
+            "height": 8895.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1632.5,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01The signwritten lintel over the front door, where the wordmark ",
+            "x": 0,
+            "y": 2203.296875,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 02 — Key fob, room 7: leather tag, brass ring, the house figuresF",
+            "x": 0,
+            "y": 3127.234375,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 4178.671875,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 04 — Room 4, numbered by the same signwriter as the lintelFig. 05",
+            "x": 0,
+            "y": 4515.953125,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Th",
+            "x": 0,
+            "y": 5513.65625,
+            "width": 1440,
+            "height": 847.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)The old site sent guests to a third-party booking widg",
+            "x": 0,
+            "y": 6537.15625,
+            "width": 1440,
+            "height": 326.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 06 — Booking, step two: the room page shows the full price for th",
+            "x": 0,
+            "y": 7040.0625,
+            "width": 1440,
+            "height": 597.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Aster House, an afternoon01:24Film An afternoon at Aster House. Runs a",
+            "x": 0,
+            "y": 7813.15625,
+            "width": 1440,
+            "height": 837.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0601 / 06←→",
+            "x": 0,
+            "y": 8827.09375,
+            "width": 1440,
+            "height": 655.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Guests book with us now, not through an app. By the time they arrive, ",
+            "x": 0,
+            "y": 9659.03125,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientAster House, MargateBrand identityMorrow StudioWebsite & ",
+            "x": 0,
+            "y": 10068.25,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project02 / 10NocturneCulture — Art Direction2026",
+            "x": 0,
+            "y": 10399.625,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 11227.109375,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/forma",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-forma-1440.png",
+      "metrics": {
+        "height": 7990,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 03 / 10)Architecture — DigitalLondon — 2025All work03 / 10For",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 477.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 05",
+            "x": 0,
+            "y": 5470.484375,
+            "width": 1440,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 629.875,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 1439.875,
+            "width": 1440,
+            "height": 5603.140625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 1567.875,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 01 — Brise-soleil, Hollis Road SchoolFig. 02 — Competition model,",
+            "x": 0,
+            "y": 2138.671875,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Every project is entered once in the CMS with its sector, l",
+            "x": 0,
+            "y": 3136.375,
+            "width": 1440,
+            "height": 191.34375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings are uploaded as vect",
+            "x": 0,
+            "y": 3503.71875,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 4209.265625,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 03Stanhope Library, west elevation. Full-bleed images are reserve",
+            "x": 0,
+            "y": 4546.546875,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0501 / 05←→",
+            "x": 0,
+            "y": 5470.484375,
+            "width": 1440,
+            "height": 655.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "We used to email a PDF and hope. Now we send a link to the three proje",
+            "x": 0,
+            "y": 6302.421875,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientForma Architects, LondonDesign & developmentMorrow Studio",
+            "x": 0,
+            "y": 6711.640625,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project04 / 10Arc AthleticsSport — Identity2025",
+            "x": 0,
+            "y": 7043.015625,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 7870.5,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/open-room",
+      "width": 1440,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-open-room-1440.png",
+      "metrics": {
+        "height": 7359,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 10 / 10)Exhibition — Art Direction, EditorialGlasgow — 2023Al",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 542.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Open Room",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 694.5,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1504.5,
+            "width": 1440,
+            "height": 4907.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1632.5,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 01 — Section two, “Objects”. Plinth labels sit at seated eye leve",
+            "x": 0,
+            "y": 2203.296875,
+            "width": 1440,
+            "height": 837.640625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 3216.9375,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.The 96-page ca",
+            "x": 0,
+            "y": 3554.21875,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 03 — Campaign poster. The shapes stand in for the three sections.",
+            "x": 0,
+            "y": 4259.765625,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Labels are set large enough to read without stepp",
+            "x": 0,
+            "y": 5311.203125,
+            "width": 1440,
+            "height": 243.234375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "The comments book was full of people saying they didn’t think design w",
+            "x": 0,
+            "y": 5730.4375,
+            "width": 1440,
+            "height": 174.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientOpen Room, GlasgowExhibition graphicsMorrow StudioCatalog",
+            "x": 0,
+            "y": 6080.5625,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project01 / 10Aster HouseHospitality — Identity, Digital2026",
+            "x": 0,
+            "y": 6411.9375,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 7239.421875,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/home-390.png",
+      "metrics": {
+        "height": 4349,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "MorrowStudio",
+            "x": 16,
+            "y": 143.21875,
+            "width": 358,
+            "height": 174.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Identity / Digital / Visual systemsLondon / WorldwideBookin",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 766.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Selected work (06)Full archive ↗01Aster House2026Hospitality — Identit",
+            "x": 0,
+            "y": 918.59375,
+            "width": 390,
+            "height": 1979.296875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 2897.890625,
+            "width": 390,
+            "height": 515.203125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "128px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) IndexHover or focus to explore10 projects01Aster House202602Noctu",
+            "x": 0,
+            "y": 3413.09375,
+            "width": 390,
+            "height": 450.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New businesshello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Londo",
+            "x": 0,
+            "y": 3863.109375,
+            "width": 390,
+            "height": 485.40625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-390.png",
+      "metrics": {
+        "height": 1613,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "Work(10)An archive of identities, digital platforms and art direction,",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 233.078125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 16,
+            "y": 96,
+            "width": 358,
+            "height": 83.203125,
+            "fontSize": "104.013px",
+            "lineHeight": "83.2104px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "No.ProjectSectorDisciplineYear01Aster HouseHospitalityHospitality — Id",
+            "x": 0,
+            "y": 410.078125,
+            "width": 390,
+            "height": 1051,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New business© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are",
+            "x": 0,
+            "y": 1461.078125,
+            "width": 390,
+            "height": 152.40625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "56px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/about-390.png",
+      "metrics": {
+        "height": 3796,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioAbout MorrowLondon / WorldwideMenu +Work 10AboutContact ↗",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is an independentpractice working betweenidentity, image and th",
+            "x": 16,
+            "y": 135.21875,
+            "width": 358,
+            "height": 183.59375,
+            "fontSize": "36px",
+            "lineHeight": "36.72px",
+            "marginTop": "24px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "About MorrowMorrow is an independentpractice working betweenidentity, ",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 262.8125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 374.8125,
+            "width": 390,
+            "height": 577.328125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "StudioFounded in London in 2019, Morrow is a deliberately small studio",
+            "x": 0,
+            "y": 1048.140625,
+            "width": 390,
+            "height": 424.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Capabilities0501StrategyPositioning, naming and the questions worth as",
+            "x": 0,
+            "y": 1568.640625,
+            "width": 390,
+            "height": 772.15625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "RecognitionYearAwardProject2026[Award body] — Shortlist, IdentityAster",
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 426.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "ContactStart a project, or just say hello.hello@morrow.studioSocialIns",
+            "x": 0,
+            "y": 3242.21875,
+            "width": 390,
+            "height": 553.640625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-aster-house-390.png",
+      "metrics": {
+        "height": 6411,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 01 / 10)Hospitality — Identity, DigitalMargate, UK — 2026All ",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 479.53125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 06",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 04",
+            "x": 0,
+            "y": 4861.40625,
+            "width": 390,
+            "height": 15.21875,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Aster House",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 132.3125,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 575.53125,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1063.03125,
+            "width": 390,
+            "height": 4670.453125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A twelve-room hotel and dining room in Margate. The goal: fi",
+            "x": 0,
+            "y": 1119.03125,
+            "width": 390,
+            "height": 277.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01The signwritten lintel, where the wordmark began",
+            "x": 0,
+            "y": 1484.5,
+            "width": 390,
+            "height": 428.4375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2000.9375,
+            "width": 390,
+            "height": 217.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 2306.4375,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2514.4375,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Ro",
+            "x": 0,
+            "y": 3000.28125,
+            "width": 390,
+            "height": 637.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)A short booking flow on the hotel’s own site: dates, r",
+            "x": 0,
+            "y": 3725.9375,
+            "width": 390,
+            "height": 471.96875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Aster House, an afternoon01:24",
+            "x": 0,
+            "y": 4285.90625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0401 / 04←→",
+            "x": 0,
+            "y": 4861.40625,
+            "width": 390,
+            "height": 343.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Guests book with us now, not through an app. By the time they arrive, ",
+            "x": 0,
+            "y": 5292.625,
+            "width": 390,
+            "height": 189.203125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientAster HouseBrand identityMorrow StudioWebsite & bookingMo",
+            "x": 0,
+            "y": 5569.828125,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project02 / 10NocturneCulture — Art Direction2026",
+            "x": 0,
+            "y": 5733.484375,
+            "width": 390,
+            "height": 467.59375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 6201.078125,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/forma",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-forma-390.png",
+      "metrics": {
+        "height": 4868,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 03 / 10)Architecture — DigitalLondon — 2025All work03 / 10For",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 393.15625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 05",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 68.4375,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 489.15625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 976.65625,
+            "width": 390,
+            "height": 3150.125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A fourteen-person architecture practice whose portfolio live",
+            "x": 0,
+            "y": 1032.65625,
+            "width": 390,
+            "height": 281.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01Competition model, shot for the project page",
+            "x": 0,
+            "y": 1402.375,
+            "width": 390,
+            "height": 413.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 1903.59375,
+            "width": 390,
+            "height": 217.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 2209.09375,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings upload as vector fil",
+            "x": 0,
+            "y": 2417.09375,
+            "width": 390,
+            "height": 455.0625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2960.15625,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Each project is entered once with sector, location, stage, ",
+            "x": 0,
+            "y": 3446,
+            "width": 390,
+            "height": 182.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "We used to email a PDF and hope. Now we send a link to the three proje",
+            "x": 0,
+            "y": 3716.71875,
+            "width": 390,
+            "height": 158.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientForma ArchitectsDesign & buildMorrow StudioStackNext.js, ",
+            "x": 0,
+            "y": 3963.125,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project04 / 10Arc AthleticsSport — Identity2025",
+            "x": 0,
+            "y": 4126.78125,
+            "width": 390,
+            "height": 531.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 4658.25,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/open-room",
+      "width": 390,
+      "status": 200,
+      "result": "pass",
+      "screenshot": "migration/reports/visual-refinement/before/work-open-room-390.png",
+      "metrics": {
+        "height": 4691,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 10 / 10)Exhibition — Art Direction, EditorialGlasgow — 2023Al",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 511.03125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Open Room",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 132.3125,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 607.03125,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1094.53125,
+            "width": 390,
+            "height": 2855.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A ten-week exhibition of contemporary furniture, objects and",
+            "x": 0,
+            "y": 1150.53125,
+            "width": 390,
+            "height": 281.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01Section one, “Rooms”: wall text under 60 words",
+            "x": 0,
+            "y": 1520.25,
+            "width": 390,
+            "height": 413.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2021.46875,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 2507.3125,
+            "width": 390,
+            "height": 80,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.96 pages, pock",
+            "x": 0,
+            "y": 2675.3125,
+            "width": 390,
+            "height": 505.90625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Every label answers the same three questions in t",
+            "x": 0,
+            "y": 3269.21875,
+            "width": 390,
+            "height": 182.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "The comments book was full of people saying they didn’t think design w",
+            "x": 0,
+            "y": 3539.9375,
+            "width": 390,
+            "height": 158.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientOpen RoomGraphics & catalogueMorrow StudioCuration[Curato",
+            "x": 0,
+            "y": 3786.34375,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project01 / 10Aster HouseHospitality — Identity, Digital2026",
+            "x": 0,
+            "y": 3950,
+            "width": 390,
+            "height": 531.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 4481.46875,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "route": "/",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\01-home.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\Main.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\01-home.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/home-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/home-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/home-1440-compare.png",
+      "referenceMetrics": {
+        "height": 7187,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon 14:32 BSTWork10AboutC",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow Studio",
+            "x": 32,
+            "y": 179.1875,
+            "width": 852.265625,
+            "height": 229.8125,
+            "fontSize": "273.6px",
+            "lineHeight": "218.88px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Identity / Digital / Visual systemsLondon / WorldwideBookin",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 591.96875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(01) Selected workSix projects, 2024 — 2026Full archive (10)01Aster Ho",
+            "x": 0,
+            "y": 815.21875,
+            "width": 1440,
+            "height": 3915.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 4730.765625,
+            "width": 1440,
+            "height": 790.328125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "220px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) IndexHover to preview — select to open01 / 1001Aster HouseHospita",
+            "x": 0,
+            "y": 5521.09375,
+            "width": 1440,
+            "height": 940.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New businesshello@morrow.studioSocialInstagramAre.naLinkedInStudi",
+            "x": 0,
+            "y": 6461.6875,
+            "width": 1440,
+            "height": 725.5625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "120px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 7184,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "MorrowStudio",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Identity / Digital / Visual systemsLondon / WorldwideBookin",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 570.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Selected work (06)Full archive ↗01Aster House2026Hospitality — Identit",
+            "x": 0,
+            "y": 794.09375,
+            "width": 1440,
+            "height": 3929.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 4723.625,
+            "width": 1440,
+            "height": 741.5625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "220px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) IndexHover or focus to explore10 projects01Aster House202602Noctu",
+            "x": 0,
+            "y": 5465.1875,
+            "width": 1440,
+            "height": 1039.390625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New businesshello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Londo",
+            "x": 0,
+            "y": 6504.578125,
+            "width": 1440,
+            "height": 679,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "120px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\02-work.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\Work.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\02-work.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/work-1440-compare.png",
+      "referenceMetrics": {
+        "height": 1768,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioArchive — 10 projectsLondon 14:32 BSTWork10AboutContact",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 32,
+            "y": 159.25,
+            "width": 794.328125,
+            "height": 229.8125,
+            "fontSize": "273.6px",
+            "lineHeight": "218.88px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "Work(10)An archive of identities, digital platforms and art direction,",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 325.8125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "No.ProjectSectorDisciplineYear01Aster HouseHospitalityIdentity, Digita",
+            "x": 0,
+            "y": 514.0625,
+            "width": 1440,
+            "height": 948.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "New businesshello@morrow.studio© 2026 Morrow StudioInstagram — Are.na ",
+            "x": 0,
+            "y": 1462.96875,
+            "width": 1440,
+            "height": 304.5625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 1743,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "Work(10)An archive of identities, digital platforms and art direction,",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 394.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 32,
+            "y": 160,
+            "width": 794.328125,
+            "height": 218.875,
+            "fontSize": "273.6px",
+            "lineHeight": "218.88px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "No.ProjectSectorDisciplineYear01Aster HouseHospitalityHospitality — Id",
+            "x": 0,
+            "y": 511.875,
+            "width": 1440,
+            "height": 748.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New business© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are",
+            "x": 0,
+            "y": 1436.78125,
+            "width": 1440,
+            "height": 306.453125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "96px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\03-about.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\About.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\03-about.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/about-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/about-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/about-1440-compare.png",
+      "referenceMetrics": {
+        "height": 4784,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioAbout the studioLondon 14:32 BSTWork10AboutContact",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is an independentpractice working betweenidentity, image and th",
+            "x": 264.65625,
+            "y": 167.25,
+            "width": 1143.34375,
+            "height": 540.9375,
+            "fontSize": "89.28px",
+            "lineHeight": "87.4944px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(About Morrow)Morrow is an independentpractice working betweenidentity",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 644.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "104px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 868.1875,
+            "width": 1440,
+            "height": 746.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Studio)Founded in London in 2019, Morrow is a deliberately small stud",
+            "x": 0,
+            "y": 1790.78125,
+            "width": 1440,
+            "height": 346.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Capabilities)0501StrategyPositioning, naming and the questions worth ",
+            "x": 0,
+            "y": 2313.3125,
+            "width": 1440,
+            "height": 740.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Selected clients)Aster HouseForma ArchitectsNocturne FestivalArc Athl",
+            "x": 0,
+            "y": 3229.8125,
+            "width": 1440,
+            "height": 146.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Recognition)YearAwardProject2026[Award body] — Shortlist, IdentityAst",
+            "x": 0,
+            "y": 3552.6875,
+            "width": 1440,
+            "height": 280.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(Contact)Start a project, or just say hello.hello@morrow.studioSocialI",
+            "x": 0,
+            "y": 4008.8125,
+            "width": 1440,
+            "height": 774.765625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "120px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 4719,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioAbout MorrowLondon / WorldwideMenu +Work 10AboutContact ↗",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is an independentpractice working betweenidentity, image and th",
+            "x": 264.65625,
+            "y": 168,
+            "width": 1143.34375,
+            "height": 524.90625,
+            "fontSize": "89.28px",
+            "lineHeight": "87.4944px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "About MorrowMorrow is an independentpractice working betweenidentity, ",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 628.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "104px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 852.90625,
+            "width": 1440,
+            "height": 746.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "160px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "StudioFounded in London in 2019, Morrow is a deliberately small studio",
+            "x": 0,
+            "y": 1775.5,
+            "width": 1440,
+            "height": 324.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Capabilities0501StrategyPositioning, naming and the questions worth as",
+            "x": 0,
+            "y": 2275.59375,
+            "width": 1440,
+            "height": 740.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "RecognitionYearAwardProject2026[Award body] — Shortlist, IdentityAster",
+            "x": 0,
+            "y": 3514.96875,
+            "width": 1440,
+            "height": 280.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "ContactStart a project, or just say hello.hello@morrow.studioSocialIns",
+            "x": 0,
+            "y": 3971.09375,
+            "width": 1440,
+            "height": 747.46875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "120px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-01-aster-house.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\Project.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-01-aster-house.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-aster-house-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-aster-house-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/work-aster-house-1440-compare.png",
+      "referenceMetrics": {
+        "height": 10824,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioWork / 01 — Aster HouseNext — NocturneWork10AboutContact",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 01 / 10)Hospitality — Identity, DigitalMargate, UK — 2026Aste",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 535.359375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Aster House",
+            "x": 0,
+            "y": 195.1875,
+            "width": 1440,
+            "height": 153.546875,
+            "fontSize": "32px",
+            "lineHeight": "49.6px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 686.609375,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1624.609375,
+            "width": 1440,
+            "height": 354.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01The signwritten lintel over the front door, where the wordmark ",
+            "x": 0,
+            "y": 1979.140625,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 02 — Key fob, room 7: leather tag, brass ring, the house figuresF",
+            "x": 0,
+            "y": 2903.078125,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 3954.515625,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 04 — Room 4, numbered by the same signwriter as the lintelFig. 05",
+            "x": 0,
+            "y": 4291.796875,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Th",
+            "x": 0,
+            "y": 5289.5,
+            "width": 1440,
+            "height": 847.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)The old site sent guests to a third-party booking widg",
+            "x": 0,
+            "y": 6313,
+            "width": 1440,
+            "height": 326.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 06 — Booking, step two: the room page shows the full price for th",
+            "x": 0,
+            "y": 6639.90625,
+            "width": 1440,
+            "height": 623.765625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Play film — 01:24Sound onFilmAn afternoon at Aster House. Runs as the ",
+            "x": 0,
+            "y": 7263.671875,
+            "width": 1440,
+            "height": 853.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)01 / 06PrevNext",
+            "x": 0,
+            "y": 8293.546875,
+            "width": 1440,
+            "height": 668,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "“Guests book with us now, not through an app. By the time they arrive,",
+            "x": 0,
+            "y": 9137.546875,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Co-owner, Aster House",
+            "x": 148.328125,
+            "y": 9354.828125,
+            "width": 1143.328125,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientAster House, MargateBrand identityMorrow StudioWebsite ",
+            "x": 0,
+            "y": 9546.765625,
+            "width": 1440,
+            "height": 333.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram — Are.na — LinkedInLo",
+            "x": 0,
+            "y": 10704.265625,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 11347,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 01 / 10)Hospitality — Identity, DigitalMargate, UK — 2026All ",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 542.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 06",
+            "x": 0,
+            "y": 8827.09375,
+            "width": 1440,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 04",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Aster House",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 694.5,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1504.5,
+            "width": 1440,
+            "height": 8895.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1632.5,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01The signwritten lintel over the front door, where the wordmark ",
+            "x": 0,
+            "y": 2203.296875,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 02 — Key fob, room 7: leather tag, brass ring, the house figuresF",
+            "x": 0,
+            "y": 3127.234375,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 4178.671875,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 04 — Room 4, numbered by the same signwriter as the lintelFig. 05",
+            "x": 0,
+            "y": 4515.953125,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Th",
+            "x": 0,
+            "y": 5513.65625,
+            "width": 1440,
+            "height": 847.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)The old site sent guests to a third-party booking widg",
+            "x": 0,
+            "y": 6537.15625,
+            "width": 1440,
+            "height": 326.90625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 06 — Booking, step two: the room page shows the full price for th",
+            "x": 0,
+            "y": 7040.0625,
+            "width": 1440,
+            "height": 597.09375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Aster House, an afternoon01:24Film An afternoon at Aster House. Runs a",
+            "x": 0,
+            "y": 7813.15625,
+            "width": 1440,
+            "height": 837.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0601 / 06←→",
+            "x": 0,
+            "y": 8827.09375,
+            "width": 1440,
+            "height": 655.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Guests book with us now, not through an app. By the time they arrive, ",
+            "x": 0,
+            "y": 9659.03125,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientAster House, MargateBrand identityMorrow StudioWebsite & ",
+            "x": 0,
+            "y": 10068.25,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project02 / 10NocturneCulture — Art Direction2026",
+            "x": 0,
+            "y": 10399.625,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 11227.109375,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/forma",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-03-forma.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\ProjectForma.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-03-forma.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-forma-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-forma-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/work-forma-1440-compare.png",
+      "referenceMetrics": {
+        "height": 7777,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioWork / 03 — FormaNext — Arc AthleticsWork10AboutContact",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 03 / 10)Architecture — DigitalLondon — 2025FormaA practice we",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 470.734375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 0,
+            "y": 195.1875,
+            "width": 1440,
+            "height": 153.546875,
+            "fontSize": "32px",
+            "lineHeight": "49.6px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 621.984375,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 1559.984375,
+            "width": 1440,
+            "height": 354.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 01 — Brise-soleil, Hollis Road SchoolFig. 02 — Competition model,",
+            "x": 0,
+            "y": 2090.515625,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Every project is entered once in the CMS with its sector, l",
+            "x": 0,
+            "y": 3088.21875,
+            "width": 1440,
+            "height": 191.34375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings are uploaded as vect",
+            "x": 0,
+            "y": 3455.5625,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 4161.109375,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 03Stanhope Library, west elevation. Full-bleed images are reserve",
+            "x": 0,
+            "y": 4322.390625,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)01 / 05PrevNext",
+            "x": 0,
+            "y": 5246.328125,
+            "width": 1440,
+            "height": 668,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "“We used to email a PDF and hope. Now we send a link to the three proj",
+            "x": 0,
+            "y": 6090.328125,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Founding partner, Forma Architects",
+            "x": 148.328125,
+            "y": 6307.609375,
+            "width": 1143.328125,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientForma Architects, LondonDesign & developmentMorrow Stud",
+            "x": 0,
+            "y": 6499.546875,
+            "width": 1440,
+            "height": 333.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram — Are.na — LinkedInLo",
+            "x": 0,
+            "y": 7657.046875,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 7990,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 03 / 10)Architecture — DigitalLondon — 2025All work03 / 10For",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 477.875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 05",
+            "x": 0,
+            "y": 5470.484375,
+            "width": 1440,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 629.875,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 1439.875,
+            "width": 1440,
+            "height": 5603.140625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 1567.875,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 01 — Brise-soleil, Hollis Road SchoolFig. 02 — Competition model,",
+            "x": 0,
+            "y": 2138.671875,
+            "width": 1440,
+            "height": 821.703125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Every project is entered once in the CMS with its sector, l",
+            "x": 0,
+            "y": 3136.375,
+            "width": 1440,
+            "height": 191.34375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings are uploaded as vect",
+            "x": 0,
+            "y": 3503.71875,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 4209.265625,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 03Stanhope Library, west elevation. Full-bleed images are reserve",
+            "x": 0,
+            "y": 4546.546875,
+            "width": 1440,
+            "height": 747.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0501 / 05←→",
+            "x": 0,
+            "y": 5470.484375,
+            "width": 1440,
+            "height": 655.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "We used to email a PDF and hope. Now we send a link to the three proje",
+            "x": 0,
+            "y": 6302.421875,
+            "width": 1440,
+            "height": 233.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientForma Architects, LondonDesign & developmentMorrow Studio",
+            "x": 0,
+            "y": 6711.640625,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project04 / 10Arc AthleticsSport — Identity2025",
+            "x": 0,
+            "y": 7043.015625,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 7870.5,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/open-room",
+      "width": 1440,
+      "referenceHtml": "morrow-export-master\\morrow-export-1b-desktop-cases\\morrow-studio-export\\frames\\desktop\\case-10-open-room.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\ProjectOpenRoom.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-1b-desktop-cases\\morrow-studio-export\\frames\\desktop\\case-10-open-room.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-open-room-1440-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-open-room-1440.png",
+      "comparison": "migration/reports/visual-refinement/before/work-open-room-1440-compare.png",
+      "referenceMetrics": {
+        "height": 7310,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioWork / 10 — Open RoomNext — Aster HouseWork10AboutContact",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 63.25,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "20px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 10 / 10)Exhibition — Art Direction, EditorialGlasgow — 2023Op",
+            "x": 0,
+            "y": 63.25,
+            "width": 1440,
+            "height": 535.359375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Open Room",
+            "x": 0,
+            "y": 195.1875,
+            "width": 1440,
+            "height": 153.546875,
+            "fontSize": "32px",
+            "lineHeight": "49.6px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 686.609375,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1624.609375,
+            "width": 1440,
+            "height": 354.53125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 01 — Section two, “Objects”. Plinth labels sit at seated eye leve",
+            "x": 0,
+            "y": 2155.140625,
+            "width": 1440,
+            "height": 837.640625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 3168.78125,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.The 96-page ca",
+            "x": 0,
+            "y": 3506.0625,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 03 — Campaign poster. The shapes stand in for the three sections.",
+            "x": 0,
+            "y": 4211.609375,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Labels are set large enough to read without stepp",
+            "x": 0,
+            "y": 5263.046875,
+            "width": 1440,
+            "height": 243.234375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "“The comments book was full of people saying they didn’t think design ",
+            "x": 0,
+            "y": 5682.28125,
+            "width": 1440,
+            "height": 174.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Lead curator, Open Room",
+            "x": 148.328125,
+            "y": 5840.46875,
+            "width": 1143.328125,
+            "height": 15.9375,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientOpen Room, GlasgowExhibition graphicsMorrow StudioCatal",
+            "x": 0,
+            "y": 6032.40625,
+            "width": 1440,
+            "height": 333.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram — Are.na — LinkedInLo",
+            "x": 0,
+            "y": 7189.90625,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 7359,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 64,
+            "fontSize": "11px",
+            "lineHeight": "15.95px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 10 / 10)Exhibition — Art Direction, EditorialGlasgow — 2023Al",
+            "x": 0,
+            "y": 64,
+            "width": 1440,
+            "height": 542.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "88px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Open Room",
+            "x": 0,
+            "y": 195.9375,
+            "width": 1440,
+            "height": 160.6875,
+            "fontSize": "178.56px",
+            "lineHeight": "149.99px",
+            "marginTop": "28px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 694.5,
+            "width": 1440,
+            "height": 810,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1504.5,
+            "width": 1440,
+            "height": 4907.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1632.5,
+            "width": 1440,
+            "height": 394.796875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "128px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 01 — Section two, “Objects”. Plinth labels sit at seated eye leve",
+            "x": 0,
+            "y": 2203.296875,
+            "width": 1440,
+            "height": 837.640625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 3216.9375,
+            "width": 1440,
+            "height": 161.28125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.The 96-page ca",
+            "x": 0,
+            "y": 3554.21875,
+            "width": 1440,
+            "height": 529.546875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Fig. 03 — Campaign poster. The shapes stand in for the three sections.",
+            "x": 0,
+            "y": 4259.765625,
+            "width": 1440,
+            "height": 875.4375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Labels are set large enough to read without stepp",
+            "x": 0,
+            "y": 5311.203125,
+            "width": 1440,
+            "height": 243.234375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "The comments book was full of people saying they didn’t think design w",
+            "x": 0,
+            "y": 5730.4375,
+            "width": 1440,
+            "height": 174.125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientOpen Room, GlasgowExhibition graphicsMorrow StudioCatalog",
+            "x": 0,
+            "y": 6080.5625,
+            "width": 1440,
+            "height": 331.375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "176px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project01 / 10Aster HouseHospitality — Identity, Digital2026",
+            "x": 0,
+            "y": 6411.9375,
+            "width": 1440,
+            "height": 827.484375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "24px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 7239.421875,
+            "width": 1440,
+            "height": 119.9375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\01-home.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileHome.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\01-home.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/home-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/home-390.png",
+      "comparison": "migration/reports/visual-refinement/before/home-390-compare.png",
+      "referenceMetrics": {
+        "height": 4400,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "MorrowStudio",
+            "x": 16,
+            "y": 143.21875,
+            "width": 358,
+            "height": 174.6875,
+            "fontSize": "104px",
+            "lineHeight": "83.2px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Booking spring 2027MorrowStudioAn independent creative prac",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 766.6875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(01) Selected workAll (10)Aster House2026Hospitality — Identity, Digit",
+            "x": 0,
+            "y": 918.6875,
+            "width": 390,
+            "height": 1922.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 2841.09375,
+            "width": 390,
+            "height": 534.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "128px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) Index10Kiln2024Meridian2023Open Room2023Full archive10",
+            "x": 0,
+            "y": 3375.5,
+            "width": 390,
+            "height": 451.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "New businesshello@morrow.studioSocialInstagramAre.naLinkedInStudioLond",
+            "x": 0,
+            "y": 3826.71875,
+            "width": 390,
+            "height": 506.34375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 4349,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "MorrowStudio",
+            "x": 16,
+            "y": 143.21875,
+            "width": 358,
+            "height": 174.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(Est. 2019)Identity / Digital / Visual systemsLondon / WorldwideBookin",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 766.59375,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Selected work (06)Full archive ↗01Aster House2026Hospitality — Identit",
+            "x": 0,
+            "y": 918.59375,
+            "width": 390,
+            "height": 1979.296875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(02) StudioWe create identities and digital experiences for people bui",
+            "x": 0,
+            "y": 2897.890625,
+            "width": 390,
+            "height": 515.203125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "128px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(03) IndexHover or focus to explore10 projects01Aster House202602Noctu",
+            "x": 0,
+            "y": 3413.09375,
+            "width": 390,
+            "height": 450.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New businesshello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Londo",
+            "x": 0,
+            "y": 3863.109375,
+            "width": 390,
+            "height": 485.40625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\03-work.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileWork.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\03-work.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-390.png",
+      "comparison": "migration/reports/visual-refinement/before/work-390-compare.png",
+      "referenceMetrics": {
+        "height": 1560,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 16,
+            "y": 96,
+            "width": 358,
+            "height": 83.1875,
+            "fontSize": "104px",
+            "lineHeight": "83.2px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FOOTER",
+            "text": "hello@morrow.studio© 2026 MorrowLondon / Worldwide",
+            "x": 0,
+            "y": 1388.0625,
+            "width": 390,
+            "height": 170.109375,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "64px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 1613,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioIndependent creative practiceLondon / WorldwideMenu +Work",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "Work(10)An archive of identities, digital platforms and art direction,",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 233.078125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Work(10)",
+            "x": 16,
+            "y": 96,
+            "width": 358,
+            "height": 83.203125,
+            "fontSize": "104.013px",
+            "lineHeight": "83.2104px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "No.ProjectSectorDisciplineYear01Aster HouseHospitalityHospitality — Id",
+            "x": 0,
+            "y": 410.078125,
+            "width": 390,
+            "height": 1051,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(04) New business© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are",
+            "x": 0,
+            "y": 1461.078125,
+            "width": 390,
+            "height": 152.40625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "56px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\04-about.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileAbout.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\04-about.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/about-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/about-390.png",
+      "comparison": "migration/reports/visual-refinement/before/about-390-compare.png",
+      "referenceMetrics": {
+        "height": 3630,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is anindependent practiceworking betweenidentity, imageand the ",
+            "x": 16,
+            "y": 135.21875,
+            "width": 358,
+            "height": 194.375,
+            "fontSize": "36px",
+            "lineHeight": "36.72px",
+            "marginTop": "24px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "(About Morrow)Morrow is anindependent practiceworking betweenidentity,",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 273.59375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 385.59375,
+            "width": 390,
+            "height": 569.328125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Studio)Founded in London in 2019, Morrow is a deliberately small stud",
+            "x": 0,
+            "y": 1050.921875,
+            "width": 390,
+            "height": 363.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Capabilities)0501StrategyPositioning, naming and the questions worth ",
+            "x": 0,
+            "y": 1510.140625,
+            "width": 390,
+            "height": 653.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Selected clients)Aster HouseForma ArchitectsNocturne FestivalArc Athl",
+            "x": 0,
+            "y": 2259.359375,
+            "width": 390,
+            "height": 190.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Recognition)2026[Award body] — Shortlist, IdentityAster House2025[Awa",
+            "x": 0,
+            "y": 2545.578125,
+            "width": 390,
+            "height": 334.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "(Contact)Start a project, or just say hello.hello@morrow.studioSocialI",
+            "x": 0,
+            "y": 2975.796875,
+            "width": 390,
+            "height": 552.0625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "96px",
+            "paddingTop": "72px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 3796,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioAbout MorrowLondon / WorldwideMenu +Work 10AboutContact ↗",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Morrow is an independentpractice working betweenidentity, image and th",
+            "x": 16,
+            "y": 135.21875,
+            "width": 358,
+            "height": 183.59375,
+            "fontSize": "36px",
+            "lineHeight": "36.72px",
+            "marginTop": "24px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "SECTION",
+            "text": "About MorrowMorrow is an independentpractice working betweenidentity, ",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 262.8125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "The studio, Clerkenwell[Founder name], founder",
+            "x": 0,
+            "y": 374.8125,
+            "width": 390,
+            "height": 577.328125,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "StudioFounded in London in 2019, Morrow is a deliberately small studio",
+            "x": 0,
+            "y": 1048.140625,
+            "width": 390,
+            "height": 424.5,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Capabilities0501StrategyPositioning, naming and the questions worth as",
+            "x": 0,
+            "y": 1568.640625,
+            "width": 390,
+            "height": 772.15625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "RecognitionYearAwardProject2026[Award body] — Shortlist, IdentityAster",
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 426.21875,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "ContactStart a project, or just say hello.hello@morrow.studioSocialIns",
+            "x": 0,
+            "y": 3242.21875,
+            "width": 390,
+            "height": 553.640625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "96px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-01-aster-house.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileProject.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-01-aster-house.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-aster-house-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-aster-house-390.png",
+      "comparison": "migration/reports/visual-refinement/before/work-aster-house-390-compare.png",
+      "referenceMetrics": {
+        "height": 6050,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "All work01 / 10AsterHouseTwelve rooms on the Kent coast, booked direct",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 475.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "AsterHouse",
+            "x": 16,
+            "y": 152,
+            "width": 358,
+            "height": 127.65625,
+            "fontSize": "76px",
+            "lineHeight": "63.84px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 571.40625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A twelve-room hotel and dining room in Margate. The goal: fi",
+            "x": 0,
+            "y": 1114.90625,
+            "width": 390,
+            "height": 273.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01 — The signwritten lintel, where the wordmark began",
+            "x": 0,
+            "y": 1388.625,
+            "width": 390,
+            "height": 428.4375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 02–03 — Key fob, room 7; breakfast card",
+            "x": 0,
+            "y": 1905.0625,
+            "width": 390,
+            "height": 242.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "P",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 2147.78125,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "",
+            "x": 0,
+            "y": 2355.78125,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Ro",
+            "x": 0,
+            "y": 2841.625,
+            "width": 390,
+            "height": 635.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)A short booking flow on the hotel’s own site: dates, r",
+            "x": 0,
+            "y": 3565.03125,
+            "width": 390,
+            "height": 468.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Play film — 01:24",
+            "x": 0,
+            "y": 4033.25,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 04",
+            "x": 0,
+            "y": 4608.75,
+            "width": 390,
+            "height": 327.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Co-owner, Aster House",
+            "x": 0,
+            "y": 5079.15625,
+            "width": 390,
+            "height": 15.21875,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "20px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientAster HouseBrand identityMorrow StudioWebsite & booking",
+            "x": 0,
+            "y": 5182.375,
+            "width": 390,
+            "height": 160.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "hello@morrow.studio© 2026 MorrowLondon / Worldwide",
+            "x": 0,
+            "y": 5898.640625,
+            "width": 390,
+            "height": 146.015625,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 6411,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 01 / 10)Hospitality — Identity, DigitalMargate, UK — 2026All ",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 479.53125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 06",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 04",
+            "x": 0,
+            "y": 4861.40625,
+            "width": 390,
+            "height": 15.21875,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Aster House",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 132.3125,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 575.53125,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Aster House is a twelve-room hotel and dining room in a conv",
+            "x": 0,
+            "y": 1063.03125,
+            "width": 390,
+            "height": 4670.453125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A twelve-room hotel and dining room in Margate. The goal: fi",
+            "x": 0,
+            "y": 1119.03125,
+            "width": 390,
+            "height": 277.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01The signwritten lintel, where the wordmark began",
+            "x": 0,
+            "y": 1484.5,
+            "width": 390,
+            "height": 428.4375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2000.9375,
+            "width": 390,
+            "height": 217.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "A hotel brand lives at check-in, not on the homepage.",
+            "x": 0,
+            "y": 2306.4375,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2514.4375,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Identity)A wordmark painted on the lintel, then redrawn for screen.Ro",
+            "x": 0,
+            "y": 3000.28125,
+            "width": 390,
+            "height": 637.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Direct booking)A short booking flow on the hotel’s own site: dates, r",
+            "x": 0,
+            "y": 3725.9375,
+            "width": 390,
+            "height": 471.96875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Aster House, an afternoon01:24",
+            "x": 0,
+            "y": 4285.90625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Gallery)Swipe — 0401 / 04←→",
+            "x": 0,
+            "y": 4861.40625,
+            "width": 390,
+            "height": 343.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Guests book with us now, not through an app. By the time they arrive, ",
+            "x": 0,
+            "y": 5292.625,
+            "width": 390,
+            "height": 189.203125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientAster HouseBrand identityMorrow StudioWebsite & bookingMo",
+            "x": 0,
+            "y": 5569.828125,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project02 / 10NocturneCulture — Art Direction2026",
+            "x": 0,
+            "y": 5733.484375,
+            "width": 390,
+            "height": 467.59375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 6201.078125,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/forma",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-03-forma.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileProjectForma.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-03-forma.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-forma-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-forma-390.png",
+      "comparison": "migration/reports/visual-refinement/before/work-forma-390-compare.png",
+      "referenceMetrics": {
+        "height": 4640,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "All work03 / 10FormaA practice website that reads like a monograph.Yea",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 389.078125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 16,
+            "y": 152,
+            "width": 358,
+            "height": 63.828125,
+            "fontSize": "76px",
+            "lineHeight": "63.84px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 485.078125,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A fourteen-person architecture practice whose portfolio live",
+            "x": 0,
+            "y": 1028.578125,
+            "width": 390,
+            "height": 278.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01 — Competition model, shot for the project page",
+            "x": 0,
+            "y": 1307.296875,
+            "width": 390,
+            "height": 413.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "Fig. 02–03 — Hollis Road School; courtyard",
+            "x": 0,
+            "y": 1808.515625,
+            "width": 390,
+            "height": 242.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "P",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 2051.234375,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings upload as vector fil",
+            "x": 0,
+            "y": 2259.234375,
+            "width": 390,
+            "height": 452.8125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "",
+            "x": 0,
+            "y": 2800.046875,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Each project is entered once with sector, location, stage, ",
+            "x": 0,
+            "y": 3285.890625,
+            "width": 390,
+            "height": 174.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Founding partner, Forma Architects",
+            "x": 0,
+            "y": 3603.296875,
+            "width": 390,
+            "height": 15.21875,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "20px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientForma ArchitectsDesign & buildMorrow StudioStackNext.js",
+            "x": 0,
+            "y": 3706.515625,
+            "width": 390,
+            "height": 160.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "hello@morrow.studio© 2026 MorrowLondon / Worldwide",
+            "x": 0,
+            "y": 4486.609375,
+            "width": 390,
+            "height": 146.015625,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 4868,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 03 / 10)Architecture — DigitalLondon — 2025All work03 / 10For",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 393.15625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Gallery)Swipe — 05",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Forma",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 68.4375,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 489.15625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Forma is a fourteen-person architecture practice working on ",
+            "x": 0,
+            "y": 976.65625,
+            "width": 390,
+            "height": 3150.125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A fourteen-person architecture practice whose portfolio live",
+            "x": 0,
+            "y": 1032.65625,
+            "width": 390,
+            "height": 281.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01Competition model, shot for the project page",
+            "x": 0,
+            "y": 1402.375,
+            "width": 390,
+            "height": 413.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 1903.59375,
+            "width": 390,
+            "height": 217.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Drawings deserve the same space as photographs.",
+            "x": 0,
+            "y": 2209.09375,
+            "width": 390,
+            "height": 120,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Drawings)Plans you can read at any size.Drawings upload as vector fil",
+            "x": 0,
+            "y": 2417.09375,
+            "width": 390,
+            "height": 455.0625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2960.15625,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Structure)Each project is entered once with sector, location, stage, ",
+            "x": 0,
+            "y": 3446,
+            "width": 390,
+            "height": 182.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "We used to email a PDF and hope. Now we send a link to the three proje",
+            "x": 0,
+            "y": 3716.71875,
+            "width": 390,
+            "height": 158.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientForma ArchitectsDesign & buildMorrow StudioStackNext.js, ",
+            "x": 0,
+            "y": 3963.125,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project04 / 10Arc AthleticsSport — Identity2025",
+            "x": 0,
+            "y": 4126.78125,
+            "width": 390,
+            "height": 531.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 4658.25,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    },
+    {
+      "route": "/work/open-room",
+      "width": 390,
+      "referenceHtml": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-10-open-room.html",
+      "latestSource": "morrow-export-master\\morrow-export-3-assets-source\\morrow-studio-export\\source\\MobileProjectOpenRoom.dc.html",
+      "suppliedPng": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-10-open-room.png",
+      "referenceScreenshot": "migration/reports/visual-refinement/before/work-open-room-390-reference.png",
+      "screenshot": "migration/reports/visual-refinement/before/work-open-room-390.png",
+      "comparison": "migration/reports/visual-refinement/before/work-open-room-390-compare.png",
+      "referenceMetrics": {
+        "height": 4420,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "All work10 / 10OpenRoomAn exhibition of contemporary design, written f",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 506.90625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "OpenRoom",
+            "x": 16,
+            "y": 152,
+            "width": 358,
+            "height": 127.65625,
+            "fontSize": "76px",
+            "lineHeight": "63.84px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 602.90625,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A ten-week exhibition of contemporary furniture, objects and",
+            "x": 0,
+            "y": 1146.40625,
+            "width": 390,
+            "height": 278.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01 — Section one, “Rooms”: wall text under 60 words",
+            "x": 0,
+            "y": 1425.125,
+            "width": 390,
+            "height": 428.4375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "",
+            "x": 0,
+            "y": 1941.5625,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "P",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 2339.40625,
+            "width": 390,
+            "height": 80,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.96 pages, pock",
+            "x": 0,
+            "y": 2507.40625,
+            "width": 390,
+            "height": 502.90625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Every label answers the same three questions in t",
+            "x": 0,
+            "y": 3098.3125,
+            "width": 390,
+            "height": 174.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "— Lead curator, Open Room",
+            "x": 0,
+            "y": 3384.921875,
+            "width": 390,
+            "height": 15.21875,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "20px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Credits)ClientOpen RoomGraphics & catalogueMorrow StudioCuration[Cura",
+            "x": 0,
+            "y": 3488.140625,
+            "width": 390,
+            "height": 160.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "hello@morrow.studio© 2026 MorrowLondon / Worldwide",
+            "x": 0,
+            "y": 4268.234375,
+            "width": 390,
+            "height": 146.015625,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "40px"
+          }
+        ]
+      },
+      "currentMetrics": {
+        "height": 4691,
+        "headers": [
+          {
+            "tag": "HEADER",
+            "text": "Morrow StudioMenu +Work 10AboutContact ↗Morrow StudioClose ×Index01Wor",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 56,
+            "fontSize": "10.5px",
+            "lineHeight": "15.225px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "HEADER",
+            "text": "(Project 10 / 10)Exhibition — Art Direction, EditorialGlasgow — 2023Al",
+            "x": 0,
+            "y": 56,
+            "width": 390,
+            "height": 511.03125,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "32px"
+          }
+        ],
+        "titles": [
+          {
+            "tag": "H1",
+            "text": "Open Room",
+            "x": 0,
+            "y": 152,
+            "width": 390,
+            "height": 132.3125,
+            "fontSize": "76.05px",
+            "lineHeight": "63.882px",
+            "marginTop": "32px",
+            "paddingTop": "0px"
+          }
+        ],
+        "modules": [
+          {
+            "tag": "FIGURE",
+            "text": "",
+            "x": 0,
+            "y": 607.03125,
+            "width": 390,
+            "height": 487.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "40px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "DIV",
+            "text": "(Overview)Open Room is a ten-week exhibition of contemporary furniture",
+            "x": 0,
+            "y": 1094.53125,
+            "width": 390,
+            "height": 2855.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Overview)A ten-week exhibition of contemporary furniture, objects and",
+            "x": 0,
+            "y": 1150.53125,
+            "width": 390,
+            "height": 281.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "56px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "Fig. 01Section one, “Rooms”: wall text under 60 words",
+            "x": 0,
+            "y": 1520.25,
+            "width": 390,
+            "height": 413.21875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "",
+            "x": 0,
+            "y": 2021.46875,
+            "width": 390,
+            "height": 397.84375,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Write labels for the visitor, not the lender.",
+            "x": 0,
+            "y": 2507.3125,
+            "width": 390,
+            "height": 80,
+            "fontSize": "40px",
+            "lineHeight": "40px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Catalogue)A catalogue that works as a guide on the day.96 pages, pock",
+            "x": 0,
+            "y": 2675.3125,
+            "width": 390,
+            "height": 505.90625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "(Labels & wayfinding)Every label answers the same three questions in t",
+            "x": 0,
+            "y": 3269.21875,
+            "width": 390,
+            "height": 182.71875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "FIGURE",
+            "text": "The comments book was full of people saying they didn’t think design w",
+            "x": 0,
+            "y": 3539.9375,
+            "width": 390,
+            "height": 158.40625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "SECTION",
+            "text": "CreditsClientOpen RoomGraphics & catalogueMorrow StudioCuration[Curato",
+            "x": 0,
+            "y": 3786.34375,
+            "width": 390,
+            "height": 163.65625,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "88px",
+            "paddingTop": "0px"
+          },
+          {
+            "tag": "A",
+            "text": "Next project01 / 10Aster HouseHospitality — Identity, Digital2026",
+            "x": 0,
+            "y": 3950,
+            "width": 390,
+            "height": 531.46875,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "marginTop": "0px",
+            "paddingTop": "14px"
+          },
+          {
+            "tag": "FOOTER",
+            "text": "© 2026 Morrow Studiohello@morrow.studioInstagram ↗Are.na ↗LinkedIn ↗Lo",
+            "x": 0,
+            "y": 4481.46875,
+            "width": 390,
+            "height": 210.015625,
+            "fontSize": "16px",
+            "lineHeight": "24.8px",
+            "marginTop": "0px",
+            "paddingTop": "72px"
+          }
+        ]
+      }
+    }
+  ],
+  "failures": [],
+  "remoteContentWrites": 0
+}

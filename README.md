@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Morrow Studio
 
-## Getting Started
+A portfolio and editorial website for Morrow Studio, an independent creative practice. It includes Home, Work, About and ten project case studies, with content managed in Sanity and responsive layouts based on the supplied Claude master export.
 
-First, run the development server:
+## Stack
+
+Next.js 16 App Router, React 19, TypeScript, SCSS, Sanity Studio 5, next-sanity, Portable Text and Sanity image delivery. Playwright and Node's test runner cover browser behavior and content contracts.
+
+## Local setup
+
+Use Node.js 22.12 or newer and npm. Run `npm ci`, then create an ignored `.env.local` with your Sanity configuration. Obtain credentials privately; never commit environment files or tokens.
+
+Required environment variable names:
+
+```text
+NEXT_PUBLIC_SANITY_PROJECT_ID
+NEXT_PUBLIC_SANITY_DATASET
+```
+
+Additional environment variable names, as needed:
+
+```text
+NEXT_PUBLIC_SANITY_API_VERSION
+SANITY_API_READ_TOKEN
+SANITY_API_WRITE_TOKEN
+SITE_URL
+NEXT_PUBLIC_SITE_URL
+SANITY_STUDIO_PREVIEW_URL
+```
+
+The read token enables authenticated draft preview; the write token is used only by migration tooling. Configure `SITE_URL` (or `NEXT_PUBLIC_SITE_URL`) for canonical URLs and indexing. `SANITY_STUDIO_PREVIEW_URL` overrides the standalone Studio's preview origin. Tokens stay server-side.
+
+## App and Studio
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App: `http://localhost:3000`. Embedded Studio: `http://localhost:3000/studio` (sign in with an invited Sanity account). Both run from the same development command.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Existing production commands:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+npm run studio:build
+```
 
-## Learn More
+Hosted Studio: [morrow-studio.sanity.studio](https://morrow-studio.sanity.studio/).
 
-To learn more about Next.js, take a look at the following resources:
+## Project documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Studio editor guide](docs/STUDIO-GUIDE.md)
+- [Hosted Studio and Presentation setup](docs/STUDIO-DEPLOYMENT.md)
+- [Local draft preview](SANITY_PREVIEW.md)
+- [Migration tooling and safeguards](migration/README.md)
+- [Completion report](migration/reports/FINAL-COMPLETION.md)
+- [Final visual refinement](migration/reports/VISUAL-REFINEMENT-FINAL.md)
+- [Final interaction polish](migration/reports/INTERACTION-POLISH-FINAL.md)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Migration scripts can write or publish Sanity content; consult their safeguards before running them. Deterministic mappings, master source assets, fixtures, QA drivers and useful reports are versioned. Local CMS backups, generated QA images, intermediate candidate reports, dependencies, secrets and build output are excluded from Git. Screenshot paths in reports refer to locally generated evidence, which can be regenerated using the documented QA drivers.

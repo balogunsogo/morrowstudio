@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Morrow Studio — Work</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&amp;family=Geist+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F1EFEA}
+.site{--bg:#F1EFEA;--ink:#151513;--grey:#6B6862;--soft:#8C8880;--rule:#D6D3CC;--accent:#D4512A;--m:32px;--gap:20px;--dxl:clamp(88px,19vw,296px);background:var(--bg);color:var(--ink);font-family:'Geist',ui-sans-serif,system-ui,sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;min-height:100vh}
+.site *{box-sizing:border-box}
+.site a{color:inherit;text-decoration:none}
+.site img{display:block;width:100%;height:100%;object-fit:cover}
+.site h1,.site h2,.site h3,.site p,.site figure,.site ul,.site ol,.site blockquote{margin:0;padding:0}
+.site ul,.site ol{list-style:none}
+.site button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.g{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);padding-inline:var(--m)}
+.g.nest{padding-inline:0}
+.mono{font-family:'Geist Mono',ui-monospace,monospace;font-size:11px;line-height:1.45;letter-spacing:.02em;text-transform:uppercase}
+.grey{color:var(--grey)}
+.d-xl{font-size:var(--dxl);line-height:.8;letter-spacing:-.06em;font-weight:400}
+.d-l{font-size:clamp(56px,9.2vw,148px);line-height:.86;letter-spacing:-.05em;font-weight:400}
+.st{font-size:clamp(32px,4.4vw,66px);line-height:1.02;letter-spacing:-.035em;font-weight:400}
+.h-p{font-size:clamp(20px,1.7vw,26px);line-height:1.15;letter-spacing:-.02em;font-weight:400}
+.lead{font-size:clamp(19px,1.6vw,24px);line-height:1.3;letter-spacing:-.015em}
+.rule{border-top:1px solid var(--rule)}
+.u{background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .5s cubic-bezier(.2,.7,.1,1)}
+.u:hover,.u:focus-visible,.u.on{background-size:100% 1px}
+.site :focus-visible{outline:1px solid currentColor;outline-offset:4px}
+.media{position:relative;overflow:hidden;background:#E4E1DA}
+.media img{transition:transform 1.4s cubic-bezier(.2,.7,.1,1)}
+.proj{display:block}
+.proj:hover .media img,.proj:focus-visible .media img{transform:scale(1.035)}
+.proj:hover .u,.proj:focus-visible .u{background-size:100% 1px}
+.pm{display:grid;grid-template-columns:1fr auto;column-gap:16px;padding-top:14px;align-items:baseline}
+.nav{position:sticky;top:0;z-index:20;color:#fff;mix-blend-mode:difference;padding-block:20px;align-items:baseline}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:1px}
+.line{display:block;overflow:hidden;padding-bottom:.04em}
+.rise{display:block;animation:rise 1.2s cubic-bezier(.2,.7,.1,1) both}
+.fade{animation:fade 1.2s ease .3s both}
+@keyframes rise{from{transform:translateY(105%)}to{transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.foot{background:#151513;color:#F1EFEA}
+.foot .grey{color:#9A968E}
+.flt{display:inline-flex;align-items:baseline;gap:3px;min-height:44px;align-items:center;color:var(--grey);transition:color .3s}
+.flt:hover,.flt[aria-pressed="true"]{color:var(--ink)}
+.flt sup{font-family:'Geist Mono',monospace;font-size:9px;align-self:flex-start;margin-top:12px}
+.row{display:grid;grid-template-columns:56px minmax(0,1.5fr) minmax(0,1fr) minmax(0,1.2fr) 56px;gap:16px;align-items:baseline;padding-block:18px;border-top:1px solid var(--rule);transition:color .35s,padding .5s cubic-bezier(.2,.7,.1,1)}
+.list.hov .row{color:var(--soft)}
+.list.hov .row.on{color:var(--ink);padding-left:12px}
+.row .nm{font-size:clamp(22px,2vw,30px);line-height:1.1;letter-spacing:-.025em}
+@media (prefers-reduced-motion:reduce){.site *{animation:none!important;transition:none!important}}
+@media (max-width:1024px){.site{--m:24px;--gap:16px}.row{grid-template-columns:44px 1fr 1fr 48px}.row .c3{display:none}}
+@media (max-width:760px){.site{--m:16px;--gap:12px}.g>*{grid-column:1/-1!important;margin-top:0!important}.hide-s{display:none!important}.row{grid-template-columns:36px 1fr 44px}.row .c2{display:none}}
+</style>
+</helmet>
+<div class="site">
+
+<header class="nav g">
+<a href="Main.dc.html" style="grid-column: 1 / span 3; font-size: 15px; font-weight: 500; letter-spacing: -0.01em">Morrow Studio</a>
+<p class="mono hide-s" style="grid-column: 4 / span 3">Archive — {{count}} projects</p>
+<p class="mono hide-s" style="grid-column: 7 / span 2">London 14:32 BST</p>
+<nav aria-label="Primary" style="grid-column: 9 / span 4; display: flex; justify-content: flex-end; gap: 28px; font-size: 15px">
+<a class="u on" href="Work.dc.html" aria-current="page">Work<sup class="mono" style="font-size: 9px; margin-left: 2px">10</sup></a>
+<a class="u" href="About.dc.html">About</a>
+<a class="u" href="Main.dc.html#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="g" style="padding-top: 96px; align-items: end">
+<h1 class="d-xl" style="grid-column: 1 / span 7"><span class="line"><span class="rise">Work<sup class="mono" style="font-size: 14px; letter-spacing: 0; vertical-align: top; margin-left: 10px; position: relative; top: .3em">({{count}})</sup></span></span></h1>
+<p class="lead fade" style="grid-column: 9 / span 4; padding-bottom: 12px">An archive of identities, digital platforms and art direction, 2019 — 2026.</p>
+</section>
+
+<div class="g" style="margin-top: 80px; align-items: center; border-bottom: 1px solid var(--rule)">
+<div role="group" aria-label="Filter by discipline" style="grid-column: 1 / span 9; display: flex; flex-wrap: wrap; column-gap: 28px; font-size: 15px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="5">
+<button class="flt" type="button" aria-pressed="{{f.pressed}}" onClick="{{f.pick}}"><span class="{{f.ucls}}">{{f.label}}</span><sup>{{f.n}}</sup></button>
+</sc-for>
+</div>
+<div role="group" aria-label="View" style="grid-column: 10 / span 3; display: flex; justify-content: flex-end; gap: 20px" class="mono">
+<button class="flt" type="button" aria-pressed="{{listOn}}" onClick="{{setList}}" style="font-family: inherit; font-size: 11px">Index</button>
+<button class="flt" type="button" aria-pressed="{{gridOn}}" onClick="{{setGrid}}" style="font-family: inherit; font-size: 11px">Grid</button>
+</div>
+</div>
+
+<sc-if value="{{isList}}" hint-placeholder-val="{{ true }}">
+<section aria-label="Project index" class="g" style="margin-top: 0; padding-bottom: 200px">
+<div style="grid-column: 1 / span 8">
+<div class="row mono grey" style="border-top: 0; padding-block: 14px 10px"><span>No.</span><span>Project</span><span class="c2">Sector</span><span class="c3">Discipline</span><span style="text-align: right">Year</span></div>
+<ol class="{{listCls}}" onMouseLeave="{{clear}}">
+<sc-for list="{{shown}}" as="p" hint-placeholder-count="10">
+<li><a href="{{p.href}}" class="{{p.rowCls}}" onMouseEnter="{{p.hover}}" onFocus="{{p.hover}}">
+<span class="mono">{{p.n}}</span><span class="nm">{{p.name}}</span><span class="c2">{{p.sector}}</span><span class="c3 grey">{{p.disc}}</span><span class="mono" style="text-align: right">{{p.year}}</span>
+</a></li>
+</sc-for>
+</ol>
+<div class="rule"></div>
+</div>
+<aside class="hide-s" aria-hidden="true" style="grid-column: 9 / span 4; position: sticky; top: 72px; align-self: start; padding-top: 40px">
+<figure class="media" style="aspect-ratio: 4 / 5"><img src="{{cur.img}}" alt=""></figure>
+<div class="pm"><p class="h-p">{{cur.name}}</p><p class="mono">{{cur.n}} / 10</p><p class="grey" style="font-size: 14px">{{cur.sector}} — {{cur.disc}}</p></div>
+</aside>
+</section>
+</sc-if>
+
+<sc-if value="{{isGrid}}" hint-placeholder-val="{{ false }}">
+<section aria-label="Project grid" class="g" style="padding-top: 48px; padding-bottom: 200px; row-gap: 88px; align-items: start">
+<sc-for list="{{shown}}" as="p" hint-placeholder-count="6">
+<a class="proj" href="{{p.href}}" style="{{p.cell}}">
+<figure class="media" style="{{p.ratio}}"><img src="{{p.img}}" alt="{{p.name}}"></figure>
+<div class="pm"><h2 class="h-p"><span class="u">{{p.name}}</span></h2><p class="mono">{{p.year}}</p><p class="grey" style="font-size: 14px">{{p.sector}} — {{p.disc}}</p></div>
+</a>
+</sc-for>
+</section>
+</sc-if>
+</main>
+
+<footer class="foot" style="padding-block: 96px 32px">
+<div class="g" style="align-items: end; row-gap: 32px">
+<p class="mono grey" style="grid-column: 1 / span 3">New business</p>
+<a class="u st" href="mailto:hello@morrow.studio" style="grid-column: 4 / span 9; letter-spacing: -0.045em">hello@morrow.studio</a>
+</div>
+<div class="g mono grey" style="margin-top: 96px">
+<p style="grid-column: 1 / span 3">© 2026 Morrow Studio</p>
+<p class="hide-s" style="grid-column: 4 / span 6"><a class="u" href="https://www.instagram.com/">Instagram</a> — <a class="u" href="https://www.are.na/">Are.na</a> — <a class="u" href="https://www.linkedin.com/">LinkedIn</a></p>
+<p style="grid-column: 10 / span 3; text-align: right">London / Worldwide</p>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1900}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { filter: 'All', view: 'list', hover: -1 }; }
+  renderVals() {
+    const P = [
+      ['Aster House', 'Hospitality', ['Identity', 'Digital'], '2026', '/_blob/42b22810c00e2f735db015ffafe54d8e'],
+      ['Nocturne', 'Culture', ['Art Direction'], '2026', '/_blob/386a1268d05ea963158718bf4e98bdd9'],
+      ['Forma', 'Architecture', ['Digital'], '2025', '/_blob/b42423a16f028a31bd54a92269f3d22f'],
+      ['Arc Athletics', 'Sport', ['Identity'], '2025', '/_blob/8a63c05d2914aa8e034fc2e49a9fc138'],
+      ['Halden', 'Landscape', ['Editorial'], '2025', '/_blob/07404ef1f1a5cb5cc893d07cca9c479c'],
+      ['Field Notes', 'Publishing', ['Editorial', 'Digital'], '2024', '/_blob/0b6d3602385510faba9329337df8a3b6'],
+      ['Sola Ceramics', 'Craft', ['Identity', 'Art Direction'], '2024', '/_blob/659cb95cfb70c2f3580a72fa7e8e86bc'],
+      ['Kiln', 'Food & Drink', ['Identity'], '2024', '/_blob/20dfede26066f6aa5c9ab20538cd5514'],
+      ['Meridian', 'Property', ['Digital'], '2023', '/_blob/a3437c78eb58d2c8153dd1accd4695da'],
+      ['Open Room', 'Exhibition', ['Art Direction', 'Editorial'], '2023', '/_blob/39b0a9f9c025cf05ca660b6010b06846']
+    ];
+    const H = ['Project', 'ProjectNocturne', 'ProjectForma', 'ProjectArc', 'ProjectHalden', 'ProjectFieldNotes', 'ProjectSola', 'ProjectKiln', 'ProjectMeridian', 'ProjectOpenRoom'];
+    const all = P.map((p, i) => ({ i, href: H[i] + '.dc.html', n: String(i + 1).padStart(2, '0'), name: p[0], sector: p[1], tags: p[2], disc: p[2].join(', '), year: p[3], img: p[4] }));
+    const F = ['All', 'Identity', 'Digital', 'Art Direction', 'Editorial'];
+    const { filter, view, hover } = this.state;
+    const filters = F.map((f) => {
+      const on = f === filter;
+      return { label: f, n: f === 'All' ? all.length : all.filter((p) => p.tags.includes(f)).length, pressed: on ? 'true' : 'false', ucls: on ? 'u on' : 'u', pick: () => this.setState({ filter: f, hover: -1 }) };
+    });
+    const list = filter === 'All' ? all : all.filter((p) => p.tags.includes(filter));
+    const cells = ['grid-column: span 4', 'grid-column: span 5; margin-top: 120px', 'grid-column: span 3', 'grid-column: span 3; margin-top: 64px', 'grid-column: 5 / span 4', 'grid-column: span 4; margin-top: 160px'];
+    const ratios = ['aspect-ratio: 4 / 5', 'aspect-ratio: 3 / 2', 'aspect-ratio: 3 / 4', 'aspect-ratio: 1 / 1', 'aspect-ratio: 4 / 5', 'aspect-ratio: 3 / 4'];
+    const shown = list.map((p, k) => ({ ...p,
+      rowCls: 'row' + (p.i === hover ? ' on' : ''),
+      hover: () => { if (this.state.hover !== p.i) this.setState({ hover: p.i }); },
+      cell: cells[k % 6], ratio: ratios[k % 6] }));
+    const cur = hover >= 0 ? all[hover] : list[0] || all[0];
+    return {
+      filters, shown, cur, count: String(list.length).padStart(2, '0'),
+      listCls: 'list' + (hover >= 0 ? ' hov' : ''),
+      clear: () => this.setState({ hover: -1 }),
+      isList: view === 'list', isGrid: view === 'grid',
+      listOn: view === 'list' ? 'true' : 'false', gridOn: view === 'grid' ? 'true' : 'false',
+      setList: () => this.setState({ view: 'list' }), setGrid: () => this.setState({ view: 'grid' })
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-05T09:19:16.909Z",
+  "deployed": true,
+  "url": "https://morrow-studio.sanity.studio/",
+  "projectId": "m2i4dwyo",
+  "dataset": "production",
+  "appId": "jx92edwt8m3z7yjbo3928zw4",
+  "command": "npm run studio:deploy -- --url morrow-studio --no-build",
+  "schemasUploaded": 1,
+  "contentDocumentsMutated": 0,
+  "contentDocumentsPublished": 0,
+  "previewUrl": "https://morrowstudio.balogunoluwasogo.com",
+  "previewDnsResult": "ENOTFOUND",
+  "hostedStatus": 200,
+  "hostedBrowserResult": "normal Sanity login"
+}

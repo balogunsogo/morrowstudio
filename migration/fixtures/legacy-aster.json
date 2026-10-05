@@ -1,0 +1,312 @@
+{
+  "_id": "a9258218-9e8f-4667-9dde-e6c5ec921be9",
+  "content": [
+    {
+      "_key": "3a3d8e03b042",
+      "_type": "textBlock",
+      "body": [
+        {
+          "_key": "0973d7a83302",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1ce53b4682be",
+              "_type": "span",
+              "marks": [],
+              "text": "Aster House is a twelve-room hotel in a converted 1890s seed merchant’s on the Kent coast. We built an identity and booking experience that behaves like the building — quiet, warm, and slow to reveal itself."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "93a41ec74017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "94bb286e79a2",
+              "_type": "span",
+              "marks": [],
+              "text": "The owners wanted to avoid the visual language of boutique hotels: no brass, no script logos, no lifestyle stock. The brief was a place that felt inherited rather than styled."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b2fce86177a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ac3064018ea7",
+              "_type": "span",
+              "marks": [],
+              "text": "The system is built from three materials — limewash tones, a single typeface used at extremes, and photography shot only in natural light between 3 and 6pm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "a7e1f527db84",
+      "_type": "fullWidthImage",
+      "alt": "Window light falling on the reception wall",
+      "caption": "Reception, 4.40pm. The light study that set the photographic brief.",
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d9c1b352274e8674c50422340d78137485ba6106-1800x1200-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "577d8840c8d0",
+      "_type": "imagePair",
+      "leftImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d6221281f4d9f415ec58bafadb38210b4251d0c0-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "rightImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6d4cb4a5df463ea8b70a81ab7eac5a4798571457-1400x1400-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "fd1efacf52bb",
+      "_type": "largeStatement",
+      "alignment": "left",
+      "text": "Rooms that feel found, not designed."
+    },
+    {
+      "_key": "34172ce6df3f",
+      "_type": "imagePair",
+      "leftImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-608b94ec7bf2d51c0466a5ae2a5e81e6174a6395-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "rightImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d63b31761a3ed439e87513a65f3c26366a9f4d90-1800x1200-jpg",
+          "_type": "reference"
+        }
+      }
+    },
+    {
+      "_key": "e39626c9ab01",
+      "_type": "imageWithText",
+      "alt": "Printed guest books and stationery",
+      "body": [
+        {
+          "_key": "f74b01fa32d9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "50dfef578d49",
+              "_type": "span",
+              "marks": [],
+              "text": "A wordmark that sits like a sign painted on a lintel.\nSet in a single weight with generous spacing, the mark is never locked up with a symbol. Each room carries its own number set in the same face — the only ornament in the system."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b1bea83e8e0563ddfef9a35838f2e5d2e6494ec3-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "layout": "imageLeft"
+    },
+    {
+      "_key": "fe984324265b",
+      "_type": "textBlock",
+      "body": [
+        {
+          "_key": "36dca98d7291",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "b36240797d3f",
+              "_type": "span",
+              "marks": [],
+              "text": "Bookings were moved from a third-party widget into a single, considered page: dates, a room, and a note to the house. Rates are shown in full on the first screen; nothing is upsold."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "79af74b1d2ae",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "35ee5daa207a",
+              "_type": "span",
+              "marks": [],
+              "text": "The site is built on a headless CMS so the owners can change the seasonal menu, the room notes and the photography themselves — every page is assembled from the same eleven modules used here."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "fc589d4c93d4",
+      "_type": "containedImage",
+      "alignment": "center",
+      "alt": "Bowl on linen, studio still life",
+      "caption": "Object photography, shot in-house",
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6d4cb4a5df463ea8b70a81ab7eac5a4798571457-1400x1400-jpg",
+          "_type": "reference"
+        }
+      },
+      "size": "large"
+    },
+    {
+      "_key": "84606317f7b5",
+      "_type": "videoBlock",
+      "autoplay": false,
+      "caption": "An afternoon at Aster House. Directed by Morrow, shot on 16mm.",
+      "loop": false,
+      "muted": true,
+      "poster": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-608b94ec7bf2d51c0466a5ae2a5e81e6174a6395-1200x1500-jpg",
+          "_type": "reference"
+        }
+      },
+      "sourceType": "url"
+    },
+    {
+      "_key": "e97740db3c60",
+      "_type": "gallery",
+      "images": [
+        {
+          "_key": "ee2e12e6dff2",
+          "_type": "image",
+          "alt": "Reception wall",
+          "asset": {
+            "_ref": "image-d9c1b352274e8674c50422340d78137485ba6106-1800x1200-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "e9a03d6cf44e",
+          "_type": "image",
+          "alt": "Tableware",
+          "asset": {
+            "_ref": "image-d6221281f4d9f415ec58bafadb38210b4251d0c0-1200x1500-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "922a40276666",
+          "_type": "image",
+          "alt": "Guest stationery",
+          "asset": {
+            "_ref": "image-b1bea83e8e0563ddfef9a35838f2e5d2e6494ec3-1200x1500-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "e317310bbde2",
+          "_type": "image",
+          "alt": "Stair hall",
+          "asset": {
+            "_ref": "image-d63b31761a3ed439e87513a65f3c26366a9f4d90-1800x1200-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "959ad68acdad",
+          "_type": "image",
+          "alt": "Lounge fire",
+          "asset": {
+            "_ref": "image-608b94ec7bf2d51c0466a5ae2a5e81e6174a6395-1200x1500-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "c4c439665f45",
+          "_type": "image",
+          "alt": "Breakfast bowl",
+          "asset": {
+            "_ref": "image-6d4cb4a5df463ea8b70a81ab7eac5a4798571457-1400x1400-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "layout": "strip"
+    },
+    {
+      "_key": "e83c790c0a86",
+      "_type": "quoteBlock",
+      "alignment": "left",
+      "author": "Co-owner, Aster House",
+      "quote": "They understood that the building already had a voice. Our job was to stop talking over it."
+    },
+    {
+      "_key": "1bb1dd8edd67",
+      "_type": "creditsBlock",
+      "items": [
+        {
+          "_key": "4149f41148ea",
+          "name": "Aster House, Margate",
+          "role": "Client"
+        },
+        {
+          "_key": "ef37896a9fe1",
+          "name": "Strategy & identity",
+          "role": "Morrow Studio"
+        },
+        {
+          "_key": "fac3c3fee462",
+          "name": "Digital design & build",
+          "role": "Morrow Studio"
+        },
+        {
+          "_key": "59b203b6e655",
+          "name": "[Photographer name]",
+          "role": "Photography"
+        },
+        {
+          "_key": "a703532ebdf2",
+          "name": "[Practice name]",
+          "role": "Interior architecture"
+        },
+        {
+          "_key": "2fe0339547c5",
+          "name": "[Award, 2026]",
+          "role": "Recognition"
+        }
+      ],
+      "title": "Credits"
+    }
+  ],
+  "slug": {
+    "_type": "slug",
+    "current": "aster-house"
+  },
+  "title": "Aster House"
+}

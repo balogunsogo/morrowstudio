@@ -1,0 +1,23 @@
+@mixin theme {
+  --bg: #f1efea;
+  --ink: #151513;
+  --grey: #6b6862;
+  --soft: #8c8880;
+  --rule: #d6d3cc;
+  --accent: #d4512a;
+  --m: 32px;
+  --gap: 20px;
+  --sec: 176px;
+
+  @media (max-width: 1024px) {
+    --m: 24px;
+    --gap: 16px;
+    --sec: 128px;
+  }
+
+  @media (max-width: 760px) {
+    --m: 16px;
+    --gap: 12px;
+    --sec: 88px;
+  }
+}

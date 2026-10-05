@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-05T02:06:09.815Z",
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "result": "pass",
+      "draftMode": true
+    },
+    {
+      "route": "/work",
+      "status": 200,
+      "result": "pass",
+      "draftMode": true
+    },
+    {
+      "route": "/work/aster-house",
+      "status": 200,
+      "result": "pass",
+      "draftMode": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "result": "pass",
+      "draftMode": true
+    },
+    {
+      "route": "/api/draft-mode/revision",
+      "result": "pass",
+      "draftMode": true,
+      "noStore": true
+    },
+    {
+      "action": "exit preview",
+      "result": "pass",
+      "draftMode": false
+    }
+  ],
+  "staticAssetsScanned": 75,
+  "secretsAbsent": true,
+  "boundary": "Simulated local Draft Mode session. Real Studio activation and live author mutation/field focus still require a signed-in Presentation session."
+}

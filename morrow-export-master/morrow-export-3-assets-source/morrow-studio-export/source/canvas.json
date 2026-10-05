@@ -1,0 +1,419 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "About.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 4600,
+      "title": "04 — About",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 7500,
+      "is_interactive": true,
+      "title": "01 — Home",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "MobileHome.dc.html": {
+      "h": 4400,
+      "is_interactive": true,
+      "title": "05 — Mobile · Home",
+      "w": 390,
+      "x": 6080,
+      "y": 0
+    },
+    "MobileMenu.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "06 — Mobile · Menu open",
+      "w": 390,
+      "x": 6550,
+      "y": 0
+    },
+    "MobileProject.dc.html": {
+      "h": 6050,
+      "title": "08 — Mobile · Project · 01 Aster House",
+      "w": 390,
+      "x": 7490,
+      "y": 0
+    },
+    "MobileAbout.dc.html": {
+      "h": 3630,
+      "title": "09 — Mobile · About",
+      "w": 390,
+      "x": 12190,
+      "y": 0
+    },
+    "MobileProjectArc.dc.html": {
+      "h": 4130,
+      "title": "Mobile · 04 Arc Athletics",
+      "w": 390,
+      "x": 8900,
+      "y": 0
+    },
+    "MobileProjectFieldNotes.dc.html": {
+      "h": 4360,
+      "title": "Mobile · 06 Field Notes",
+      "w": 390,
+      "x": 9840,
+      "y": 0
+    },
+    "MobileProjectForma.dc.html": {
+      "h": 4640,
+      "title": "Mobile · 03 Forma",
+      "w": 390,
+      "x": 8430,
+      "y": 0
+    },
+    "MobileProjectHalden.dc.html": {
+      "h": 4410,
+      "title": "Mobile · 05 Halden",
+      "w": 390,
+      "x": 9370,
+      "y": 0
+    },
+    "MobileProjectKiln.dc.html": {
+      "h": 4680,
+      "title": "Mobile · 08 Kiln",
+      "w": 390,
+      "x": 10780,
+      "y": 0
+    },
+    "MobileProjectMeridian.dc.html": {
+      "h": 4480,
+      "title": "Mobile · 09 Meridian",
+      "w": 390,
+      "x": 11250,
+      "y": 0
+    },
+    "MobileProjectNocturne.dc.html": {
+      "h": 4600,
+      "title": "Mobile · 02 Nocturne",
+      "w": 390,
+      "x": 7960,
+      "y": 0
+    },
+    "MobileProjectOpenRoom.dc.html": {
+      "h": 4420,
+      "title": "Mobile · 10 Open Room",
+      "w": 390,
+      "x": 11720,
+      "y": 0
+    },
+    "MobileProjectSola.dc.html": {
+      "h": 4500,
+      "title": "Mobile · 07 Sola Ceramics",
+      "w": 390,
+      "x": 10310,
+      "y": 0
+    },
+    "MobileWork.dc.html": {
+      "h": 1560,
+      "is_interactive": true,
+      "title": "07 — Mobile · Work",
+      "w": 390,
+      "x": 7020,
+      "y": 0
+    },
+    "Project.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "is_interactive": true,
+      "title": "03 — Project detail · Case study 01 — Aster House",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "ProjectArc.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 04 — Arc Athletics",
+      "w": 1440,
+      "x": 3040,
+      "y": 8800
+    },
+    "ProjectFieldNotes.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 06 — Field Notes",
+      "w": 1440,
+      "x": 6080,
+      "y": 8800
+    },
+    "ProjectForma.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "is_interactive": true,
+      "title": "Case study 03 — Forma",
+      "w": 1440,
+      "x": 1520,
+      "y": 8800
+    },
+    "ProjectHalden.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 05 — Halden",
+      "w": 1440,
+      "x": 4560,
+      "y": 8800
+    },
+    "ProjectKiln.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 08 — Kiln",
+      "w": 1440,
+      "x": 9120,
+      "y": 8800
+    },
+    "ProjectMeridian.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 09 — Meridian",
+      "w": 1440,
+      "x": 10640,
+      "y": 8800
+    },
+    "ProjectNocturne.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 02 — Nocturne",
+      "w": 1440,
+      "x": 0,
+      "y": 8800
+    },
+    "ProjectOpenRoom.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "title": "Case study 10 — Open Room",
+      "w": 1440,
+      "x": 12160,
+      "y": 8800
+    },
+    "ProjectSola.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 8000,
+      "is_interactive": true,
+      "title": "Case study 07 — Sola Ceramics",
+      "w": 1440,
+      "x": 7600,
+      "y": 8800
+    },
+    "System.dc.html": {
+      "h": 5000,
+      "title": "00 — Visual language & system",
+      "w": 1440,
+      "x": -1600,
+      "y": 0
+    },
+    "Work.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 20,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 32
+        }
+      ],
+      "h": 1900,
+      "is_interactive": true,
+      "title": "02 — Work archive",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-04T12:00:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "m1": {
+      "fill": "gray",
+      "text": "Motion — one curve everywhere: cubic-bezier(.2,.7,.1,1). Load: wordmark lines rise from a mask (1.2s, 80ms stagger), hero image unmasks top to bottom. Project hover: 1.035 scale inside a fixed crop + title underline draws in. Index to project: the clicked image FLIP-expands into the project hero, title cross-fades. Next project: the preview image scales to full-bleed and becomes the next hero. Statement: words shift from grey to ink as they cross 60% of the viewport. Reduced motion: no transforms, 150ms opacity only.",
+      "w": 380,
+      "x": 6080,
+      "y": 4520
+    },
+    "m2": {
+      "fill": "gray",
+      "text": "Mobile nav — the bar stays 56px. 'Menu' opens a full-screen ink sheet (clip-path from top, 600ms), links rise in sequence. The current page carries the accent dot. Close is the same button, relabelled.",
+      "w": 380,
+      "x": 6550,
+      "y": 960
+    },
+    "m3": {
+      "fill": "gray",
+      "text": "Touch replacement for the desktop hover-preview: every row carries its own thumbnail; filters become a horizontally scrolling text row. Rows are 72px+ tall.",
+      "w": 380,
+      "x": 7020,
+      "y": 2120
+    },
+    "t1": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "Morrow Studio — responsive visual direction",
+      "w": 240,
+      "x": -1600,
+      "y": -300
+    },
+    "t2": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "Case studies 02–10 — same template, different module mixes",
+      "w": 240,
+      "x": 0,
+      "y": 8500
+    }
+  },
+  "order": [
+    "System.dc.html",
+    "Main.dc.html",
+    "Work.dc.html",
+    "Project.dc.html",
+    "About.dc.html",
+    "MobileHome.dc.html",
+    "MobileMenu.dc.html",
+    "MobileWork.dc.html",
+    "MobileProject.dc.html",
+    "ProjectNocturne.dc.html",
+    "ProjectForma.dc.html",
+    "ProjectArc.dc.html",
+    "ProjectHalden.dc.html",
+    "ProjectFieldNotes.dc.html",
+    "ProjectSola.dc.html",
+    "ProjectKiln.dc.html",
+    "ProjectMeridian.dc.html",
+    "ProjectOpenRoom.dc.html",
+    "MobileProjectNocturne.dc.html",
+    "MobileProjectForma.dc.html",
+    "MobileProjectArc.dc.html",
+    "MobileProjectHalden.dc.html",
+    "MobileProjectFieldNotes.dc.html",
+    "MobileProjectSola.dc.html",
+    "MobileProjectKiln.dc.html",
+    "MobileProjectMeridian.dc.html",
+    "MobileProjectOpenRoom.dc.html",
+    "MobileAbout.dc.html"
+  ],
+  "pages": [],
+  "title": "Morrow Studio"
+}

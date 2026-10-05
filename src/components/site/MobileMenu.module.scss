@@ -1,0 +1,36 @@
+@use '../../styles/typography';
+.menu {
+  position: fixed; inset: 0; width: 100%; max-width: none; height: 100dvh; max-height: none;
+  margin: 0; border: 0; padding: 0 var(--m) 20px; overflow-y: auto;
+  background: var(--ink); color: var(--bg); font-family: var(--font-geist-sans), sans-serif;
+  text-transform: none; letter-spacing: normal; font-size: 14px; line-height: normal;
+  &[open] { display: flex; flex-direction: column; animation: enter .18s ease-out; }
+  &::backdrop { background: var(--ink); }
+  a { color: inherit; text-decoration: none; }
+  :focus-visible { outline: 1px solid currentColor; outline-offset: 3px; }
+  ol, ul, p { margin: 0; padding: 0; list-style: none; }
+  a[aria-current='page'] { text-decoration: none; }
+}
+.header { display: flex; align-items: center; justify-content: space-between; min-height: 56px; flex-shrink: 0; }
+.brand { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; }
+.menu .close { @include typography.mono; background: none; border: 0; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0; span { font-size: 16px; } }
+.links { margin-top: 48px; a { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; padding-block: 6px; border-top: 1px solid #34332f; overflow: hidden; } li:last-child a { border-bottom: 1px solid #34332f; } }
+.label { font-size: clamp(48px, 15.385vw, 60px); line-height: 1; letter-spacing: -.05em; padding-block: 4px; sup { @include typography.mono; font-size: 11px; vertical-align: top; margin-left: 6px; position: relative; top: .5em; } }
+.menu .links a[aria-current='page'] { text-decoration: none; }
+.links a[aria-current='page'] .label::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); margin-right: 14px; vertical-align: .35em; }
+.number, .muted { @include typography.mono; color: #9a968e; }
+.teaser { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; align-items: center; margin-top: 32px; }
+.thumbnail { height: 90px; overflow: hidden; background: #34332f; img { display: block; width: 100%; height: 100%; object-fit: cover; } }
+.teaserTitle { display: block; font-size: 19px; letter-spacing: -.02em; margin-top: 4px; }
+.details { margin-top: auto; padding-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; min-width: 0; a { overflow-wrap: anywhere; min-height: 36px; display: inline-flex; align-items: center; } }
+.location { text-align: right; white-space: pre-line; }
+.menu .socials { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0 20px; border-top: 1px solid #34332f; padding-top: 4px; @include typography.mono; a { min-height: 44px; } }
+@keyframes enter { from { opacity: 0; } to { opacity: 1; } }
+.menu[open] .label { animation: menu-link .9s cubic-bezier(.2,.7,.1,1) both; }
+.menu[open] .links a:focus-visible .label { animation: none; transform: none; opacity: 1; }
+@for $index from 1 through 4 { .links li:nth-child(#{$index}) .label { animation-delay: ($index - 1) * .06s; } }
+@keyframes menu-link { from { transform: translateY(60%); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .menu[open], .menu[open] .label { animation: none !important; transform: none; opacity: 1; }
+  .menu, .menu * { transition: none !important; scroll-behavior: auto !important; }
+}

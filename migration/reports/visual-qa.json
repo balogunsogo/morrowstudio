@@ -1,0 +1,251 @@
+{
+  "at": "2026-10-05T02:06:18.666Z",
+  "convention": "Source reference left; application right. Visual comparisons, not a pixel-identity assertion.",
+  "evidence": [
+    {
+      "route": "home",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\01-home.png",
+      "screenshot": "migration/reports/screenshots/home-1440.png",
+      "comparison": "migration/reports/visual-qa/home-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 7187
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 7184
+      }
+    },
+    {
+      "route": "home",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\01-home.png",
+      "screenshot": "migration/reports/screenshots/home-390.png",
+      "comparison": "migration/reports/visual-qa/home-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 4400
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 4349
+      }
+    },
+    {
+      "route": "work",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\02-work.png",
+      "screenshot": "migration/reports/screenshots/work-1440.png",
+      "comparison": "migration/reports/visual-qa/work-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 1768
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 1743
+      }
+    },
+    {
+      "route": "work",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\03-work.png",
+      "screenshot": "migration/reports/screenshots/work-390.png",
+      "comparison": "migration/reports/visual-qa/work-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 1560
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 1613
+      }
+    },
+    {
+      "route": "about",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\03-about.png",
+      "screenshot": "migration/reports/screenshots/about-1440.png",
+      "comparison": "migration/reports/visual-qa/about-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 4784
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 4719
+      }
+    },
+    {
+      "route": "about",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\04-about.png",
+      "screenshot": "migration/reports/screenshots/about-390.png",
+      "comparison": "migration/reports/visual-qa/about-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 3630
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 3796
+      }
+    },
+    {
+      "route": "work-aster-house",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-01-aster-house.png",
+      "screenshot": "migration/reports/screenshots/work-aster-house-1440.png",
+      "comparison": "migration/reports/visual-qa/work-aster-house-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 10824
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 11347
+      }
+    },
+    {
+      "route": "work-aster-house",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-01-aster-house.png",
+      "screenshot": "migration/reports/screenshots/work-aster-house-390.png",
+      "comparison": "migration/reports/visual-qa/work-aster-house-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 6050
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 6411
+      }
+    },
+    {
+      "route": "work-nocturne",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-02-nocturne.png",
+      "screenshot": "migration/reports/screenshots/work-nocturne-1440.png",
+      "comparison": "migration/reports/visual-qa/work-nocturne-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 7542
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 7918
+      }
+    },
+    {
+      "route": "work-nocturne",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-02-nocturne.png",
+      "screenshot": "migration/reports/screenshots/work-nocturne-390.png",
+      "comparison": "migration/reports/visual-qa/work-nocturne-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 4600
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 4914
+      }
+    },
+    {
+      "route": "work-forma",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-03-forma.png",
+      "screenshot": "migration/reports/screenshots/work-forma-1440.png",
+      "comparison": "migration/reports/visual-qa/work-forma-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 7777
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 7990
+      }
+    },
+    {
+      "route": "work-forma",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-03-forma.png",
+      "screenshot": "migration/reports/screenshots/work-forma-390.png",
+      "comparison": "migration/reports/visual-qa/work-forma-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 4640
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 4868
+      }
+    },
+    {
+      "route": "work-arc-athletics",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1a-desktop-pages\\morrow-studio-export\\frames\\desktop\\case-04-arc-athletics.png",
+      "screenshot": "migration/reports/screenshots/work-arc-athletics-1440.png",
+      "comparison": "migration/reports/visual-qa/work-arc-athletics-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 7958
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 8333
+      }
+    },
+    {
+      "route": "work-arc-athletics",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-04-arc-athletics.png",
+      "screenshot": "migration/reports/screenshots/work-arc-athletics-390.png",
+      "comparison": "migration/reports/visual-qa/work-arc-athletics-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 4130
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 4347
+      }
+    },
+    {
+      "route": "work-open-room",
+      "viewport": "desktop",
+      "reference": "morrow-export-master\\morrow-export-1b-desktop-cases\\morrow-studio-export\\frames\\desktop\\case-10-open-room.png",
+      "screenshot": "migration/reports/screenshots/work-open-room-1440.png",
+      "comparison": "migration/reports/visual-qa/work-open-room-1440.png",
+      "referenceDimensions": {
+        "width": 1440,
+        "height": 7310
+      },
+      "screenshotDimensions": {
+        "width": 1440,
+        "height": 7359
+      }
+    },
+    {
+      "route": "work-open-room",
+      "viewport": "mobile",
+      "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\case-10-open-room.png",
+      "screenshot": "migration/reports/screenshots/work-open-room-390.png",
+      "comparison": "migration/reports/visual-qa/work-open-room-390.png",
+      "referenceDimensions": {
+        "width": 390,
+        "height": 4420
+      },
+      "screenshotDimensions": {
+        "width": 390,
+        "height": 4691
+      }
+    }
+  ],
+  "menu": {
+    "reference": "morrow-export-master\\morrow-export-2-mobile\\morrow-studio-export\\frames\\mobile\\02-menu.png",
+    "screenshot": "migration/reports/screenshots/menu-390.png",
+    "comparison": "migration/reports/visual-qa/menu-390.png"
+  }
+}

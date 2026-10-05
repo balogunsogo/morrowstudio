@@ -1,0 +1,43 @@
+@mixin mono {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+
+  @media (max-width: 760px) { font-size: 10.5px; }
+}
+
+@mixin statement {
+  font-size: clamp(32px, 4.4vw, 66px);
+  line-height: 1.02;
+  letter-spacing: -.035em;
+  font-weight: 400;
+}
+
+@mixin rich-text {
+  font-size: 18px;
+  line-height: 1.55;
+
+  > * + * { margin-top: 24px; }
+  p + p { color: var(--grey); }
+  h3 {
+    font-size: clamp(26px, 2.4vw, 36px);
+    line-height: 1.15;
+    letter-spacing: -.025em;
+    font-weight: 400;
+  }
+  strong { font-weight: 500; }
+  a { text-decoration: underline; text-underline-offset: 3px; }
+  ul, ol { padding-left: 1.2em; }
+  ul { list-style: disc; }
+  ol { list-style: decimal; }
+  li + li { margin-top: 8px; }
+  blockquote { border-left: 1px solid var(--rule); padding-left: 24px; }
+
+  @media (max-width: 760px) {
+    font-size: 15px;
+    > * + * { margin-top: 20px; }
+    h3 { font-size: 24px; }
+  }
+}

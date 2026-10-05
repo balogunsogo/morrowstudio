@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-05T02:04:04.062Z",
+  "configuredOrigin": null,
+  "results": [
+    {
+      "route": "/",
+      "title": "Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work",
+      "title": "Work — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/about",
+      "title": "About — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/aster-house",
+      "title": "Aster House — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/nocturne",
+      "title": "Nocturne — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/forma",
+      "title": "Forma — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/arc-athletics",
+      "title": "Arc Athletics — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/halden",
+      "title": "Halden — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/field-notes",
+      "title": "Field Notes — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "title": "Sola Ceramics — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/kiln",
+      "title": "Kiln — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/meridian",
+      "title": "Meridian — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    },
+    {
+      "route": "/work/open-room",
+      "title": "Open Room — Morrow Studio",
+      "result": "pass",
+      "canonical": null,
+      "openGraph": true,
+      "twitter": true
+    }
+  ],
+  "robots": true,
+  "sitemap": true,
+  "favicon": true,
+  "environmentSafe": true
+}

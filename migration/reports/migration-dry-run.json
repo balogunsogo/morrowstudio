@@ -1,0 +1,445 @@
+{
+  "at": "2026-10-05T00:08:26.971Z",
+  "dryRun": true,
+  "publish": false,
+  "backup": "migration\\backups\\2026-10-05T00-08-23-308Z-dry-run.json",
+  "assets": [
+    {
+      "filename": "arc-badge.jpg",
+      "sha256": "5ababca16bea8ffac02efbf3624c36cf8ed88557495e5d5ab226c0e01f1ed4ad",
+      "action": "would-upload"
+    },
+    {
+      "filename": "arc-bend.jpg",
+      "sha256": "9c4792cbe1a3d5e8a890880abd4322fb216627fcd0831af435dc7632f7386a45",
+      "action": "would-upload"
+    },
+    {
+      "filename": "arc-kit.jpg",
+      "sha256": "28e863a6cea8c7765413bf933750d686f96b261e3022395d6544bcad0799ac47",
+      "action": "would-upload"
+    },
+    {
+      "filename": "arc-lanes.jpg",
+      "sha256": "b5b3f0672e80180fdaec50d2ed6b67f6c6d741ced4c37419b3b1d936c1af2f75",
+      "action": "would-upload"
+    },
+    {
+      "filename": "arc-night.jpg",
+      "sha256": "e0d849920c2c9cdf33399ae56e75e4b9fb9057e25155a928d303618ff790f790",
+      "action": "would-upload"
+    },
+    {
+      "filename": "arc.jpg",
+      "sha256": "049bbc267853c2b04a3fa0e7dbce0aa0c1d5fd32b8d27698943c4a45a86b2297",
+      "id": "image-8e6cfb374a9d0b2eb20cd0e7d3593eae781023da-1800x1200-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "aster-card.jpg",
+      "sha256": "0371f40e5fe5140db44757806779a78550a3315cd225620fe9f438b8544bb4be",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-door.jpg",
+      "sha256": "0861846cb3db6b787c9292b10f3ca12ccbb27e9c4bd2d213ecebb3d2a19ecf81",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-email.jpg",
+      "sha256": "f78781f1dc6f8cef23a11a8a4cc68d778148fbeb91867a2579efc3fd00031167",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-fob.jpg",
+      "sha256": "ad780d132225f8d57aa20d37115da74ca318be348b5dbf9cf00695f43156c1f0",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-lintel.jpg",
+      "sha256": "88e8b3d0d5b7d93b47b5e85d47e16cca3c6e3cfee538a22add314dc184e377f1",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-room.jpg",
+      "sha256": "552baf4923f30920f216fbb805af5a92fdf0471e58db03693adf8378be26ba93",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-site.jpg",
+      "sha256": "5cf783d45453fbcc3f654676e9f3cf7bc375e8213158e24c15fd8331b977f42a",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster-stationery.jpg",
+      "sha256": "211658e6f6fc23108819c7dd3f8634c19184a2f5fd1ada585fc501189478f52c",
+      "action": "would-upload"
+    },
+    {
+      "filename": "aster.jpg",
+      "sha256": "7c98029d346e677fb43a1898e73fdde5a3e8db6c91743abb92fbd12decff2270",
+      "id": "image-d63b31761a3ed439e87513a65f3c26366a9f4d90-1800x1200-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "fieldnotes.jpg",
+      "sha256": "489da14cfb2f1be37e6f10ed07c0b2b5f10ac3c004d219e422e2e77fb66a420d",
+      "id": "image-b1bea83e8e0563ddfef9a35838f2e5d2e6494ec3-1200x1500-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "fn-covers.jpg",
+      "sha256": "91e004032f5ee5c0f33accdbf0b837158beb6a7848bd116ca1848ee5d0b5ceb7",
+      "action": "would-upload"
+    },
+    {
+      "filename": "fn-screen.jpg",
+      "sha256": "d4119e300615cc4b439ff93f9fd393a41a25c7d8a3182d61eb5eccc654cc8fc9",
+      "action": "would-upload"
+    },
+    {
+      "filename": "fn-shelf.jpg",
+      "sha256": "57089b08e5510419f317388a9ebf5cde4ccd13a19b01572a37f96bb828a89c59",
+      "action": "would-upload"
+    },
+    {
+      "filename": "fn-spread.jpg",
+      "sha256": "150a90c618bddf50a2e7f5209f3d0fcdfd72fb2ecffa5fb627c13fb4ff6422a0",
+      "action": "would-upload"
+    },
+    {
+      "filename": "fn-stack.jpg",
+      "sha256": "39840482313280c0599a5ee8c4d63d0735f946018ad3e1e20d3080aa3117fc6c",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma-2.jpg",
+      "sha256": "259798c9806f83892854e8da48fc7611b68978be97e60f7ccdb06f105ba0521b",
+      "id": "image-7f422da506fbd5644092a7d16f0889511da9fd0c-1800x1200-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "forma-court.jpg",
+      "sha256": "d089f42a1e40bd97b1001f4b96b9b0c0e92d83bbc9abd96fcef54c4feab866c3",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma-facade.jpg",
+      "sha256": "b8c9fcaacf6b25cea1868c3e17bfa09fb2ce08d1ee25e2964ac518599a07b6a9",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma-model.jpg",
+      "sha256": "0385c29131d9dcd15f84067736fe6850796e46351e90d6b572dbdda76aff72b8",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma-plan.jpg",
+      "sha256": "b7b7bd460e16c1266775bcc2c554d009ace96f85d6d5e8e850ddf585da30aafa",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma-stair.jpg",
+      "sha256": "229b82c9850145bdcb7fdb7bbb275f49d85365966a4e6412abbc4f2a32e8a68c",
+      "action": "would-upload"
+    },
+    {
+      "filename": "forma.jpg",
+      "sha256": "c2e2f9396fc249b09135acf54aa0297669b4b6cdb4299609f7a05f3ff1d61260",
+      "id": "image-e78e772d9a59f9a5f10f1a19cf508078c071c40e-1200x1500-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "halden-fields.jpg",
+      "sha256": "5911a1ddb4c41a86d2a4e8e37fe721530a63e6aeea06006e115c75c3cb9d10ae",
+      "action": "would-upload"
+    },
+    {
+      "filename": "halden-grass.jpg",
+      "sha256": "8fbe9bfff0bc785b21ceeae7c90f36741fa999b5c79ee43bd2f0a33e0526381a",
+      "action": "would-upload"
+    },
+    {
+      "filename": "halden-spread.jpg",
+      "sha256": "3cd5c8e86b068526d5eaa2a7964dece63e50af9a29817ccfc4591825d7105014",
+      "action": "would-upload"
+    },
+    {
+      "filename": "halden-stone.jpg",
+      "sha256": "1e2f073e78ae9c6f854ecd28d7891ba07eaa11e0a42b2bcd82844b705d184a40",
+      "action": "would-upload"
+    },
+    {
+      "filename": "halden-water.jpg",
+      "sha256": "3af6f6e29189b8ba252913bce747255bf385f8674ab77058a3a8a5b10f33d2be",
+      "action": "would-upload"
+    },
+    {
+      "filename": "halden.jpg",
+      "sha256": "50048b4514034fc13fbb951c66520700783bd5fe094c676cfaa1a4f9e959cb6c",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln-bag.jpg",
+      "sha256": "8828a99a9517ccf5c58ad701da3de12e7088611b8911bbfb75f9e97b6a8a7d9d",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln-counter.jpg",
+      "sha256": "f4977b5f44a6a4e686873c2a1e7dd24e3c97f47068c02d19e0463f2f6013fb45",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln-cup.jpg",
+      "sha256": "f21da8c4d4e76ca99f1209fdde928b655dbfc95a9a52cf37d7b7ff420e843e3e",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln-flour.jpg",
+      "sha256": "e1a2f3dbe0e91af7ab9a18d503ad29e0e250ab3ea73c639b8df5e4803b46880f",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln-loaf.jpg",
+      "sha256": "929252e58bc43dc1527fd19be959b6a5b5601de89d80ba623777922d3604523d",
+      "action": "would-upload"
+    },
+    {
+      "filename": "kiln.jpg",
+      "sha256": "2a8ffd396a4cd1e55087541ecca9d8eb79a3a9d280a9e071bd4cfcc002eef264",
+      "id": "image-608b94ec7bf2d51c0466a5ae2a5e81e6174a6395-1200x1500-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "mer-facade.jpg",
+      "sha256": "5d8da06d3349a590d82828ff78385bee0bab39eb35c98500e182b86e3bf54182",
+      "action": "would-upload"
+    },
+    {
+      "filename": "mer-interior.jpg",
+      "sha256": "ac92c6428efff32a2e86f2799f6a41cc66cc9b0cf4f4df89ef055bd99578a5b8",
+      "action": "would-upload"
+    },
+    {
+      "filename": "mer-plan.jpg",
+      "sha256": "1935a3669a0ea1e9c242b504d2e13b215e3a5e4ce8d62d72006aeb2c4770cbb1",
+      "action": "would-upload"
+    },
+    {
+      "filename": "mer-screen.jpg",
+      "sha256": "fb549e3495abf5932ebf5f9722bc5b868648781a4a0a96364228908206346870",
+      "action": "would-upload"
+    },
+    {
+      "filename": "mer-tower.jpg",
+      "sha256": "6f98f318bba5075b4dca88d14a5ecbdd8383fcd79d7cfd62970adf83b324592b",
+      "action": "would-upload"
+    },
+    {
+      "filename": "meridian.jpg",
+      "sha256": "e1b78b52aaff721988fbb54cf409343d1c25019514c66ee44a7df7db191061fb",
+      "action": "would-upload"
+    },
+    {
+      "filename": "noct-cone.jpg",
+      "sha256": "3864d0bee4e19b6c211b0e9cbec7c11803779106c9d38cf7e3446a5ba30cfc72",
+      "action": "would-upload"
+    },
+    {
+      "filename": "noct-crowd.jpg",
+      "sha256": "c618609dd41b37c8cdf2ac5afff5e3c09870d1773c75f4241f4a59252ef59c6e",
+      "action": "would-upload"
+    },
+    {
+      "filename": "noct-neon.jpg",
+      "sha256": "4f8591b49697f4205dc584d3b1fdafe7d5dd776a24b6d0b31dd7d1b9a28d8d26",
+      "action": "would-upload"
+    },
+    {
+      "filename": "noct-posters.jpg",
+      "sha256": "97fe114e34bf97d057511dc9b9ae04f8c88a48145931df82e0a954a78d92fda2",
+      "action": "would-upload"
+    },
+    {
+      "filename": "noct-stage.jpg",
+      "sha256": "59136330ee984811fd75772ddb3eff9ecf770b65e789a3d585b827ffd7753795",
+      "action": "would-upload"
+    },
+    {
+      "filename": "nocturne.jpg",
+      "sha256": "a7153b7004f6a9379f4939692b5654c532293f567c1b574f16eeed47f0ff8fbb",
+      "id": "image-e46aef505d2cba6aecba5d97c41ae7729e1fb25c-2400x1000-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "or-catalogue.jpg",
+      "sha256": "0b2d7fe57ea875cbe18c196bf65be06b80b59db5a7c63e3a46911e3bccb9f13e",
+      "action": "would-upload"
+    },
+    {
+      "filename": "or-plinth.jpg",
+      "sha256": "0eff891ced8ca9ccd025f09606b556724fd9568e6cc49020f2041eec9ae1c870",
+      "action": "would-upload"
+    },
+    {
+      "filename": "or-poster.jpg",
+      "sha256": "e513476b0d3fa3cfd8336911b5ba58eebdc68461607c3c6113dad282aa5886ca",
+      "action": "would-upload"
+    },
+    {
+      "filename": "or-visitor.jpg",
+      "sha256": "17059970d6fe5b4e3c7673ad3c270353f5551040c876cf80949f6485327b29e5",
+      "action": "would-upload"
+    },
+    {
+      "filename": "or-wall.jpg",
+      "sha256": "c33e55a0640bef86b8210bc61ddf0e48ac9ac9643a588887b65e35e9d7e6c135",
+      "action": "would-upload"
+    },
+    {
+      "filename": "portrait.jpg",
+      "sha256": "a85e873f0f66f673d283cfea9cdf6c2b42d6d9b504d2688c54cf24deeebf6a08",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola-box.jpg",
+      "sha256": "c1cba0caf7aea61a6643b770380abe2cbe7479c00616739f0d6884ea17b6a8f4",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola-glaze.jpg",
+      "sha256": "f9988e8ef936293b8d6ae40c6be356b96eed13f9edfa3d153e49e08c2e0f228e",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola-plates.jpg",
+      "sha256": "6183115c3e59254e53bcf7eebb78e406bc027a944f420bdd938b05313a2a7a7d",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola-studio.jpg",
+      "sha256": "8698e781b7d308039caa9f4130df4f15de20bb114b38e767f4b36bd2e82ed6b8",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola-vase.jpg",
+      "sha256": "66cfac423ccc605b871ee5d87086f483c01204608f60e36e1d239a33c4716849",
+      "action": "would-upload"
+    },
+    {
+      "filename": "sola.jpg",
+      "sha256": "c38232101864fddf06227408a4eacb9e3957190be7fb1513d01a3144538bf63d",
+      "id": "image-6d4cb4a5df463ea8b70a81ab7eac5a4798571457-1400x1400-jpg",
+      "action": "reused"
+    },
+    {
+      "filename": "studio.jpg",
+      "sha256": "f4cbf06989f9d8141931df2f025c9e555f76473e6b2f71db6f6a52ae3bb015ac",
+      "id": "image-d9c1b352274e8674c50422340d78137485ba6106-1800x1200-jpg",
+      "action": "reused"
+    }
+  ],
+  "documents": [
+    {
+      "id": "a9258218-9e8f-4667-9dde-e6c5ec921be9",
+      "type": "project",
+      "slug": "aster-house",
+      "action": "patched",
+      "blocks": 14,
+      "desktopBlocks": 12,
+      "mobileBlocks": 11
+    },
+    {
+      "id": "1277004a-38e9-4ca8-b72c-825dbc9e7d2d",
+      "type": "project",
+      "slug": "nocturne",
+      "action": "patched",
+      "blocks": 11,
+      "desktopBlocks": 9,
+      "mobileBlocks": 9
+    },
+    {
+      "id": "195742fd-c77c-4c28-aeb7-2a6dad955937",
+      "type": "project",
+      "slug": "forma",
+      "action": "patched",
+      "blocks": 13,
+      "desktopBlocks": 9,
+      "mobileBlocks": 9
+    },
+    {
+      "id": "d139d57c-3107-4c46-8b6a-a91884e95bec",
+      "type": "project",
+      "slug": "arc-athletics",
+      "action": "patched",
+      "blocks": 11,
+      "desktopBlocks": 9,
+      "mobileBlocks": 8
+    },
+    {
+      "id": "morrow-project-halden",
+      "type": "project",
+      "slug": "halden",
+      "action": "created",
+      "blocks": 12,
+      "desktopBlocks": 9,
+      "mobileBlocks": 9
+    },
+    {
+      "id": "0f1947db-d8aa-4258-9fa3-b64170844674",
+      "type": "project",
+      "slug": "field-notes",
+      "action": "patched",
+      "blocks": 12,
+      "desktopBlocks": 9,
+      "mobileBlocks": 8
+    },
+    {
+      "id": "morrow-project-sola-ceramics",
+      "type": "project",
+      "slug": "sola-ceramics",
+      "action": "created",
+      "blocks": 11,
+      "desktopBlocks": 9,
+      "mobileBlocks": 9
+    },
+    {
+      "id": "morrow-project-kiln",
+      "type": "project",
+      "slug": "kiln",
+      "action": "created",
+      "blocks": 11,
+      "desktopBlocks": 9,
+      "mobileBlocks": 9
+    },
+    {
+      "id": "morrow-project-meridian",
+      "type": "project",
+      "slug": "meridian",
+      "action": "created",
+      "blocks": 13,
+      "desktopBlocks": 9,
+      "mobileBlocks": 10
+    },
+    {
+      "id": "morrow-project-open-room",
+      "type": "project",
+      "slug": "open-room",
+      "action": "created",
+      "blocks": 11,
+      "desktopBlocks": 8,
+      "mobileBlocks": 8
+    },
+    {
+      "id": "homepage",
+      "type": "homepage",
+      "action": "patched"
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "action": "patched"
+    }
+  ],
+  "validated": true
+}

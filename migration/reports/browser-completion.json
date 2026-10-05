@@ -1,0 +1,554 @@
+{
+  "at": "2026-10-05T02:05:41.210Z",
+  "base": "http://localhost:3100",
+  "widths": [
+    1440,
+    1024,
+    768,
+    760,
+    390,
+    320
+  ],
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 1440,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 1024,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 768,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 760,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 390,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/aster-house",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/nocturne",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/forma",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/arc-athletics",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/halden",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/field-notes",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/sola-ceramics",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/kiln",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/meridian",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/work/open-room",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    },
+    {
+      "route": "/studio",
+      "width": 320,
+      "status": 200,
+      "result": "pass"
+    }
+  ],
+  "screenshots": [
+    "migration/reports/screenshots/home-1440.png",
+    "migration/reports/screenshots/work-1440.png",
+    "migration/reports/screenshots/work-aster-house-1440.png",
+    "migration/reports/screenshots/work-nocturne-1440.png",
+    "migration/reports/screenshots/work-forma-1440.png",
+    "migration/reports/screenshots/work-arc-athletics-1440.png",
+    "migration/reports/screenshots/work-open-room-1440.png",
+    "migration/reports/screenshots/about-1440.png",
+    "migration/reports/screenshots/menu-390.png",
+    "migration/reports/screenshots/home-390.png",
+    "migration/reports/screenshots/work-390.png",
+    "migration/reports/screenshots/work-aster-house-390.png",
+    "migration/reports/screenshots/work-nocturne-390.png",
+    "migration/reports/screenshots/work-forma-390.png",
+    "migration/reports/screenshots/work-arc-athletics-390.png",
+    "migration/reports/screenshots/work-open-room-390.png",
+    "migration/reports/screenshots/about-390.png"
+  ],
+  "failures": [],
+  "security": [
+    {
+      "route": "/api/draft-mode/revision",
+      "status": 403,
+      "result": "pass"
+    },
+    {
+      "route": "/api/draft-mode/enable?sanity-preview-secret=invalid",
+      "status": 401,
+      "result": "pass"
+    }
+  ],
+  "reducedMotion": {
+    "normal": "project-rise",
+    "reduced": "none"
+  }
+}

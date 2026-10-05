@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Morrow Studio — Mobile work</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&amp;family=Geist+Mono:wght@400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F1EFEA}
+.mb{--bg:#F1EFEA;--ink:#151513;--grey:#6B6862;--rule:#D6D3CC;--accent:#D4512A;--m:16px;background:var(--bg);color:var(--ink);font-family:'Geist',ui-sans-serif,system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.mb *{box-sizing:border-box}
+.mb a{color:inherit;text-decoration:none}
+.mb img{display:block;width:100%;height:100%;object-fit:cover}
+.mb h1,.mb h2,.mb p,.mb ul,.mb ol{margin:0;padding:0}
+.mb ul,.mb ol{list-style:none}
+.mb button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.mb :focus-visible{outline:1px solid currentColor;outline-offset:3px}
+.mono{font-family:'Geist Mono',ui-monospace,monospace;font-size:10.5px;line-height:1.45;letter-spacing:.02em;text-transform:uppercase}
+.grey{color:var(--grey)}
+.bar{position:sticky;top:0;z-index:5;height:56px;display:flex;align-items:center;justify-content:space-between;padding-inline:var(--m);color:#fff;mix-blend-mode:difference}
+.tap{min-height:44px;display:inline-flex;align-items:center}
+.chips{display:flex;gap:22px;overflow-x:auto;padding-inline:var(--m);scrollbar-width:none;border-bottom:1px solid var(--rule)}
+.flt{flex:none;min-height:48px;display:inline-flex;align-items:center;gap:3px;color:var(--grey);font-size:15px}
+.flt[aria-pressed="true"]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--ink)}
+.flt sup{font-family:'Geist Mono',monospace;font-size:9px;align-self:flex-start;margin-top:13px}
+.row{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:center;padding-block:12px;border-bottom:1px solid var(--rule)}
+.th{height:80px;overflow:hidden;background:#E4E1DA}
+</style>
+</helmet>
+<div class="mb" style="width: 390px; min-height: 1560px">
+<header class="bar">
+<a class="tap" href="MobileHome.dc.html" style="font-size: 15px; font-weight: 500">Morrow Studio</a>
+<a class="tap mono" href="MobileMenu.dc.html" aria-label="Open menu" style="gap: 8px">Menu <span aria-hidden="true" style="font-size: 16px; line-height: 1">+</span></a>
+</header>
+<main>
+<div style="padding: 40px var(--m) 0">
+<h1 style="font-size: 104px; line-height: .8; letter-spacing: -0.06em; font-weight: 400">Work<sup class="mono" style="font-size: 11px; letter-spacing: 0; vertical-align: top; margin-left: 6px; position: relative; top: .4em">({{count}})</sup></h1>
+<p style="margin-top: 24px; font-size: 17px; line-height: 1.35; max-width: 300px" class="grey">Identities, digital platforms and art direction, 2019 — 2026.</p>
+</div>
+<div role="group" aria-label="Filter by discipline" class="chips" style="margin-top: 40px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="5">
+<button class="flt" type="button" aria-pressed="{{f.pressed}}" onClick="{{f.pick}}">{{f.label}}<sup>{{f.n}}</sup></button>
+</sc-for>
+</div>
+<ol style="padding-inline: var(--m)">
+<sc-for list="{{shown}}" as="p" hint-placeholder-count="10">
+<li><a class="row" href="{{p.href}}">
+<span class="th"><img src="{{p.img}}" alt=""></span>
+<span><span style="display: block; font-size: 20px; line-height: 1.15; letter-spacing: -0.02em">{{p.name}}</span><span class="grey" style="display: block; font-size: 13px; margin-top: 2px">{{p.sector}} — {{p.disc}}</span></span>
+<span class="mono" style="text-align: right">{{p.n}}<br><span class="grey">{{p.year}}</span></span>
+</a></li>
+</sc-for>
+</ol>
+</main>
+<footer style="padding: 64px var(--m) 32px" class="mono grey">
+<a class="tap" href="mailto:hello@morrow.studio" style="color: var(--ink); font-family: 'Geist', sans-serif; text-transform: none; font-size: 22px; letter-spacing: -0.03em; border-bottom: 1px solid currentColor; min-height: 0; padding-bottom: 2px">hello@morrow.studio</a>
+<p style="margin-top: 24px; display: flex; justify-content: space-between"><span>© 2026 Morrow</span><span>London / Worldwide</span></p>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1560}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { filter: 'All' }; }
+  renderVals() {
+    const P = [
+      ['Aster House', 'Hospitality', ['Identity', 'Digital'], '2026', '/_blob/42b22810c00e2f735db015ffafe54d8e'],
+      ['Nocturne', 'Culture', ['Art Direction'], '2026', '/_blob/386a1268d05ea963158718bf4e98bdd9'],
+      ['Forma', 'Architecture', ['Digital'], '2025', '/_blob/b42423a16f028a31bd54a92269f3d22f'],
+      ['Arc Athletics', 'Sport', ['Identity'], '2025', '/_blob/8a63c05d2914aa8e034fc2e49a9fc138'],
+      ['Halden', 'Landscape', ['Editorial'], '2025', '/_blob/07404ef1f1a5cb5cc893d07cca9c479c'],
+      ['Field Notes', 'Publishing', ['Editorial', 'Digital'], '2024', '/_blob/0b6d3602385510faba9329337df8a3b6'],
+      ['Sola Ceramics', 'Craft', ['Identity', 'Art Direction'], '2024', '/_blob/659cb95cfb70c2f3580a72fa7e8e86bc'],
+      ['Kiln', 'Food & Drink', ['Identity'], '2024', '/_blob/20dfede26066f6aa5c9ab20538cd5514'],
+      ['Meridian', 'Property', ['Digital'], '2023', '/_blob/a3437c78eb58d2c8153dd1accd4695da'],
+      ['Open Room', 'Exhibition', ['Art Direction', 'Editorial'], '2023', '/_blob/39b0a9f9c025cf05ca660b6010b06846']
+    ];
+    const H = ['MobileProject', 'MobileProjectNocturne', 'MobileProjectForma', 'MobileProjectArc', 'MobileProjectHalden', 'MobileProjectFieldNotes', 'MobileProjectSola', 'MobileProjectKiln', 'MobileProjectMeridian', 'MobileProjectOpenRoom'];
+    const all = P.map((p, i) => ({ href: H[i] + '.dc.html', n: String(i + 1).padStart(2, '0'), name: p[0], sector: p[1], tags: p[2], disc: p[2].join(', '), year: p[3], img: p[4] }));
+    const F = ['All', 'Identity', 'Digital', 'Art Direction', 'Editorial'];
+    const f0 = this.state.filter;
+    const filters = F.map((f) => ({ label: f, n: f === 'All' ? all.length : all.filter((p) => p.tags.includes(f)).length, pressed: f === f0 ? 'true' : 'false', pick: () => this.setState({ filter: f }) }));
+    const shown = f0 === 'All' ? all : all.filter((p) => p.tags.includes(f0));
+    return { filters, shown, count: String(shown.length).padStart(2, '0') };
+  }
+}
+</script>
+</body>
+</html>
