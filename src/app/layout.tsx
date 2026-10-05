@@ -6,6 +6,8 @@ import {VisualEditing} from 'next-sanity/visual-editing'
 import {SanityLive} from '@/sanity/lib/live'
 import DisableDraftMode from '@/components/sanity/DisableDraftMode'
 import PreviewRefresh from '@/components/sanity/PreviewRefresh'
+import ImageReveals from '@/components/site/ImageReveals'
+import SmoothScrolling from '@/components/site/SmoothScrolling'
 import {siteDescription,siteUrl} from '@/lib/seo'
 
 const geistSans = Geist({
@@ -29,10 +31,14 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {children}
+        <SmoothScrolling />
+        <ImageReveals />
+        <noscript><style>{'img[data-image-reveal] { clip-path: none !important; animation: none !important; } [data-text-reveal] [data-reveal-word] { transform: none !important; animation: none !important; }'}</style></noscript>
         <SanityLive />
         {isEnabled && <><VisualEditing /><DisableDraftMode /><PreviewRefresh /></>}
       </body>

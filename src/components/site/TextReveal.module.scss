@@ -1,0 +1,31 @@
+@use '../../styles/motion';
+
+.mask {
+  display: inline-block;
+  overflow: hidden;
+  padding: .1em .06em;
+  margin: -.1em -.06em;
+  vertical-align: top;
+  text-indent: 0;
+}
+
+.word {
+  display: block;
+  font: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+
+.reveal[data-text-reveal='pending'] .word { transform: translateY(105%); }
+.reveal[data-text-reveal='revealed'] .word {
+  animation: text-rise 1.2s motion.$ease var(--text-reveal-delay, 0s) both;
+}
+
+@keyframes text-rise {
+  from { transform: translateY(105%); }
+  to { transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce), print {
+  .reveal .word { transform: none !important; animation: none !important; }
+}

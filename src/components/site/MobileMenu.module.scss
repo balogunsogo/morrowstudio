@@ -14,14 +14,15 @@
 .header { display: flex; align-items: center; justify-content: space-between; min-height: 56px; flex-shrink: 0; }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; }
 .menu .close { @include typography.mono; background: none; border: 0; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0; span { font-size: 16px; } }
-.links { margin-top: 48px; a { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; padding-block: 6px; border-top: 1px solid #34332f; overflow: hidden; } li:last-child a { border-bottom: 1px solid #34332f; } }
+.links { margin-top: 48px; a { display: grid; grid-template-columns: minmax(0, 1fr); align-items: baseline; padding-block: 6px; border-top: 1px solid #34332f; overflow: hidden; } li:last-child a { border-bottom: 1px solid #34332f; } }
 .label { font-size: clamp(48px, 15.385vw, 60px); line-height: 1; letter-spacing: -.05em; padding-block: 4px; sup { @include typography.mono; font-size: 11px; vertical-align: top; margin-left: 6px; position: relative; top: .5em; } }
 .menu .links a[aria-current='page'] { text-decoration: none; }
 .links a[aria-current='page'] .label::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); margin-right: 14px; vertical-align: .35em; }
-.number, .muted { @include typography.mono; color: #9a968e; }
-.teaser { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; align-items: center; margin-top: 32px; }
-.thumbnail { height: 90px; overflow: hidden; background: #34332f; img { display: block; width: 100%; height: 100%; object-fit: cover; } }
-.teaserTitle { display: block; font-size: 19px; letter-spacing: -.02em; margin-top: 4px; }
+.muted { @include typography.mono; color: #9a968e; }
+.teaser { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; align-items: stretch; margin-top: 32px; }
+.thumbnail { height: 90px; overflow: hidden; img { display: block; width: 100%; height: 100%; object-fit: cover; } }
+.teaserCopy { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-width: 0; .muted { line-height: 1; } }
+.teaserTitle { display: block; font-size: 19px; line-height: 1; letter-spacing: -.02em; }
 .details { margin-top: auto; padding-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; min-width: 0; a { overflow-wrap: anywhere; min-height: 36px; display: inline-flex; align-items: center; } }
 .location { text-align: right; white-space: pre-line; }
 .menu .socials { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0 20px; border-top: 1px solid #34332f; padding-top: 4px; @include typography.mono; a { min-height: 44px; } }

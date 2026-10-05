@@ -10,7 +10,7 @@ export default function MobileMenuDetails({home}: {home: Homepage | null}) {
   return <>
     {project?.slug?.current && <Link className={styles.teaser} href={`/work/${stegaClean(project.slug.current)}`}>
       <span className={styles.thumbnail}>{isSanityImage(project.coverImage) && <SanityImage image={project.coverImage} alt="" aspectRatio={4 / 5} sizes="72px" />}</span>
-      <span><span className={styles.muted}>Latest project</span><span className={styles.teaserTitle}>{project.title} →</span></span>
+      <span className={styles.teaserCopy}><span className={styles.muted}>Latest project</span><span className={styles.teaserTitle}>{project.title}</span></span>
     </Link>}
     <div className={styles.details}>
       <div>{home.footerEmail && <><p className={styles.muted}>New business</p><a href={`mailto:${stegaClean(home.footerEmail)}`}>{home.footerEmail}</a></>}</div>

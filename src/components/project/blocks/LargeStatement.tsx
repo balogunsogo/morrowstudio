@@ -1,4 +1,6 @@
-import {PortableText} from '@portabletext/react'
+import RichCopy from '../RichCopy'
+import TextReveal from '../../site/TextReveal'
+import TextRevealWords from '../../site/TextRevealWords'
 import type {PortableTextBlock} from '@portabletext/types'
 
 type LargeStatementProps = {
@@ -15,9 +17,7 @@ export default function LargeStatement({
   if (!body?.length && !text) return null
   return (
     <section className="project-statement project-block" data-alignment={alignment} style={{textAlign: alignment}}>
-      {body?.length ? <PortableText value={body} components={{
-        marks: {muted: ({children}) => <span className="project-muted">{children}</span>},
-      }} /> : <p>{text}</p>}
+      {body?.length ? <RichCopy value={body} revealParagraphs="all" /> : <TextReveal as="p"><TextRevealWords>{text}</TextRevealWords></TextReveal>}
     </section>
   )
 }

@@ -18,6 +18,8 @@
   img {display:block;width:100%;max-width:100%;height:auto;aspect-ratio:var(--image-ratio,auto);object-fit:cover;}
   @media(max-width:760px){img{aspect-ratio:var(--mobile-image-ratio,var(--image-ratio,auto));}}
   picture { display: block; }
+  // Image reveals expose the page itself, including source-specific media frames.
+  img, picture, figure:has(img) { background: transparent !important; }
   :focus-visible { outline: 1px solid currentColor; outline-offset: 4px; }
   figcaption { @include typography.mono; color: var(--grey); padding-top: 12px; }
 

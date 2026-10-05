@@ -10,7 +10,7 @@ export default function QuoteBlock({
 }: QuoteBlockProps) {
   return (
     <figure className="project-quote project-block" data-alignment={alignment}>
-      <blockquote><p>{quote}</p></blockquote>
+      <blockquote><TextReveal as="p"><TextRevealWords>{quote}</TextRevealWords></TextReveal></blockquote>
       {(author || role) && (
         <figcaption>
           {author && <span>{author}</span>}
@@ -21,3 +21,6 @@ export default function QuoteBlock({
     </figure>
   )
 }
+import TextReveal from '../../site/TextReveal'
+import TextRevealWords from '../../site/TextRevealWords'
+

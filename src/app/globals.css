@@ -25,3 +25,85 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .project-muted {color:var(--grey,#6b6862);}
+
+/* Reveal each site image from left to right once its container enters view. */
+img[data-image-reveal="pending"] {
+  clip-path: inset(0 100% 0 0);
+}
+
+img[data-image-reveal="revealed"] {
+  animation: morrow-image-reveal 1.5s cubic-bezier(.7, 0, .2, 1) var(--image-reveal-delay, 0s) both;
+}
+
+@keyframes morrow-image-reveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
+}
+
+@media (prefers-reduced-motion: reduce), print {
+  img[data-image-reveal] {
+    animation: none !important;
+    clip-path: none !important;
+  }
+}
+
+/* Slim native scrollbars throughout the app, including nested scroll areas. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6b6862 transparent;
+}
+
+/* Transparent tracks reveal the same warm background as the site. */
+html {
+  background-color: #f1efea;
+  scrollbar-color: #6b6862 transparent;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+html::-webkit-scrollbar {
+  background: #f1efea;
+}
+
+html::-webkit-scrollbar-track,
+html::-webkit-scrollbar-track-piece,
+html::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b6862;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #474540;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+@media (forced-colors: active) {
+  html, * { scrollbar-color: auto; }
+  html::-webkit-scrollbar,
+  html::-webkit-scrollbar-track,
+  html::-webkit-scrollbar-track-piece,
+  html::-webkit-scrollbar-corner { background: Canvas; }
+  ::-webkit-scrollbar-thumb { background-color: CanvasText; }
+}

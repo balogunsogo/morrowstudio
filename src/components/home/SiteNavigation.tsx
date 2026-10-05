@@ -7,6 +7,8 @@ import {useEffect, useId, useRef, useState, type ReactNode} from 'react'
 import menu from '../site/MobileMenu.module.scss'
 import styles from './Home.module.scss'
 
+const contactHref = 'mailto:hello@morrow.studio'
+
 export default function SiteNavigation({title, eyebrow, location, count, menuDetails}: {title?: string | null; eyebrow?: string | null; location?: string | null; count?: number; menuDetails?: ReactNode}) {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
@@ -43,7 +45,7 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
     <nav className={styles.navLinks} aria-label="Main navigation">
       <Link href="/work" aria-current={pathname?.startsWith('/work') ? 'page' : undefined} onClick={() => setOpen(false)}>Work {count !== undefined && <sup>{String(count).padStart(2, '0')}</sup>}</Link>
       <Link href="/about" aria-current={pathname === '/about' ? 'page' : undefined} onClick={() => setOpen(false)}>About</Link>
-      <Link href="/about#contact">Contact ↗</Link>
+      <Link href={contactHref} onClick={() => setOpen(false)}>Contact</Link>
     </nav>
     <dialog ref={dialog} id={id} className={menu.menu} aria-label="Site menu" onCancel={event => {event.preventDefault(); setOpen(false)}} onClose={event => {if (!event.currentTarget.open) setOpen(false)}} onKeyDown={event => {
       if (event.key !== 'Tab') return
@@ -59,10 +61,9 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
         <button ref={closeButton} className={menu.close} onClick={() => setOpen(false)}>Close <span aria-hidden="true">×</span></button>
       </div>
       <nav className={menu.links} aria-label="Primary">
-        <ol>{[{href: '/', label: 'Index'}, {href: '/work', label: 'Work'}, {href: '/about', label: 'About'}, {href: '/about#contact', label: 'Contact'}].map((link, index) => <li key={link.href}>
+        <ol>{[{href: '/', label: 'Index'}, {href: '/work', label: 'Work'}, {href: '/about', label: 'About'}, {href: contactHref, label: 'Contact'}].map(link => <li key={link.href}>
           <Link href={link.href} aria-current={(link.href === '/work' ? pathname.startsWith('/work') : pathname === link.href) ? 'page' : undefined}>
             <span className={menu.label}>{link.label}{link.href === '/work' && count !== undefined && <sup>{String(count).padStart(2, '0')}</sup>}</span>
-            <span className={menu.number}>{String(index + 1).padStart(2, '0')}</span>
           </Link>
         </li>)}</ol>
       </nav>

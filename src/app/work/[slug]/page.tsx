@@ -70,7 +70,7 @@ export default async function ProjectPage({
       </article>
       {next&&<NextProject project={next} total={projects.length}/>}
     </main>
-    <SiteFooter compact email={home?.footerEmail} location={home?.footerLocation} brand={home?.heroTitle} socialLinks={home?.socialLinks}/>
+    <SiteFooter compact email={home?.footerEmail} location={home?.footerLocation} brand={home?.heroTitle} socialLinks={home?.socialLinks} showArrows={false}/>
     </div>
   )
 }

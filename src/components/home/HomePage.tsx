@@ -32,7 +32,7 @@ export default function HomePage({home}: {home: Homepage | null}) {
           </Link>,
           preview: <figure><ProjectImage project={project} ratio={4 / 5} sizes="(max-width: 760px) 52px, 33vw" /><figcaption>{project.title} — {project.year}<br />{project.disciplines?.join(' / ')}</figcaption></figure>,
         }))} />
-        <Link className={styles.archiveLink} href="/work">Full project archive ↗</Link>
+        <Link className={styles.archiveLink} href="/work">Full project archive</Link>
       </section>
     </main>
     <HomeFooter home={home} />

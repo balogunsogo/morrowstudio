@@ -9,6 +9,7 @@
   a { text-underline-offset: 4px; }
 }
 .empty { padding: var(--sec) var(--m); }
+.content { padding-bottom: var(--sec); }
 .label { @include typography.mono; font-weight: 400; }
 .hero {
   @include grid.frame;

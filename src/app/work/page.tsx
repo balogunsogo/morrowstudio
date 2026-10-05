@@ -1,5 +1,5 @@
 import SiteNavigation from '@/components/home/SiteNavigation'
-import SiteFooter from '@/components/site/SiteFooter'
+import HomeFooter from '@/components/home/HomeFooter'
 import MobileMenuDetails from '@/components/site/MobileMenuDetails'
 import type {Homepage} from '@/components/home/types'
 import type {Metadata} from 'next'
@@ -47,7 +47,7 @@ export default async function WorkPage() {
       <main className={styles.content}>
         <WorkIndex entries={entries} intro={home?.archiveIntro}/>
       </main>
-      {home && <SiteFooter archive heading={home.footerHeading} email={home.footerEmail} socialLinks={home.socialLinks} location={home.footerLocation} brand={home.heroTitle} />}
+      {home && <HomeFooter home={home} />}
     </div>
   )
 }

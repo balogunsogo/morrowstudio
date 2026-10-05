@@ -1,6 +1,6 @@
 'use client'
 
-import {useState, type ReactNode} from 'react'
+import {useEffect, useRef, useState, type ReactNode} from 'react'
 import {stegaClean} from 'next-sanity'
 import styles from './Work.module.scss'
 
@@ -17,6 +17,41 @@ export default function WorkIndex({entries,intro}: {entries: WorkEntry[];intro?:
   const [focusedId, setFocusedId] = useState<string>()
   const [discipline, setDiscipline] = useState<string | null>(null)
   const [view, setView] = useState<'list' | 'grid'>('list')
+  const filters = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const strip = filters.current
+    if (!strip) return
+    const mobile = matchMedia('(max-width: 760px)')
+    let disposed = false
+    const updatePeek = () => {
+      if (disposed) return
+      strip.style.removeProperty('--mobile-filter-gap')
+      if (!mobile.matches) return
+      const widths = Array.from(strip.children, child => child.getBoundingClientRect().width)
+      const total = widths.reduce((sum, width) => sum + width, 0) + Math.max(0, widths.length - 1) * 24
+      if (total <= strip.clientWidth) return
+      // Keep complete labels readable, then expose 32px of the next filter.
+      for (let count = widths.length - 1; count > 0; count--) {
+        const complete = widths.slice(0, count).reduce((sum, width) => sum + width, 0)
+        const gap = (strip.clientWidth - 32 - complete) / count
+        if (gap < 12) continue
+        strip.style.setProperty('--mobile-filter-gap', `${gap}px`)
+        break
+      }
+    }
+    const resize = new ResizeObserver(updatePeek)
+    resize.observe(strip)
+    mobile.addEventListener('change', updatePeek)
+    document.fonts.addEventListener('loadingdone', updatePeek)
+    void document.fonts.ready.then(updatePeek)
+    return () => {
+      disposed = true
+      resize.disconnect()
+      mobile.removeEventListener('change', updatePeek)
+      document.fonts.removeEventListener('loadingdone', updatePeek)
+      strip.style.removeProperty('--mobile-filter-gap')
+    }
+  }, [entries])
   const options = new Map<string, number>()
   for (const entry of entries) {
     // Filter labels aggregate several fields and are controls, not edit targets.
@@ -43,7 +78,7 @@ export default function WorkIndex({entries,intro}: {entries: WorkEntry[];intro?:
     <>
       <header className={styles.heading}><h1><span className={styles.titleRise}>Work<sup>({String(visible.length).padStart(2,'0')})</sup></span></h1>{intro&&<p>{intro}</p>}</header>
       <div className={styles.toolbar}>
-        <div className={styles.filters} role="group" aria-label="Filter by discipline">
+        <div ref={filters} className={styles.filters} role="group" aria-label="Filter by discipline">
           <button type="button" aria-pressed={discipline === null} onClick={() => selectDiscipline(null)}>
             All <sup>{entries.length}</sup>
           </button>

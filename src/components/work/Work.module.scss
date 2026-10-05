@@ -58,7 +58,6 @@
 .preview { grid-column: 9 / span 4; position: sticky; top: 72px; padding-top: 40px; min-width: 0; }
 .previewImage {
   aspect-ratio: 4 / 5;
-  background: #e4e1da;
   img { aspect-ratio: 4 / 5; object-fit: cover; }
 }
 .missingPreview { @include typography.mono; color: var(--grey); display: grid; place-items: center; height: 100%; padding: 24px; text-align: center; }
@@ -95,6 +94,19 @@
   gap: 0 28px;
   font-size: 15px;
   min-width: 0;
+  button[aria-pressed='true'] {
+    position: relative;
+    text-decoration: none;
+    &::after {
+      content: '';
+      position: absolute;
+      inset-inline: 0;
+      top: calc(50% + .65em);
+      height: 1px;
+      background: currentColor;
+      pointer-events: none;
+    }
+  }
 }
 .viewToggle {
   @include typography.mono;
@@ -104,7 +116,6 @@
   gap: 20px;
 }
 .page .resultCount {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
-.toolbar {border-bottom:1px solid var(--rule);}
 .page .grid {
   @include grid.frame;
   list-style: none;
@@ -121,7 +132,6 @@
 .cardImage {
   display: block;
   aspect-ratio: 4 / 5;
-  background: #e4e1da;
   overflow: hidden;
   img { aspect-ratio: 4 / 5; object-fit: cover; }
 }
@@ -156,13 +166,13 @@
 }
 
 @media (max-width: 760px) {
-  .content {padding-bottom:0;}
+  .content {padding-bottom:var(--sec);}
   .mobileRank {display:inline;}
   .filters {
     grid-column: 1 / -1;
     flex-wrap: nowrap;
     overflow-x: auto;
-    gap: 24px;
+    gap: var(--mobile-filter-gap, 24px);
     padding: 0;
     font-size: 16px;
     scrollbar-width: thin;
@@ -192,7 +202,6 @@
     grid-column: 1;
     grid-row: 1 / span 2;
     height: 80px;
-    background: #e4e1da;
     img { width: 64px; height: 80px; object-fit: cover; }
   }
   .missingThumbnail { @include typography.mono; display: grid; place-items: center; height: 100%; padding: 4px; color: var(--grey); text-align: center; }
