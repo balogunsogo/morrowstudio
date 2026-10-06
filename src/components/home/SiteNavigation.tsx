@@ -1,16 +1,19 @@
 'use client'
 
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import {stegaClean} from 'next-sanity'
 import {usePathname} from 'next/navigation'
 import {useEffect, useId, useRef, useState, type ReactNode} from 'react'
 import menu from '../site/MobileMenu.module.scss'
 import styles from './Home.module.scss'
+import useNavigationSurface from '../site/useNavigationSurface'
 
 const contactHref = 'mailto:hello@morrow.studio'
 
 export default function SiteNavigation({title, eyebrow, location, count, menuDetails}: {title?: string | null; eyebrow?: string | null; location?: string | null; count?: number; menuDetails?: ReactNode}) {
   const pathname = usePathname()
+  const header = useRef<HTMLElement>(null)
+  useNavigationSurface(header, pathname)
   const [open, setOpen] = useState(false)
   const button = useRef<HTMLButtonElement>(null)
   const dialog = useRef<HTMLDialogElement>(null)
@@ -38,7 +41,7 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
       else if (trigger?.isConnected) modal.parentElement?.querySelector<HTMLAnchorElement>('nav[aria-label="Main navigation"] a')?.focus({preventScroll: true})
     }
   }, [open])
-  return <header className={styles.navigation}>
+  return <header ref={header} className={styles.navigation} data-site-navigation>
     <Link href="/" className={styles.brand} aria-label={stegaClean(title) || 'Home'} aria-current={pathname === '/' ? 'page' : undefined}>{title || 'Home'}</Link>
     <span className={styles.navEyebrow}>{eyebrow}</span><span className={styles.navLocation}>{location}</span>
     <button ref={button} className={styles.menuButton} aria-expanded={open} aria-controls={id} aria-haspopup="dialog" onClick={() => setOpen(true)}>Menu +</button>

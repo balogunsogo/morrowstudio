@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {draftMode} from 'next/headers'
-import {VisualEditing} from 'next-sanity/visual-editing'
 import {SanityLive} from '@/sanity/lib/live'
-import DisableDraftMode from '@/components/sanity/DisableDraftMode'
-import PreviewRefresh from '@/components/sanity/PreviewRefresh'
+import DeferredLive from '@/components/sanity/DeferredLive'
 import ImageReveals from '@/components/site/ImageReveals'
 import SmoothScrolling from '@/components/site/SmoothScrolling'
 import {siteDescription,siteUrl} from '@/lib/seo'
@@ -28,6 +26,7 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const {isEnabled} = await draftMode()
+  const PreviewTools = isEnabled ? (await import('@/components/sanity/PreviewTools')).default : null
   return (
     <html
       lang="en"
@@ -38,9 +37,9 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         {children}
         <SmoothScrolling />
         <ImageReveals />
-        <noscript><style>{'img[data-image-reveal] { clip-path: none !important; animation: none !important; } [data-text-reveal] [data-reveal-word] { transform: none !important; animation: none !important; }'}</style></noscript>
-        <SanityLive />
-        {isEnabled && <><VisualEditing /><DisableDraftMode /><PreviewRefresh /></>}
+        <noscript><style>{'img[data-image-reveal] { clip-path: none !important; animation: none !important; } [data-text-reveal] [data-reveal-word] { transform: none !important; animation: none !important; } [data-site-navigation] { background: #f1efea; color: #151513; mix-blend-mode: normal; }'}</style></noscript>
+        <DeferredLive preview={isEnabled}><SanityLive /></DeferredLive>
+        {PreviewTools && <PreviewTools />}
       </body>
     </html>
   );

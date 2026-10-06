@@ -1,7 +1,7 @@
 import styles from './Home.module.scss'
 import type {PortableTextBlock} from '@portabletext/types'
 import RichCopy from '../project/RichCopy'
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import TextReveal from '../site/TextReveal'
 import TextRevealWords from '../site/TextRevealWords'
 

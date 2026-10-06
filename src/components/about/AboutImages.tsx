@@ -7,7 +7,7 @@ export default function AboutImages({primaryImage, secondaryImage,primaryCaption
   if (!primary && !secondary) return null
   const alt = (image: NonNullable<typeof primary>) => 'alt' in image && typeof image.alt === 'string' ? image.alt : ''
   return <section className={styles.images} data-paired={!!primary && !!secondary} aria-label="Studio imagery">
-    {primary && <figure className={styles.primaryImage}><SanityImage image={primary} alt={alt(primary)} editing={{id: 'about', type: 'about', path: 'primaryImage'}} aspectRatio={4 / 3} sizes="(max-width: 760px) calc(100vw - 32px), 58vw" />{primaryCaption&&<figcaption>{primaryCaption}</figcaption>}</figure>}
-    {secondary && <figure className={styles.secondaryImage}><SanityImage image={secondary} alt={alt(secondary)} editing={{id: 'about', type: 'about', path: 'secondaryImage'}} aspectRatio={3 / 4} sizes="(max-width: 760px) 58vw, 25vw" />{secondaryCaption&&<figcaption>{secondaryCaption}</figcaption>}</figure>}
+    {primary && <figure className={styles.primaryImage}><SanityImage image={primary} alt={alt(primary)} editing={{id: 'about', type: 'about', path: 'primaryImage'}} aspectRatio={4 / 3} sizes="(max-width: 760px) 100vw, (max-width: 1024px) calc(58.333vw - 34.667px), calc(58.333vw - 45.667px)" />{primaryCaption&&<figcaption>{primaryCaption}</figcaption>}</figure>}
+    {secondary && <figure className={styles.secondaryImage}><SanityImage image={secondary} alt={alt(secondary)} editing={{id: 'about', type: 'about', path: 'secondaryImage'}} aspectRatio={3 / 4} sizes="(max-width: 760px) 52vw, (max-width: 1024px) calc(33.333vw - 26.667px), calc(25vw - 31px)" />{secondaryCaption&&<figcaption>{secondaryCaption}</figcaption>}</figure>}
   </section>
 }

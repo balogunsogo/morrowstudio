@@ -29,7 +29,7 @@ export default async function WorkPage() {
       <figure>
         <div className={styles.previewImage}>
           {isSanityImage(project.coverImage) ? (
-            <SanityImage image={project.coverImage} alt="" editing={{id: project._id, path: 'coverImage'}} aspectRatio={4 / 5} sizes="33vw" />
+            <SanityImage image={project.coverImage} alt="" editing={{id: project._id, path: 'coverImage'}} aspectRatio={4 / 5} sizes="(max-width: 1024px) calc(33.333vw - 26.667px), calc(33.333vw - 34.667px)" />
           ) : <p className={styles.missingPreview}>No cover image available</p>}
         </div>
         <figcaption className={styles.previewCaption}>

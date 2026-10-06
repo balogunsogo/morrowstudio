@@ -19,13 +19,14 @@
   top: 0;
   z-index: 20;
   background: transparent;
-  color: #fff;
-  mix-blend-mode: difference;
+  color: var(--ink);
+  mix-blend-mode: normal;
   font-size: 15px;
   line-height: 1.55;
   a { text-decoration: none; }
   button { color: inherit; font: inherit; cursor: pointer; }
 }
+.navigation[data-over-media='true'] { color: #fff; mix-blend-mode: difference; }
 .brand { grid-column: 1 / span 3; font-family: var(--font-geist-sans), sans-serif; font-size: 15px; font-weight: 500; letter-spacing: -.01em; text-transform: none; }
 .navEyebrow { grid-column: 4 / span 3; @include typography.mono; }
 .navLocation { grid-column: 7 / span 2; @include typography.mono; }

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import {stegaClean} from 'next-sanity'
 import SanityImage, {isSanityImage} from '@/components/project/SanityImage'
 import type {WorkProject} from './types'

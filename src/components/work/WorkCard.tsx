@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import {stegaClean} from 'next-sanity'
 import SanityImage, {isSanityImage} from '@/components/project/SanityImage'
 import type {WorkProject} from './types'
@@ -9,7 +9,7 @@ export default function WorkCard({project}: {project: WorkProject}) {
     <>
       <span className={styles.cardImage} aria-hidden="true">
         {isSanityImage(project.coverImage) ? (
-          <SanityImage image={project.coverImage} alt="" editing={{id: project._id, path: 'coverImage'}} aspectRatio={4 / 5} sizes="(max-width: 760px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+          <SanityImage image={project.coverImage} alt="" editing={{id: project._id, path: 'coverImage'}} aspectRatio={4 / 5} sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1024px) calc(50vw - 32px), calc(33.333vw - 34.667px)" />
         ) : <span className={styles.missingPreview}>No cover image available</span>}
       </span>
       <span className={styles.cardMeta}>

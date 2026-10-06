@@ -13,7 +13,7 @@ export default function HomeHero({home}: {home: Homepage}) {
     <div className={styles.heroComposition}>
       <div className={styles.heroFirstRow}>
       <h1 id="home-title" className={styles.heroTitle} data-sanity={dataAttribute({id: 'homepage', type: 'homepage', path: 'heroTitle'})} aria-label={stegaClean(home.heroTitle) ?? undefined}><span className={styles.heroLine}><span className={styles.rise}>{first}</span></span>{rest.length > 0 && <span className={styles.heroAccessibleSuffix}> {rest.join(' ')}</span>}</h1>
-      {image && <figure className={styles.heroImage}><SanityImage image={image} alt={alt} editing={{id: 'homepage', type: 'homepage', path: 'heroImage'}} aspectRatio={9 / 4} mobileAspectRatio={4 / 5} sizes="(max-width: 760px) 75vw, 32vw" /></figure>}
+      {image && <figure className={styles.heroImage}><SanityImage eager image={image} alt={alt} editing={{id: 'homepage', type: 'homepage', path: 'heroImage'}} aspectRatio={9 / 4} mobileAspectRatio={4 / 5} sizes="(max-width: 760px) calc(100vw - 112px), 32vw" /></figure>}
       </div>
       <div className={styles.heroSecondRow}>
       <div className={styles.heroIntro}>{home.heroIntro && <p className={home.mobileHeroIntro?styles.desktopCopy:undefined}>{home.heroIntro}</p>}{home.mobileHeroIntro&&<p className={styles.mobileCopy}>{home.mobileHeroIntro}</p>}<span className={styles.heroLocation}><span className={styles.desktopCopy}>(Scroll) Selected work</span><span className={styles.mobileCopy}>{home.location}</span></span></div>

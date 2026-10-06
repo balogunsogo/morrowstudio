@@ -16,6 +16,13 @@
 .compact {padding-block:72px 32px;.footerGrid {row-gap:16px;}.copyright{grid-column:1 / span 3;@include typography.mono;color:#9a968e;}.footerEmail{grid-column:4 / span 3;@include typography.mono;}.socialLinks{grid-column:7 / span 3;display:flex;gap:12px;li+li{margin:0;}}.footerLocation{grid-column:10 / span 3;text-align:right;}.backToTop,.footerWordmark{display:none;}}
 .archive, .compact { .socialLinks, .footerLocation { @include typography.mono; } }
 .socialLinks a,.backToTop a { @include motion.underline; }
+.backToTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  a { display: inline-flex; align-items: center; justify-content: flex-end; min-height: 32px; }
+}
 @media (min-width: 761px) { .footerEmail { @include motion.underline; } }
 @media (min-width: 761px) {
   .footer:not(.compact):not(.archive) .footerEmail {

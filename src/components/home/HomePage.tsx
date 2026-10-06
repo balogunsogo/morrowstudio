@@ -1,5 +1,5 @@
 import MobileMenuDetails from '@/components/site/MobileMenuDetails'
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import {stegaClean} from 'next-sanity'
 import type {Homepage} from './types'
 import HomeHero from './HomeHero'
@@ -30,7 +30,7 @@ export default function HomePage({home}: {home: Homepage | null}) {
             <span className={styles.indexThumbnail}><ProjectImage project={project} ratio={4 / 5} sizes="52px" /></span>
             <span className={styles.indexTitle}>{project.title}</span><span className={styles.indexYear}>{project.year}</span>
           </Link>,
-          preview: <figure><ProjectImage project={project} ratio={4 / 5} sizes="(max-width: 760px) 52px, 33vw" /><figcaption>{project.title} — {project.year}<br />{project.disciplines?.join(' / ')}</figcaption></figure>,
+          preview: <figure><ProjectImage project={project} ratio={4 / 5} sizes="(max-width: 760px) 52px, (max-width: 1024px) calc(33.333vw - 26.667px), calc(33.333vw - 34.667px)" /><figcaption>{project.title} — {project.year}<br />{project.disciplines?.join(' / ')}</figcaption></figure>,
         }))} />
         <Link className={styles.archiveLink} href="/work">Full project archive</Link>
       </section>

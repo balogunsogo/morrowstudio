@@ -1,4 +1,5 @@
-import Image, {getImageProps} from 'next/image'
+/* eslint-disable @next/next/no-img-element -- getImageProps retains Next image optimization without client image hydration. */
+import {getImageProps} from 'next/image'
 import type {CSSProperties} from 'react'
 import {stegaClean} from 'next-sanity'
 import type {SanityImageObject} from '@sanity/image-url'
@@ -20,10 +21,11 @@ type SanityImageProps = {
   mobileAspectRatio?: number
   sizes?: string
   editing?: EditingField
+  eager?: boolean
 }
 
 export default function SanityImage({
-  image, alt = '', aspectRatio, mobileAspectRatio, sizes = '100vw', editing,
+  image, alt = '', aspectRatio, mobileAspectRatio, sizes = '100vw', editing, eager = false,
 }: SanityImageProps) {
   if (!isSanityImage(image)) return null
   // Alt is an attribute, not visible editable text.
@@ -45,16 +47,21 @@ export default function SanityImage({
   // editor hotspots determine the per-use focal point without double cropping.
   const builder = urlFor(image).width(width)
 
+  const {props: desktop} = getImageProps({
+    src: builder.auto('format').url(),
+    alt: cleanAlt,
+    width,
+    height,
+    sizes,
+    loading: eager ? 'eager' : 'lazy',
+    fetchPriority: eager ? 'high' : undefined,
+    style: {'--image-ratio':aspectRatio,'--mobile-image-ratio':mobileAspectRatio,objectPosition:image.hotspot ? `${image.hotspot.x*100}% ${image.hotspot.y*100}%` : undefined} as CSSProperties,
+  })
   const media = (
-    <Image
+    <img
+      {...desktop}
       data-image-reveal="pending"
       data-sanity={!mobileAspectRatio ? dataAttribute(editing) : undefined}
-      src={builder.auto('format').url()}
-      alt={cleanAlt}
-      width={width}
-      height={height}
-      sizes={sizes}
-      style={{'--image-ratio':aspectRatio,'--mobile-image-ratio':mobileAspectRatio,objectPosition:image.hotspot ? `${image.hotspot.x*100}% ${image.hotspot.y*100}%` : undefined} as CSSProperties}
     />
   )
 

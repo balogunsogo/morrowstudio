@@ -1,5 +1,5 @@
 import {notFound} from 'next/navigation'
-import Link from 'next/link'
+import Link from '@/components/site/IntentLink'
 import ProjectContent from '@/components/project/ProjectContent'
 import {sanityFetch} from '@/sanity/lib/live'
 import {PROJECT_BY_SLUG_QUERY, PROJECTS_QUERY, HOMEPAGE_QUERY} from '@/sanity/lib/queries'

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '../site/IntentLink'
 import {stegaClean} from 'next-sanity'
 import type {FeaturedItem} from './types'
 import FeaturedProject from './FeaturedProject'
@@ -17,7 +17,7 @@ export default function FeaturedProjects({items, count, heading}: {items: Featur
   return <section className={styles.featured} aria-labelledby="featured-heading">
     <div className={styles.sectionHeader}><h2 id="featured-heading">{heading} ({String(count).padStart(2, '0')})</h2><Link href="/work">Full archive</Link></div>
     {groups.map((group, index) => <div key={group[0]._key} className={styles.featuredGroup} data-composition={group.length > 1 ? group[0].layout === 'pair' ? 'pair' : 'mixed' : group[0].layout ?? 'large'}>
-      {group.map(item => <FeaturedProject key={item._key} item={item} lead={index === 0 && group.length === 1 && item.layout === 'large'} />)}
+      {group.map((item, itemIndex) => <FeaturedProject key={item._key} item={item} lead={index === 0 && group.length === 1 && item.layout === 'large'} grouped={group.length > 1} trailing={itemIndex > 0} />)}
     </div>)}
   </section>
 }
