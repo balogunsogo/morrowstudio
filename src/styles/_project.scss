@@ -7,7 +7,10 @@
   .project-header-line { @include grid.frame; @include typography.mono; color:var(--grey); .project-eyebrow { grid-column:1 / span 3;padding:0;} .project-sector {grid-column:4 / span 3;} .project-location {grid-column:10 / span 3;text-align:right;} }
   .project-gallery {position:relative;}
   .project-gallery-controls {position:absolute;right:var(--m);top:0;display:flex;gap:16px;align-items:center;@include typography.mono;button {border:0;background:none;min-height:44px;min-width:32px;font-size:20px;cursor:pointer;}button:disabled{opacity:.35;} }
-  .project-next {display:block;position:relative;text-decoration:none;padding-top:24px;overflow:hidden;h2{padding-inline:var(--m);margin-top:48px;font-size:clamp(64px,12.4vw,196px);line-height:.84;letter-spacing:-.06em;} >p{padding-inline:var(--m);margin-top:24px;color:var(--grey);}figure{margin-top:48px;overflow:hidden;}img{aspect-ratio:21/9;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.7,.1,1);} &:hover img {transform:scale(1.035);} }
+  .project-next {display:block;position:relative;text-decoration:none;padding-top:24px;overflow:hidden;h2{padding-inline:var(--m);margin-top:48px;font-size:clamp(64px,12.4vw,196px);line-height:.84;letter-spacing:-.06em;} >p{padding-inline:var(--m);margin-top:24px;color:var(--grey);}figure{margin-top:48px;overflow:hidden;}img{aspect-ratio:21/9;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.7,.1,1);} }
+  @media (min-width: 761px) and (hover: hover) and (pointer: fine) {
+    .project-next:hover img { transform: scale(1.035); }
+  }
   .project-next::before {content:'';position:absolute;top:0;inset-inline:var(--m);border-top:1px solid var(--rule);pointer-events:none;}
   .project-next h2 > span {position:relative;inset-inline-start:var(--project-title-offset,0px);}
   .project-next-label {display:flex;justify-content:space-between;padding-inline:var(--m);color:var(--grey);@include typography.mono;}
@@ -219,6 +222,7 @@
   }
 
   @media (max-width: 760px) {
+    .project-next { margin-top: var(--sec); }
     .project-title-rise,.project-hero { animation: none; }
     .project-meta-variant { grid-column: 1 / -1; }
     .project-desktop-only { display: none; }

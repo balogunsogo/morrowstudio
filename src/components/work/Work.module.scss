@@ -82,7 +82,10 @@
     cursor: pointer;
     white-space: nowrap;
     transition: color .3s;
-    &:hover, &:focus-visible { color: var(--ink); }
+    &:focus-visible { color: var(--ink); }
+    @media (min-width: 761px) and (hover: hover) and (pointer: fine) {
+      &:hover { color: var(--ink); }
+    }
     &[aria-pressed='true'] { color: var(--ink); text-decoration: underline; text-underline-offset: 5px; }
     sup { @include typography.mono; margin-left: 2px; font-size: 9px; text-decoration: none; }
   }
@@ -126,8 +129,12 @@
   display: block;
   text-decoration: none;
   overflow-wrap: anywhere;
-  &:hover .titleLink, &:focus-visible .titleLink { background-size: 100% 1px; }
-  &:hover img, &:focus-visible img { transform: scale(1.035); }
+  &:focus-visible .titleLink { background-size: 100% 1px; }
+  &:focus-visible img { transform: scale(1.035); }
+  @media (min-width: 761px) and (hover: hover) and (pointer: fine) {
+    &:hover .titleLink { background-size: 100% 1px; }
+    &:hover img { transform: scale(1.035); }
+  }
 }
 .cardImage {
   display: block;

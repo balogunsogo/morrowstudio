@@ -113,7 +113,7 @@ export default function WorkIndex({entries,intro}: {entries: WorkEntry[];intro?:
                 <li
                   key={entry.id}
                   data-active={entry.id === activeId}
-                  onMouseEnter={() => setHoveredId(entry.id)}
+                  onMouseEnter={() => {if (matchMedia('(min-width: 761px) and (hover: hover) and (pointer: fine)').matches) setHoveredId(entry.id)}}
                   onFocusCapture={() => setFocusedId(entry.id)}
                 >
                   {entry.row}

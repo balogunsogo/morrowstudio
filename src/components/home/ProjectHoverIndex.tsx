@@ -8,7 +8,7 @@ export default function ProjectHoverIndex({items,mobileIds}: {items: {id: string
   const active = items.find(item => item.id === activeId) ?? items[0]
   if (!active) return null
   return <div className={styles.indexComposition}>
-    <ol className={styles.indexList}>{items.map(item => <li key={item.id} data-mobile-visible={mobileIds?.includes(item.id)} data-active={item.id === active.id} onMouseEnter={() => setActiveId(item.id)} onFocus={() => setActiveId(item.id)}>{item.row}</li>)}</ol>
+    <ol className={styles.indexList}>{items.map(item => <li key={item.id} data-mobile-visible={mobileIds?.includes(item.id)} data-active={item.id === active.id} onMouseEnter={() => {if (matchMedia('(min-width: 761px) and (hover: hover) and (pointer: fine)').matches) setActiveId(item.id)}} onFocus={() => setActiveId(item.id)}>{item.row}</li>)}</ol>
     <div className={styles.indexPreview} data-project-id={active.id}>{active.preview}</div>
   </div>
 }

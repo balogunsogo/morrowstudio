@@ -51,7 +51,7 @@
 .contactDetails { grid-column: 4 / span 9; min-width: 0; }
 .contactHeading { font-size: clamp(19px, 1.6vw, 24px); line-height: 1.3; letter-spacing: -.015em; color: #9a968e; }
 .email { display: inline-block; margin-top: 24px; max-width: 100%; font-size: clamp(40px, 6.6vw, 104px); line-height: 1.05; letter-spacing: -.05em; text-decoration-thickness: 1px; overflow-wrap: anywhere; }
-.social { grid-column: 4 / span 3; h3 { color: #9a968e; } ul { list-style: none; padding-top: 12px; } a { text-decoration: none; } a:hover { text-decoration: underline; } }
+.social { grid-column: 4 / span 3; h3 { color: #9a968e; } ul { list-style: none; padding-top: 12px; } a { text-decoration: none; } }
 .backToTop { grid-column: 10 / span 3; text-align: right; @include typography.mono; text-decoration: none; }
 .studioContact {grid-column:7 / span 3;h3{color:#9a968e;}p{margin-top:12px;}}
 .backToTop h3{color:#9a968e;margin-bottom:12px;}
@@ -63,7 +63,10 @@
 .bioContent > .desktopCopy > p:first-child,.bioContent > .bioCopy > p:first-child {grid-column:1 / -1;font-size:clamp(24px,2.4vw,36px);line-height:1.2;letter-spacing:-.025em;color:var(--ink);}
 .hero h1 :global(.project-copy-line) {display:block;overflow:hidden;padding-bottom:.06em;}
 .capabilityName {grid-column:2 / span 6;transition:transform .6s cubic-bezier(.2,.7,.1,1);}
-.capabilityList li:hover .capabilityName {transform:translateX(16px);}
+@media (min-width: 761px) and (hover: hover) and (pointer: fine) {
+  .social a:hover { text-decoration: underline; }
+  .capabilityList li:hover .capabilityName {transform:translateX(16px);}
+}
 @media(prefers-reduced-motion:reduce){.capabilityList li:hover .capabilityName {transform:none;}}
 .capabilityDescription {grid-column:9 / span 4;color:var(--grey);}
 .project-muted {color:var(--grey);}

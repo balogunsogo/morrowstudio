@@ -9,5 +9,8 @@ $reveal-ease: cubic-bezier(.7, 0, .2, 1);
   background-repeat: no-repeat;
   transition: background-size $duration $ease;
   text-decoration: none;
-  &:hover, &:focus-visible { background-size: 100% $thickness; text-decoration: none; }
+  &:focus-visible { background-size: 100% $thickness; text-decoration: none; }
+  @media (min-width: 761px) and (hover: hover) and (pointer: fine) {
+    &:hover { background-size: 100% $thickness; text-decoration: none; }
+  }
 }
