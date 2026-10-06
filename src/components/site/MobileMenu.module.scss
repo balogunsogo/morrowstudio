@@ -12,6 +12,7 @@
   a[aria-current='page'] { text-decoration: none; }
 }
 .header { display: flex; align-items: center; justify-content: space-between; min-height: 56px; flex-shrink: 0; }
+.menu .header:focus { outline: none; }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; }
 .menu .close { @include typography.mono; background: none; border: 0; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0; span { font-size: 16px; } }
 .links { margin-top: 48px; a { display: grid; grid-template-columns: minmax(0, 1fr); align-items: baseline; padding-block: 6px; border-top: 1px solid #34332f; overflow: hidden; } li:last-child a { border-bottom: 1px solid #34332f; } }

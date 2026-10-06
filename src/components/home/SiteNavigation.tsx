@@ -17,7 +17,7 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
   const [open, setOpen] = useState(false)
   const button = useRef<HTMLButtonElement>(null)
   const dialog = useRef<HTMLDialogElement>(null)
-  const closeButton = useRef<HTMLButtonElement>(null)
+  const menuHeader = useRef<HTMLDivElement>(null)
   const id = useId()
   useEffect(() => {
     if (!open || !dialog.current) return
@@ -28,7 +28,7 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
     const previous = {overflow: body.style.overflow, position: body.style.position, top: body.style.top, width: body.style.width}
     Object.assign(body.style, {overflow: 'hidden', position: 'fixed', top: `-${scrollY}px`, width: '100%'})
     if (!modal.open) modal.showModal()
-    closeButton.current?.focus({preventScroll: true})
+    menuHeader.current?.focus({preventScroll: true})
     const mobile = window.matchMedia('(max-width: 760px)')
     const resize = () => {if (!mobile.matches) setOpen(false)}
     mobile.addEventListener('change', resize)
@@ -56,12 +56,13 @@ export default function SiteNavigation({title, eyebrow, location, count, menuDet
       const targets = [...modal.querySelectorAll<HTMLElement>('a[href], button:not(:disabled), [tabindex="0"]')].filter(element => element.getClientRects().length)
       const first = targets[0], last = targets.at(-1)
       if (!first || !last) return
+      if (document.activeElement === menuHeader.current) {event.preventDefault(); (event.shiftKey ? last : first).focus(); return}
       if (event.shiftKey && document.activeElement === first) {event.preventDefault(); last.focus()}
       else if (!event.shiftKey && document.activeElement === last) {event.preventDefault(); first.focus()}
     }} onClick={event => {if ((event.target as Element).closest('a')) setOpen(false)}}>
-      <div className={menu.header}>
+      <div ref={menuHeader} className={menu.header} tabIndex={-1}>
         <Link href="/" className={menu.brand}>{title || 'Home'}</Link>
-        <button ref={closeButton} className={menu.close} onClick={() => setOpen(false)}>Close <span aria-hidden="true">×</span></button>
+        <button className={menu.close} onClick={() => setOpen(false)}>Close <span aria-hidden="true">×</span></button>
       </div>
       <nav className={menu.links} aria-label="Primary">
         <ol>{[{href: '/', label: 'Index'}, {href: '/work', label: 'Work'}, {href: '/about', label: 'About'}, {href: contactHref, label: 'Contact'}].map(link => <li key={link.href}>
