@@ -13,7 +13,7 @@ export default function WorkCard({project}: {project: WorkProject}) {
         ) : <span className={styles.missingPreview}>No cover image available</span>}
       </span>
       <span className={styles.cardMeta}>
-        <span className={styles.title}><span className={styles.titleLink}>{project.title}</span></span>
+        <span className={styles.title}>{project.title}</span>
         <span className={styles.year}>{project.year}</span>
         <span className={styles.disciplines}>{project.disciplines?.join(', ')}</span>
       </span>
