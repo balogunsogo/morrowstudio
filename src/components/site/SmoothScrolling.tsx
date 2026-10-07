@@ -54,6 +54,13 @@ export default function SmoothScrolling() {
       else {frame = 0; target = applied}
     }
     const wheel = (event: WheelEvent) => {
+      // Pixel streams already carry native precision/momentum. Re-easing each
+      // event fights trackpad inertia, especially when a gesture changes axis.
+      // deltaMode describes units, not hardware: pixel-mode mice stay native too.
+      if (event.deltaMode === WheelEvent.DOM_DELTA_PIXEL) {
+        cancel()
+        return
+      }
       if (event.defaultPrevented || !event.cancelable || preference.matches || locked()
         || event.ctrlKey || event.metaKey || event.shiftKey || !event.deltaY
         || Math.abs(event.deltaX) > Math.abs(event.deltaY) || hasNativeScrollArea(event.target)) {
