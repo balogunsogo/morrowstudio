@@ -1,6 +1,6 @@
 import {defineArrayMember, defineField, defineType} from 'sanity'
 import {bodyField, heroField} from './shared/fields'
-import {validateKeys, validateMobileOrder} from './shared/validation'
+import {validateKeys, validateMobileOrder, validateProjectSlug, warnImageAlt} from './shared/validation'
 import {MobileSectionOrderInput} from '../components/MobileKeyInputs'
 import {DocumentsIcon} from '@sanity/icons'
 import {collapsed, mobileGuidance, organizeFields, warnPlaceholders} from './shared/editorial'
@@ -64,7 +64,7 @@ export const projectType = defineType({
         source: 'title',
         maxLength: 96,
       },
-      validation: (rule) => rule.required(),
+      validation: (rule) => rule.required().custom(validateProjectSlug),
     }),
 
     defineField({
@@ -106,6 +106,7 @@ export const projectType = defineType({
           name: 'alt',
           title: 'Alternative Text',
           type: 'string',
+          validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
         }),
       ],
     }),

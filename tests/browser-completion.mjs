@@ -4,11 +4,12 @@ import {chromium} from 'playwright'
 const documents=JSON.parse(fs.readFileSync('migration/data/source-mapping.json','utf8'))
 const projects=documents.filter(d=>d._type==='project')
 const base=process.env.APP_BASE_URL??'http://localhost:3000'
+const output=process.env.COMPLETION_REPORT_DIR??'migration/reports'
 const widths=[1440,1024,768,760,390,320]
 const routes=['/','/work',...projects.map(p=>'/work/'+p.slug.current),'/about','/studio']
 const visualRoutes=['/','/work','/about','/work/aster-house','/work/nocturne','/work/forma','/work/arc-athletics','/work/open-room']
 const results=[],screenshots=[],failures=[],security=[]
-fs.mkdirSync('migration/reports/screenshots',{recursive:true})
+fs.mkdirSync(`${output}/screenshots`,{recursive:true})
 const browser=await chromium.launch({headless:true})
 try{
   const page=await browser.newPage()
@@ -65,7 +66,7 @@ try{
             await track.evaluate(el=>{el.scrollLeft=0})
           }
         }
-        if(width<=760){await page.getByRole('button',{name:'Menu +'}).click();const menu=page.getByRole('dialog');assert.equal(await menu.isVisible(),true);if(route==='/'&&width===390){const file='migration/reports/screenshots/menu-390.png';await page.screenshot({path:file});screenshots.push(file)}await page.getByRole('button',{name:/Close/}).click();assert.equal(await menu.isVisible(),false)}
+        if(width<=760){await page.getByRole('button',{name:'Menu +'}).click();const menu=page.getByRole('dialog');assert.equal(await menu.isVisible(),true);if(route==='/'&&width===390){const file=`${output}/screenshots/menu-390.png`;await page.screenshot({path:file});screenshots.push(file)}await page.getByRole('button',{name:/Close/}).click();assert.equal(await menu.isVisible(),false)}
         if(route==='/work'){
           assert.equal(await page.locator('section[aria-label="Project index"] ol > li').count(),10)
           const filters=page.getByRole('group',{name:'Filter by discipline'})
@@ -76,7 +77,7 @@ try{
         }
         if(visualRoutes.includes(route)&&(width===1440||width===390)){
           await page.evaluate(()=>scrollTo(0,0))
-          const file=`migration/reports/screenshots/${route==='/'?'home':route.replaceAll('/','-').slice(1)}-${width}.png`
+          const file=`${output}/screenshots/${route==='/'?'home':route.replaceAll('/','-').slice(1)}-${width}.png`
           await page.screenshot({path:file,fullPage:true});screenshots.push(file)
         }
       }
@@ -97,7 +98,7 @@ try{
     assert.ok(!response.headers()['set-cookie'])
     security.push({route,status,result:'pass'})
   }
-  fs.writeFileSync('migration/reports/browser-completion.json',JSON.stringify({at:new Date().toISOString(),base,widths,results,screenshots,failures,security,reducedMotion:{normal,reduced}},null,2)+'\n')
+  fs.writeFileSync(`${output}/browser-completion.json`,JSON.stringify({at:new Date().toISOString(),base,widths,results,screenshots,failures,security,reducedMotion:{normal,reduced}},null,2)+'\n')
   console.log('Browser checks:',results.length-failures.length+'/'+results.length,'passed;',screenshots.length,'screenshots')
   assert.equal(failures.length,0,'See browser-completion.json for remaining failures')
 }finally{await browser.close()}

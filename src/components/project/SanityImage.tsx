@@ -60,6 +60,7 @@ export default function SanityImage({
   const media = (
     <img
       {...desktop}
+      alt={cleanAlt}
       data-image-reveal="pending"
       data-sanity={!mobileAspectRatio ? dataAttribute(editing) : undefined}
     />

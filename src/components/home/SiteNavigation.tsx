@@ -7,8 +7,9 @@ import {useEffect, useId, useRef, useState, type ReactNode} from 'react'
 import menu from '../site/MobileMenu.module.scss'
 import styles from './Home.module.scss'
 import useNavigationSurface from '../site/useNavigationSurface'
+import {creator} from '@/lib/creator'
 
-const contactHref = 'mailto:hello@morrow.studio'
+const contactHref = `mailto:${creator.email}`
 
 export default function SiteNavigation({title, eyebrow, location, count, menuDetails}: {title?: string | null; eyebrow?: string | null; location?: string | null; count?: number; menuDetails?: ReactNode}) {
   const pathname = usePathname()

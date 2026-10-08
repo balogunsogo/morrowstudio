@@ -1,5 +1,5 @@
 import {defineArrayMember, defineField} from 'sanity'
-import {hasImage, record, validateKeys, validateMobileOrder, validateSelection} from './validation'
+import {hasImage, record, validateKeys, validateMobileOrder, validateSelection, warnImageAlt} from './validation'
 import {collapsed, mobileGuidance} from './editorial'
 
 export const visibilityField = defineField({
@@ -50,7 +50,7 @@ export function heroField(name: 'heroImage' | 'mobileHeroImage') {
   })
 }
 
-export const altField = defineField({name: 'alt', title: 'Alternative text', type: 'string', description: 'Describe the image for people using screen readers. This is separate from the visible caption.'})
+export const altField = defineField({name: 'alt', title: 'Alternative text', type: 'string', description: 'Describe the image for people using screen readers. This is separate from the visible caption.', validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning()})
 export const captionField = defineField({name: 'caption', title: 'Caption', type: 'string'})
 
 export function imageUseField(name: string, required = false) {

@@ -6,6 +6,7 @@ import {SanityLive} from '@/sanity/lib/live'
 import DeferredLive from '@/components/sanity/DeferredLive'
 import ImageReveals from '@/components/site/ImageReveals'
 import SmoothScrolling from '@/components/site/SmoothScrolling'
+import SkipLink from '@/components/site/SkipLink'
 import {siteDescription,siteUrl} from '@/lib/seo'
 
 const geistSans = Geist({
@@ -34,10 +35,11 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <SkipLink />
         {children}
         <SmoothScrolling />
         <ImageReveals />
-        <noscript><style>{'img[data-image-reveal] { clip-path: none !important; animation: none !important; } [data-text-reveal] [data-reveal-word] { transform: none !important; animation: none !important; } [data-site-navigation] { background: #f1efea; color: #151513; mix-blend-mode: normal; }'}</style></noscript>
+        <noscript><style>{'img[data-image-reveal] { clip-path: none !important; animation: none !important; } [data-text-reveal] [data-reveal-word] { transform: none !important; animation: none !important; } [data-site-navigation] { background: #f1efea; color: #151513; mix-blend-mode: normal; } [data-site-navigation] > button { display: none; } [data-site-navigation] nav[aria-label="Main navigation"] { display: flex; }'}</style></noscript>
         <DeferredLive preview={isEnabled}><SanityLive /></DeferredLive>
         {PreviewTools && <PreviewTools />}
       </body>

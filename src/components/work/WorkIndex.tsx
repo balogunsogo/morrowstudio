@@ -72,12 +72,10 @@ export default function WorkIndex({entries,intro}: {entries: WorkEntry[];intro?:
     setFocusedId(undefined)
   }
 
-  if (!entries.length) return <p className={styles.empty}>No published projects yet.</p>
-
   return (
     <>
       <header className={styles.heading}><h1><span className={styles.titleRise}>Work<sup>({String(visible.length).padStart(2,'0')})</sup></span></h1>{intro&&<p>{intro}</p>}</header>
-      <div className={styles.toolbar}>
+      {!!entries.length && <div className={styles.toolbar}>
         <div ref={filters} className={styles.filters} role="group" aria-label="Filter by discipline">
           <button type="button" aria-pressed={discipline === null} onClick={() => selectDiscipline(null)}>
             All <sup>{entries.length}</sup>
@@ -92,11 +90,11 @@ export default function WorkIndex({entries,intro}: {entries: WorkEntry[];intro?:
           <button type="button" aria-pressed={view === 'list'} onClick={() => {setView('list'); setHoveredId(undefined); setFocusedId(undefined)}}>List</button>
           <button type="button" aria-pressed={view === 'grid'} onClick={() => {setView('grid'); setHoveredId(undefined); setFocusedId(undefined)}}>Grid</button>
         </div>
-      </div>
+      </div>}
       <p className={styles.resultCount} role="status">
         {visible.length} {visible.length === 1 ? 'project' : 'projects'}{discipline !== null ? ` — ${discipline}` : ''}
       </p>
-      {!visible.length ? <p className={styles.empty}>No projects in this discipline.</p> : view === 'grid' ? (
+      {!visible.length ? <p className={styles.empty}>{entries.length ? 'No projects in this discipline.' : 'No published projects yet.'}</p> : view === 'grid' ? (
         <section aria-label="Project grid">
           <ol className={styles.grid}>
             {visible.map((entry) => <li key={entry.id}>{entry.card}</li>)}

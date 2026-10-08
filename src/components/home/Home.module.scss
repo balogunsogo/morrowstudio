@@ -67,6 +67,7 @@
 .indexHint { color: var(--grey); }
 .indexComposition { @include grid.frame; align-items: start; }
 .indexList { grid-column: 1 / span 7; list-style: none; li { border-bottom: 1px solid var(--rule); color: var(--soft); &[data-active='true'] { color: var(--ink); } } }
+.indexMobileList { display: none; }
 .indexLink { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 12px; padding-block: 14px; text-decoration: none; }
 .indexNumber, .indexYear { @include typography.mono; }
 .indexTitle { font-size: clamp(28px, 2.9vw, 42px); line-height: 1; letter-spacing: -.035em; }
@@ -83,6 +84,10 @@
 }
 .featuredProject[data-lead] .featuredMetadata {display:flex;flex-direction:column;gap:0;h3{margin-top:16px;white-space:nowrap;}.projectDiscipline{order:2;margin-top:20px;}.featuredYear{order:3;margin-top:6px;}}
 @media (min-width: 761px) { .indexList li[data-active='true'] .indexTitle {transform:translateX(12px);} }
+@media (min-width: 761px) {
+  .indexList li:not([data-active='true']) .indexNumber,
+  .indexList li:not([data-active='true']) .indexYear { color: var(--grey); }
+}
 .indexTitle {display:inline-block;transition:transform .5s cubic-bezier(.2,.7,.1,1);}
 .availability::before {content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:8px;}
 .heroEyebrow {display:grid;grid-template-columns:repeat(4,1fr);span:last-child{text-align:right;}}
@@ -146,7 +151,8 @@
   .indexHint { display: none; }
   .indexComposition { display: block; }
   .indexList li { color: var(--ink); }
-  .indexList li[data-mobile-visible='false'] {display:none;}
+  .indexDesktopList { display: none; }
+  .indexMobileList { display: block; }
   .indexLink { grid-template-columns: 52px minmax(0, 1fr) auto; gap: 14px; padding-block: 10px; }
   .indexNumber, .indexPreview { display: none; }
   .indexThumbnail { display: block; img, .imagePlaceholder { height: 64px; min-height: 64px; object-fit: cover; } .imagePlaceholder { font-size: 8px; } }

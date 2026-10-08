@@ -1,6 +1,6 @@
 import {defineArrayMember, defineField, defineType} from 'sanity'
 import {selectionField, visibilityField} from '../shared/fields'
-import {validateKeys} from '../shared/validation'
+import {validateKeys, warnImageAlt} from '../shared/validation'
 import {GalleryMobileOrderInput} from '../../components/MobileKeyInputs'
 import {ImagesIcon} from '@sanity/icons'
 import {collapsed, mobileGuidance, organizeFields} from '../shared/editorial'
@@ -37,6 +37,7 @@ export const galleryType = defineType({
               name: 'alt',
               title: 'Alternative Text',
               type: 'string',
+              validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
             },
             {
               name: 'caption',

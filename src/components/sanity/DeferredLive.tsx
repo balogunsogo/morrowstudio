@@ -5,12 +5,11 @@ import {usePathname} from 'next/navigation'
 
 export default function DeferredLive({children, preview}: {children: ReactNode; preview: boolean}) {
   const pathname = usePathname()
-  const [ready, setReady] = useState(preview)
+  const [ready, setReady] = useState(false)
   const studio = pathname.startsWith('/studio')
 
   useEffect(() => {
-    if (ready || studio) return
-    if (preview) {setReady(true); return}
+    if (preview || ready || studio) return
     let disposed = false
     let started = false
     let timer = 0
@@ -45,5 +44,5 @@ export default function DeferredLive({children, preview}: {children: ReactNode; 
     }
   }, [pathname, preview, ready, studio])
 
-  return studio || !ready ? null : children
+  return studio || !(preview || ready) ? null : children
 }

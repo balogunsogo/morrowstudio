@@ -1,8 +1,10 @@
 import {defineField, defineType} from 'sanity'
 import {bodyField} from './shared/fields'
+import {warnImageAlt} from './shared/validation'
 import {InfoOutlineIcon} from '@sanity/icons'
 import {organizeFields, warnPlaceholders} from './shared/editorial'
 import {concise} from '../components/keyedOptions'
+import {creator, warnContactEmail, warnSocialDestination} from '../../lib/creator'
 
 export const aboutType = defineType({
   name: 'about',
@@ -20,7 +22,7 @@ export const aboutType = defineType({
 
   fields: organizeFields([
     defineField({name:'studioAddress',title:'Studio address label',type:'string',description:'Keep the supplied placeholder until a verified address is provided.'}),
-    defineField({name:'pressEmail',title:'Press contact email',type:'string'}),
+    defineField({name:'pressEmail',title:'Press contact email',type:'string',validation:rule=>[rule.email().warning(),rule.custom(warnContactEmail).warning()]}),
     bodyField('statementBody'),
     bodyField('mobileStatementBody'),
     bodyField('mobileBio'),
@@ -101,6 +103,7 @@ export const aboutType = defineType({
           name: 'alt',
           title: 'Alternative Text',
           type: 'string',
+          validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
         }),
       ],
     }),
@@ -117,6 +120,7 @@ export const aboutType = defineType({
           name: 'alt',
           title: 'Alternative Text',
           type: 'string',
+          validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
         }),
       ],
     }),
@@ -178,7 +182,8 @@ export const aboutType = defineType({
       name: 'contactEmail',
       title: 'Contact Email',
       type: 'string',
-      initialValue: 'hello@morrow.studio',
+      initialValue: creator.email,
+      validation: rule => [rule.email().warning(), rule.custom(warnContactEmail).warning()],
     }),
 
     defineField({
@@ -200,9 +205,9 @@ export const aboutType = defineType({
               title: 'URL',
               type: 'url',
               validation: (rule) =>
-                rule.uri({
+                [rule.uri({
                   scheme: ['http', 'https'],
-                }),
+                }), rule.custom(warnSocialDestination).warning()],
             },
           ],
           preview: {
@@ -227,11 +232,11 @@ export const aboutType = defineType({
     {name: 'capabilities', group: 'capabilities', title: 'Simple capability list', description: 'Used when the detailed capabilities above are empty.', hidden: ({document}) => Array.isArray(document?.capabilityItems) && document.capabilityItems.length > 0},
     {name: 'clients', group: 'clients', title: 'Selected clients', description: 'Drag names to change their display order.'},
     {name: 'recognition', group: 'recognition', title: 'Recognition', description: 'Add the recognition title, year and related project. Drag entries to change their order.'},
-    {name: 'contactHeading', group: 'contact', title: 'Contact heading'},
-    {name: 'contactEmail', group: 'contact', title: 'Project enquiries email'},
-    {name: 'pressEmail', group: 'contact', title: 'Press enquiries email'},
-    {name: 'studioAddress', group: 'contact', title: 'Studio address', description: 'Replace the placeholder only when the studio address has been confirmed.'},
-    {name: 'socialLinks', group: 'contact', title: 'Social links'},
+    {name: 'contactHeading', group: 'contact', title: 'Contact heading', description: 'Retained for the original About contact composition. The current website uses the shared footer managed in Home.'},
+    {name: 'contactEmail', group: 'contact', title: 'Project enquiries email', description: 'Retained compatibility field. Current public About contact comes from Home. Fictional morrow.studio actions use the approved creator contact without rewriting stored data.'},
+    {name: 'pressEmail', group: 'contact', title: 'Press enquiries email', description: 'Retained compatibility field; no Press action is shown in the current shared footer. Use a genuine address or leave empty, not a fictional agency mailbox.'},
+    {name: 'studioAddress', group: 'contact', title: 'Studio address', description: 'Fictional editorial content retained for the original About layout; not an actionable or verified creator address, and not used by the current shared footer.'},
+    {name: 'socialLinks', group: 'contact', title: 'Additional social links', description: 'Retained compatibility field. Current About uses Home links. Approved creator links are centrally managed; generic platform homepages are omitted.'},
     {name: 'mobileStatementBody', group: 'mobile', title: 'Mobile studio statement', description: 'Optional. Leave empty to use the main studio statement.'},
     {name: 'mobileBio', group: 'mobile', title: 'Mobile biography', description: 'Optional. Leave empty to use the main biography.'},
     {name: 'mobileClients', group: 'mobile', title: 'Mobile selected clients', description: 'Optional. Use a shorter client list for small screens. Leave empty to use the main list.'},
