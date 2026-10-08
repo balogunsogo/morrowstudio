@@ -14,16 +14,16 @@ import styles from './About.module.scss'
 export default function AboutPage({about, home}: {about: About | null; home: Homepage | null}) {
   return <div className={styles.page} id="top">
     <SiteNavigation menuDetails={<MobileMenuDetails home={home} />} title={home?.heroTitle} eyebrow={about?.eyebrow} location={home?.location} count={home?.projectIndex?.length??home?.featuredProjects?.filter(item => item.project?.slug?.current).length} />
-    <main className={styles.content}>
+    <main id="main-content" tabIndex={-1} className={styles.content}>
       {about ? <>
         <AboutHero statement={about.statement} body={about.statementBody} mobileBody={about.mobileStatementBody} />
         <AboutImages primaryImage={about.primaryImage} secondaryImage={about.secondaryImage} primaryCaption={about.primaryCaption} secondaryCaption={about.secondaryCaption} />
         <AboutBio body={about.bio} mobileBody={about.mobileBio} />
         <Capabilities items={about.capabilities} details={about.capabilityItems} />
         <div className={about.mobileClients?styles.desktopCopy:undefined}><Clients items={about.clients}/></div>
-        {about.mobileClients&&<div className={styles.mobileCopy}><Clients items={about.mobileClients}/></div>}
+        {about.mobileClients&&<div className={styles.mobileCopy}><Clients items={about.mobileClients} headingId="mobile-clients-heading"/></div>}
         <Recognition items={about.recognition} />
-      </> : <p className={styles.empty}>About content is currently unavailable.</p>}
+      </> : <div className={styles.empty}><h1>About</h1><p>About content is currently unavailable.</p></div>}
     </main>
     {home && <HomeFooter home={home} />}
   </div>

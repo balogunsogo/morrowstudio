@@ -1,5 +1,6 @@
 import {defineField, defineType} from 'sanity'
 import {mobileImageOverride, visibilityField} from '../shared/fields'
+import {warnImageAlt} from '../shared/validation'
 import {ImageIcon} from '@sanity/icons'
 import {organizeFields} from '../shared/editorial'
 import {blockPreview} from '../shared/previews'
@@ -27,6 +28,7 @@ export const fullWidthImageType = defineType({
       name: 'alt',
       title: 'Alternative Text',
       type: 'string',
+      validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
     }),
 
     defineField({

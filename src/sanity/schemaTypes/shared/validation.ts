@@ -8,6 +8,18 @@ export function hasImage(value: unknown): boolean {
   return typeof reference === 'string' && reference.trim().length > 0
 }
 
+export function warnImageAlt(value: unknown, parent: unknown): true | string {
+  const image = hasImage(parent) || hasImage(record(parent).image)
+  return image && !(typeof value === 'string' && value.trim())
+    ? 'Describe this image, or confirm that it is decorative before leaving alternative text empty.' : true
+}
+
+export function validateProjectSlug(value: unknown): true | string {
+  const slug = record(value).current
+  return slug === undefined || (typeof slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug))
+    ? true : 'Use lowercase letters, numbers and single hyphens for this page address.'
+}
+
 export function validateKeys(items: unknown): true | string {
   if (items === undefined) return true
   if (!Array.isArray(items)) return 'This content list could not be read. Ask the website team to check it.'

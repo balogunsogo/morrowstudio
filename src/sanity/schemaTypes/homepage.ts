@@ -1,7 +1,9 @@
 import {defineField, defineType} from 'sanity'
 import {bodyField} from './shared/fields'
+import {warnImageAlt} from './shared/validation'
 import {HomeIcon} from '@sanity/icons'
 import {organizeFields, warnPlaceholders} from './shared/editorial'
+import {creator, warnContactEmail, warnSocialDestination} from '../../lib/creator'
 
 export const homepageType = defineType({
   name: 'homepage',
@@ -20,7 +22,7 @@ export const homepageType = defineType({
 
   fields: organizeFields([
     defineField({name:'mobileProjectIndex',title:'Mobile index selection',description:'Optional ordered selection from the mobile export; the full Work archive still lists every project.',type:'array',of:[{type:'reference',to:[{type:'project'}]}],validation:rule=>rule.unique()}),
-    defineField({name:'generalEmail',title:'General contact email',type:'string'}),
+    defineField({name:'generalEmail',title:'General contact email',type:'string',validation:rule=>[rule.email().warning(),rule.custom(warnContactEmail).warning()]}),
     defineField({name:'studioHours',title:'Studio location and hours',type:'string'}),
     defineField({name:'established', title:'Established label', type:'string'}),
     defineField({name:'availability', title:'Availability label', type:'string'}),
@@ -64,6 +66,7 @@ export const homepageType = defineType({
                   name: 'alt',
                   title: 'Alternative Text',
                   type: 'string',
+                  validation: rule => rule.custom((value, context) => warnImageAlt(value, context.parent)).warning(),
               }),
           ],
       }),
@@ -153,7 +156,8 @@ export const homepageType = defineType({
       name: 'footerEmail',
       title: 'Footer Email',
       type: 'string',
-      initialValue: 'hello@morrow.studio',
+      initialValue: creator.email,
+      validation: rule => [rule.email().warning(), rule.custom(warnContactEmail).warning()],
     }),
 
     defineField({
@@ -175,9 +179,9 @@ export const homepageType = defineType({
               title: 'URL',
               type: 'url',
               validation: (rule) =>
-                rule.uri({
+                [rule.uri({
                   scheme: ['http', 'https'],
-                }),
+                }), rule.custom(warnSocialDestination).warning()],
             },
           ],
           preview: {
@@ -213,9 +217,9 @@ export const homepageType = defineType({
     {name: 'projectIndex', group: 'index', title: 'Projects in the Home index', description: 'Choose projects and drag to set their order in the Home index. The Work archive uses each project’s Project order.'},
     {name: 'archiveIntro', group: 'index', title: 'Work archive introduction', description: 'Opening copy on the Work page.'},
     {name: 'footerHeading', group: 'footer', title: 'Contact heading'},
-    {name: 'footerEmail', group: 'footer', title: 'Project enquiries email'},
-    {name: 'generalEmail', group: 'footer', title: 'General enquiries email'},
-    {name: 'socialLinks', group: 'footer', title: 'Social links'},
+    {name: 'footerEmail', group: 'footer', title: 'Project enquiries email', description: 'Shared by Home, Work, About and project footers. Use a genuine destination. Fictional morrow.studio addresses use the approved creator contact on the website; stored values are not rewritten.'},
+    {name: 'generalEmail', group: 'footer', title: 'General enquiries email', description: 'Optional distinct genuine contact. Repeated or fictional aliases do not add duplicate contact controls. Leave empty to use the shared creator contact.'},
+    {name: 'socialLinks', group: 'footer', title: 'Additional social links', description: 'Approved creator Portfolio, Email and GitHub links are managed in src/lib/creator.ts. Only additional genuine account/page destinations belong here; platform homepages and repeated destinations are omitted.'},
     {name: 'footerLocation', group: 'footer', title: 'Footer location'},
     {name: 'studioHours', group: 'footer', title: 'Studio location and hours'},
     {name: 'mobileHeroIntro', group: 'mobile', title: 'Mobile introduction', description: 'Optional. Leave empty to use the main introduction.'},

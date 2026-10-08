@@ -4,7 +4,17 @@ import {urlFor} from '@/sanity/lib/image'
 import {isSanityImage} from '@/components/project/SanityImage'
 
 const configured=process.env.SITE_URL??process.env.NEXT_PUBLIC_SITE_URL
-export const siteUrl=configured&&/^https?:\/\//.test(configured)?new URL(configured):undefined
+export function parseSiteUrl(value?: string): URL | undefined {
+  if (!value?.trim()) return undefined
+  try {
+    const url = new URL(value.trim())
+    if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) return undefined
+    return new URL(url.origin)
+  } catch {
+    return undefined
+  }
+}
+export const siteUrl=parseSiteUrl(configured)
 export const siteDescription='An independent creative practice making identities, digital experiences and visual systems.'
 export function pageMetadata(title:string,description:string,path:string,image?:SanityImageObject):Metadata {
   const url=siteUrl?new URL(path,siteUrl).href:undefined

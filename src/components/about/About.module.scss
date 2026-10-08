@@ -71,6 +71,18 @@
 .capabilityDescription {grid-column:9 / span 4;color:var(--grey);}
 .project-muted {color:var(--grey);}
 
+@media (max-width: 760px) {
+  .recognitionTable thead {
+    display: table-header-group !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
 @media (min-width: 761px) and (max-width: 1024px) {
   .hero { padding-top: 80px; }
   .images { margin-top: 128px; }

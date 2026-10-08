@@ -27,13 +27,16 @@ export default function GalleryTrack({children,count}: {children:ReactNode;count
     if(!el)return
     const media=matchMedia('(min-width: 761px)')
     const update=()=>{
+      // Cancel native snapping before resetting scroll; React's desktop styles
+      // commit later, and the browser could otherwise snap back to the gutter.
+      el.style.scrollSnapType=media.matches?'none':''
       setDesktop(media.matches)
       if(media.matches){
         setOffset(galleryOffset(el, active))
         el.scrollLeft=0
       }else setOffset(0)
     }
-    const breakpoint=()=>{setActive(0);setOffset(0);el.scrollTo({left:0,behavior:'instant'});setDesktop(media.matches)}
+    const breakpoint=()=>{el.style.scrollSnapType=media.matches?'none':'';setActive(0);setOffset(0);el.scrollTo({left:0,behavior:'instant'});setDesktop(media.matches)}
     update()
     const observer=new ResizeObserver(update)
     observer.observe(el)

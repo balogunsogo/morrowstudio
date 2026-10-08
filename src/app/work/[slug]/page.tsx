@@ -2,6 +2,7 @@ import {notFound} from 'next/navigation'
 import Link from '@/components/site/IntentLink'
 import ProjectContent from '@/components/project/ProjectContent'
 import {sanityFetch} from '@/sanity/lib/live'
+import {client} from '@/sanity/lib/client'
 import {PROJECT_BY_SLUG_QUERY, PROJECTS_QUERY, HOMEPAGE_QUERY} from '@/sanity/lib/queries'
 import ProjectHero from '@/components/project/ProjectHero'
 import ProjectMetadata from '@/components/project/ProjectMetadata'
@@ -21,6 +22,14 @@ type ProjectPageProps = {
   params: Promise<{
     slug: string
   }>
+}
+
+export async function generateStaticParams() {
+  const projects = await client.fetch<{slug: string}[]>(
+    '*[_type == "project" && defined(slug.current)]{"slug": slug.current}',
+    {}, {perspective: 'published', stega: false},
+  )
+  return [...new Set(projects.map(project => project.slug).filter(Boolean))].map(slug => ({slug}))
 }
 
 export async function generateMetadata({params}:ProjectPageProps) {
@@ -52,7 +61,7 @@ export default async function ProjectPage({
   return (
     <div className={shell.page} id="top">
     <SiteNavigation title={home?.heroTitle} count={projects.length} menuDetails={<MobileMenuDetails home={home}/>} />
-    <main className="morrow-project" data-project-slug={slug}>
+    <main id="main-content" tabIndex={-1} className="morrow-project" data-project-slug={slug}>
       <article>
         <header className="project-intro">
           <div className="project-header-line"><p className="project-eyebrow">{project.orderRank ? `(Project ${String(project.orderRank).padStart(2, '0')} / ${String(projects.length).padStart(2,'0')})` : 'Case study'}</p><p className="project-sector">{project.sector} — {project.disciplines?.join(', ')}</p><p className="project-location">{project.location} — {project.year}</p></div>

@@ -44,7 +44,7 @@ export default async function WorkPage() {
   return (
     <div className={styles.page} id="top">
       <SiteNavigation title={home?.heroTitle} eyebrow={home?.heroEyebrow} location={home?.location} count={projects.length} menuDetails={<MobileMenuDetails home={home} />} />
-      <main className={styles.content}>
+      <main id="main-content" tabIndex={-1} className={styles.content}>
         <WorkIndex entries={entries} intro={home?.archiveIntro}/>
       </main>
       {home && <HomeFooter home={home} />}
