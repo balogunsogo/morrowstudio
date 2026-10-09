@@ -25,6 +25,9 @@
 .teaserCopy { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-width: 0; .muted { line-height: 1; } }
 .teaserTitle { display: block; font-size: 19px; line-height: 1; letter-spacing: -.02em; }
 .details { margin-top: auto; padding-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; min-width: 0; a { overflow-wrap: anywhere; min-height: 36px; display: inline-flex; align-items: center; } }
+.menu .contactEmail { white-space: nowrap; overflow-wrap: normal; max-width: 100%; font-size: 14px; letter-spacing: 0; }
+@media (max-width: 479px) { .menu .contactEmail { font-size: 11px; } }
+@media (max-width: 374px) { .menu .contactEmail { font-size: 9.5px; } }
 .location { text-align: right; white-space: pre-line; }
 .menu .socials { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 0 20px; border-top: 1px solid #34332f; padding-top: 4px; @include typography.mono; a { min-height: 44px; } }
 @keyframes enter { from { opacity: 0; } to { opacity: 1; } }

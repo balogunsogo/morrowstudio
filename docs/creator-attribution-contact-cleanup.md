@@ -63,6 +63,12 @@ Evidence and screenshots: `.tmp/awwwards/creator-contact/verification.json`. Rep
 
 ## Remaining Requirements
 
+### 9 October 2026: Mobile Menu Follow-Up
+
+The earlier menu checks verified destinations/overflow but did not assert the email's line count. The menu's separate 14px, half-width contact column still wrapped the approved address. A dedicated `contactEmail` class now keeps it on one line, using 11px below 480px and 9.5px below 375px, retaining 14px on wider screens. The existing columns, location, fonts, motion, genuine mailto and 36px tap target remain unchanged.
+
+The focused fix is prepared on `main` following the creator's explicit commit request, with no deployment or CMS write. `tests/browser-creator-contact.mjs` now asserts one-line menu email; the Node regression checks the dedicated class. New `tests/browser-mobile-menu-email.mjs` passes 72 normal/reduced-motion cases across Home, About, Work and Sola Ceramics at 320, 360, 374, 375, 390, 430, 479, 480 and 760px, including the font-size boundaries. It checks actual text line rectangles, clipping, column containment, location separation, target size, focus and Escape restoration. Two open-menu axe scans report zero violations/incomplete findings; 320px/390px screenshots are verified under `.tmp/mobile-menu-email/`. All 58 Node tests, lint, standalone typecheck and website production build pass. No schema changes require a Studio rebuild for this follow-up.
+
 Manually apply/review the listed CMS cleanup and authorize release through the normal process. Repeat navigation/footer/canonical/sitemap checks on that deployed revision. No delivery test was performed. Real Safari/iOS/Android, VoiceOver/NVDA, 400% zoom and text-only resizing remain manual; automated Chrome zoom does not certify other browsers or assistive speech.
 
 The broader readiness gates remain: creator review of fictional claims/Recognition and static-film intent, real signed-in Presentation/revalidation, image/blend/physical-input review, and deployed mobile performance work. Existing Lighthouse results are for the supplied live deployment, not this local footer update. The original 70-field editorial inventory and latest recorded zero-bracket state remain preserved separately.

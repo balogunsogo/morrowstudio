@@ -59,6 +59,7 @@ test('desktop/mobile navigation and retained About contact never expose fictiona
   assert.ok(emails.every(link => link.getAttribute('href') === `mailto:${creator.email}`))
   assert.ok(!document.body.textContent?.includes('@morrow.studio'))
   assert.equal(document.querySelectorAll('a[href="https://www.are.na/"]').length, 0)
+  assert.equal(document.querySelector('a[class*="contactEmail"]')?.textContent, creator.email)
 })
 
 test('editor guidance retains IDs/field types while exposing the shared-footer owner and warning on legacy destinations', () => {

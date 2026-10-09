@@ -16,7 +16,7 @@ export default function MobileMenuDetails({home}: {home: Homepage | null}) {
       <span className={styles.teaserCopy}><span className={styles.muted}>Latest project</span><span className={styles.teaserTitle}>{project.title}</span></span>
     </Link>}
     <div className={styles.details}>
-      <div><p className={styles.muted}>New business</p><a href={`mailto:${email}`}>{email}</a></div>
+      <div><p className={styles.muted}>New business</p><a className={styles.contactEmail} href={`mailto:${email}`}>{email}</a></div>
       <p className={`${styles.location} ${styles.muted}`}>{home.footerLocation || home.location}</p>
       <ul className={styles.socials} aria-label="Creator links" role="list">{links.map(link => <li key={link._key}><a href={link.url}>{link.label}</a></li>)}</ul>
     </div>

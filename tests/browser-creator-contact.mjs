@@ -95,6 +95,12 @@ try {
     const dialog = page.getByRole('dialog')
     assert.equal(await dialog.getByRole('link', {name: 'Contact', exact: true}).getAttribute('href'), `mailto:${email}`)
     assert.equal(await dialog.getByRole('link', {name: email, exact: true}).getAttribute('href'), `mailto:${email}`)
+    assert.ok(await dialog.getByRole('link', {name: email, exact: true}).evaluate(el => {
+      const range = document.createRange()
+      range.selectNodeContents(el)
+      const lines = new Set([...range.getClientRects()].map(rect => Math.round(rect.y)))
+      return lines.size === 1 && el.scrollWidth <= el.clientWidth + 1
+    }), 'Mobile-menu email must fit on one line without clipping')
     assert.deepEqual(await dialog.getByRole('list', {name: 'Creator links'}).locator('a').evaluateAll(links => links.map(link => link.href)), [portfolio, `mailto:${email}`, github])
     assert.ok(await dialog.evaluate(el => el.scrollWidth <= el.clientWidth + 1))
     await page.keyboard.press('Escape')
